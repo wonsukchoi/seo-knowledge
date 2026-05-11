@@ -4,6 +4,58 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-05-11
+
+### Sources Reviewed
+- [Neil Patel on X — GEO/AEO ROI 2024–2026](https://x.com/neilpatel/status/2028092896881082554) — Patel documents accelerating ROI from GEO/AEO channels from 2024 to 2025, projecting further acceleration as LLM usage rises
+- [Neil Patel — AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — Distinguishes AEO (short answerable queries) from GEO (comprehensive citation-worthy topics) and LLMO
+- [Neil Patel — GEO vs AEO: What's the Difference?](https://neilpatel.com/blog/geo-vs-aeo/) — Clarifies that GEO and AEO target different query types and require different content structures
+- [HubSpot — AEO Best Practices 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — Covers definition-first openings, content chunking, entity consistency, and multi-format (video, audio) citation surfaces
+- [HubSpot — AEO Trends 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-trends) — Reports AI-surfaced URLs average 1,064 days old vs 1,432 for traditional results — a 25.7% freshness advantage
+- [Averi AI — Google AI Overviews Optimization 2026](https://www.averi.ai/blog/google-ai-overviews-optimization-how-to-get-featured-in-2026) — AI Overviews now appear in ~25% of all Google searches; Reddit (21%) and YouTube (~25%) dominate citation share
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — Covers AI-referred session growth (527% YoY per Previsible), llms.txt, author credentialing, and AI crawler access
+- [Enrich Labs — GEO Complete Guide 2026](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — Details named-author requirements, first-200-words rule, and content freshness signals for GEO
+- [Siftly AI — Optimize Content for AI Search Citations 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Introduces BLUF (Bottom Line Up Front) format and citation velocity as a leading AI visibility metric
+- [Digital Applied — AI Search Citation Analysis Q2 2026](https://www.digitalapplied.com/blog/ai-search-citation-analysis-q2-2026-domains-ranked) — Quarterly analysis of top-cited domains and the content characteristics that correlate with AI citation
+- [Elsner — GEO vs AEO vs SEO Comparison Guide 2026](https://www.elsner.com/geo-vs-aeo-vs-seo-comparison-guide/) — Provides strategic framework for allocating effort across SEO, AEO, and GEO by query type and funnel stage
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AEO vs GEO — Use the Right Strategy for the Right Query
+- Apply AEO for short, direct-answer queries ("what is," "definition of," "best X for Y") — focus on becoming the single extracted answer; apply GEO for comprehensive topic authority where AI engines synthesize and cite multiple sources
+- Do not conflate AEO and GEO: they require different content lengths, structures, and optimization targets, though both build on a solid traditional SEO foundation
+
+#### Content Formatting for AI Citations
+- Apply the **BLUF (Bottom Line Up Front)** format within every major section — AI systems most frequently cite the first 1–2 sentences after each H2/H3 heading, so open each section with a direct, standalone takeaway sentence rather than building to it
+- Lead every key page with a definition-first opening sentence and a complete two-sentence answer within the first 100 words; AI retrieval systems extract opening chunks as primary answer candidates
+- Structure articles into 3–4 main H2 sections, each with 2–4 H3 subsections; headings should summarize the section's takeaway, not use vague labels
+- Content with original statistics earns 30–40% higher visibility in AI-generated responses — prioritize proprietary data, original surveys, and primary benchmarks
+- LLMs are 28–40% more likely to cite content with clear hierarchical formatting (H2/H3 structure, bulleted lists, numbered steps) compared to equivalent prose
+- Add summaries to long-form content and pro/con lists to review-style content — formats that AI engines actively favor for overview generation
+
+#### Multi-Platform Citation Strategy
+- Expand citation surface area beyond your website: YouTube accounts for approximately **25%** of AI Overview citations and Reddit for **21%** across all verticals — roughly half of all AIO citations go to non-article platforms
+- Apply the same answer-first, citation-friendly content principles to YouTube video descriptions, timestamps/chapters, and Reddit community posts as to written articles
+- Building a presence on high-citation platforms (YouTube, Reddit, authoritative forums) is no longer optional for a complete GEO strategy
+
+#### Content Freshness and Update Cadence
+- Update high-value cornerstone content quarterly with new data, examples, and a visible "Last updated: [date]" timestamp — AI engines weight freshness, and AI-surfaced URLs average 25.7% fresher than traditional search results
+- Add an explicit recency signal to every refreshed page; a guide with no update since 2024 will lose ground to a 2026 article on the same topic even if domain authority is higher
+
+#### AI Crawler Access and Technical GEO
+- Audit `robots.txt` to whitelist all major AI crawlers: `GPTBot`, `ClaudeBot`, `PerplexityBot`, `Googlebot-Extended`, and `anthropic-ai` — blocking any single crawler correlates with citation share decline across all AI platforms, not just the blocked one
+- Implement or maintain an `llms.txt` file in the site root to guide AI systems on which pages to prioritize
+
+#### New Metrics to Track
+- **Citation velocity** — how quickly your domain enters new AI surfaces after publishing; track monthly as a leading indicator of long-term AI visibility, more predictive than traditional ranking movement
+- **AI-referred sessions** — AI-referred traffic grew 527% YoY in the first five months of 2025 (Previsible 2025 AI Traffic Report); establish a dedicated segment in analytics to track this channel separately from organic
+
+### Notable Insight This Week
+
+The most striking finding this week is the scale of the multi-platform shift in AI citation sources. Across all verticals, YouTube accounts for approximately 25% of all AI Overview citations and Reddit for ~21%, meaning that roughly half of all AI Overview citations currently point to video or community-generated content rather than traditional web articles. For content teams focused exclusively on blog and article optimization, this is a significant blind spot: a technically perfect, well-structured article can be outcompeted by a Reddit thread or a YouTube video on the same topic. The practical implication is that a complete GEO strategy in 2026 must include a deliberate presence on these platforms — not passive cross-posting, but applying the same answer-first, citation-friendly principles to video descriptions, chapter timestamps, and community posts as to written content, with cross-links back to authoritative on-site resources.
+
+---
+
 ## Update: 2026-05-10
 
 ### Sources Reviewed
