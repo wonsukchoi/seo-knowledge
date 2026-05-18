@@ -4,6 +4,72 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-05-18
+
+### Sources Reviewed
+- [Neil Patel on X — GEO/AEO ROI Acceleration 2026](https://x.com/neilpatel/status/2028092896881082554) — Patel expects GEO/AEO ROI to accelerate further in 2026; reframes SEO as "search everywhere optimization"
+- [Search Engine Journal — Google's AI Search Guide: AEO and GEO Are "Still SEO"](https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026/) — Google's official position: no separate AI search strategy exists; same quality signals apply
+- [Google Search Central — AI Optimization Guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — Official Google documentation explicitly stating llms.txt is not a ranking signal
+- [Averi AI — Google AI Overviews Optimization: The 2026 Citation Playbook](https://www.averi.ai/blog/google-ai-overviews-optimization-how-to-get-featured-in-2026) — AI Overviews now appear in 48% of queries as of April 2026 (up from 31% in Feb 2025)
+- [ALM Corp — AEO 2026 Practical Playbook](https://almcorp.com/blog/answer-engine-optimization-2026/) — Platform-specific AEO tactics for Google AI Overviews, ChatGPT, Perplexity, and Claude
+- [Frase.io — Complete AEO Guide 2026](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — Section-length benchmarks (100–150 words = ~4.7 citations) and inverted-pyramid writing
+- [HubSpot — AEO Trends 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-trends) — AI-surfaced URLs average 1,064 days old vs 1,432 for traditional search results
+- [Semrush — How to Optimize Content for AI Search Engines 2026](https://www.semrush.com/blog/how-to-optimize-content-for-ai-search-engines/) — Structured content, precise claims, and modular section formatting for AI retrieval
+- [LLMrefs — GEO: The 2026 Guide to AI Search Visibility](https://llmrefs.com/generative-engine-optimization) — Author credentialing, AI crawler access, and first-200-words rule
+- [TrySight — AI Model Citation Optimization: Complete 2026 Guide](https://www.trysight.ai/blog/ai-model-citation-optimization) — Precise language vs. vague language: specific numbers with sources are cited more often
+- [SE Ranking — How to Optimize for AI Mode: Google Visibility Matters 3x More Than Content](https://seranking.com/blog/how-to-optimize-for-ai-mode/) — Domain authority and Google visibility are 3× more predictive of AI Mode inclusion than content quality alone
+- [Elsner — GEO vs AEO vs SEO Comparison Guide 2026](https://www.elsner.com/geo-vs-aeo-vs-seo-comparison-guide/) — Strategic framework for allocating effort across SEO, AEO, and GEO by query type
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### Google's Official Position: AEO and GEO Are Still SEO
+- Google's official 2026 AI Search guide explicitly states there is **no separate optimization strategy for AI search** — the same quality, relevance, and EEAT signals that drive traditional SEO drive AI Overview inclusion
+- **Do not invest time in llms.txt for Google**: Google's Search Central documentation explicitly confirms it does not process llms.txt as a ranking signal; focus that effort on schema markup and content quality instead (note: llms.txt may still have value for non-Google AI crawlers)
+- Traditional SEO remains the prerequisite foundation for AI visibility — pages that are hard to crawl, poorly indexed, or weakly linked will not appear in AI Overviews regardless of content quality
+
+#### AI Overviews Scale and Query Coverage
+- Google AI Overviews now appear in **48% of all queries** as of April 2026 — up from 31% in February 2025 — making AIO optimization a mainstream priority, not a niche tactic
+- AI Overviews most frequently cite: comprehensive how-to guides with numbered steps, definition-first "what is" articles, comparison articles with explicit pros/cons tables, and expert opinion pieces with demonstrated credentials
+- AI Mode (Google's deeper AI search experience) gives **3× more weight to Google visibility / domain authority** than to content quality alone — building topical authority and earning authoritative backlinks remains the highest-leverage investment
+
+#### Content Formatting for AI Citation
+- Place the direct answer to the page's primary query **within the first 50 words** — AI retrieval systems extract opening content first and weight it most heavily in citation decisions
+- Keep body sections to **100–150 words between H2/H3 headings** — empirical benchmarking shows this chunk size earns approximately 4.7 AI citations, outperforming both shorter fragments and longer walls of text
+- Use **precise, verifiable claims**: write "The average rate is 15% (Source: X)" not "the rate is about 15%" — specific numbers with attached sources are consistently cited more often than equivalent vague statements
+- Structure content as **modular, independently answerable sections** — AI engines do not read linearly; each section should stand alone as a complete answer to a sub-question
+- Use H2/H3 headings that state the section's takeaway explicitly (e.g., "FAQPage Schema Increases AI Citation Rate by 23%") rather than vague labels (e.g., "Schema Tips")
+
+#### Schema Markup Recommendations
+- **FAQPage schema** on all FAQ sections is the single highest-impact AEO optimization — AI engines directly extract structured Q&A pairs for citation, bypassing the need to parse prose
+- **HowTo schema** on step-by-step guides: populate `name` and `text` fields for each step; these are pulled verbatim into AI Overviews
+- **Article / BlogPosting schema** with `author`, `datePublished`, `dateModified`, and `about` fields is required for any article targeting AI citations
+- **Organization schema** on homepage/about with consistent `name`, `url`, `logo`, and `sameAs` (social profiles) builds entity recognition across AI knowledge graphs
+- **BreadcrumbList schema** signals topical hierarchy and helps AI engines understand site structure and cluster relationships
+
+#### Topical Authority and Internal Linking
+- Build content clusters: one comprehensive pillar page per core topic supported by 5–10 narrowly focused subtopic articles, all internally linking to the pillar — AI engines use internal link graphs to infer topical authority
+- Earning high-authority backlinks and building domain authority remain **prerequisites** for AI Mode inclusion (3× multiplier), not a concern secondary to content optimization
+- Establish consistent entity representation across the web: brand name, author names, and key terms should appear identically on your site, Google Business Profile, LinkedIn, Wikidata, and major directories
+
+#### Author Credentialing (GEO/AEO Penalty Risk)
+- Named, credentialed authors are now **mandatory** for AI citation — anonymous "Content Team" or "Staff Writer" bylines are treated as a GEO penalty by major LLMs and suppress citation rate
+- Every author should have a verifiable external presence (LinkedIn profile, published bylines on authoritative external sites) so AI models can resolve the author to a known entity
+- Add detailed author bios with relevant credentials on-page; AI systems use bio content as a quality and expertise signal when deciding which sources to cite
+
+#### Content Freshness Strategy
+- Update high-value content **quarterly** with new data, examples, and a visible "Last updated: [date]" timestamp — AI engines weight recency, and AI-surfaced URLs average 25.7% fresher than URLs in traditional search results
+- Neil Patel's framing of 2026 SEO as "search everywhere optimization" is reflected in content strategy: distribute answer-ready content across YouTube (25% of AI Overview citations), Reddit (21%), and authoritative forums — nearly half of all AI Overview citations currently go to non-article platforms
+
+#### AI Crawler Access (Technical GEO)
+- Audit `robots.txt` to whitelist all major AI crawlers: `GPTBot`, `ClaudeBot`, `PerplexityBot`, `Googlebot-Extended`, and `anthropic-ai` — blocking even one crawler correlates with citation share decline across all AI platforms
+- AI-referred traffic grew **527% year-over-year** in the first five months of 2025 (Previsible 2025 AI Traffic Report); set up a dedicated analytics segment now to track this channel before it becomes the dominant organic traffic source
+
+### Notable Insight This Week
+
+The most important development this week is Google's official clarification that **AEO and GEO are "still SEO"** — there is no separate optimization track for AI search. Google's Search Central documentation explicitly states that llms.txt is not processed as a ranking signal, directly contradicting advice circulating in several third-party GEO guides (including tips in this knowledge base's prior entries). This is a meaningful correction: effort previously allocated to llms.txt for Google can be redirected to higher-impact work — schema markup, content freshness, and author credentialing. The complementary finding is the sheer scale of AI Overviews expansion: appearing in 48% of all queries as of April 2026, up from 31% just two months prior, AI Overviews are no longer a niche feature to monitor but a mainstream search surface requiring the same strategic priority as traditional organic rankings.
+
+---
+
 ## Update: 2026-05-11
 
 ### Sources Reviewed
