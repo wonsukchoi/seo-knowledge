@@ -4,6 +4,76 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-05-25
+
+### Sources Reviewed
+- [Neil Patel — GEO vs AEO: What's the Difference?](https://neilpatel.com/blog/geo-vs-aeo/) — Affirms that combining AEO and GEO is the highest-ROI strategy in 2026; AEO/GEO expected to accelerate as LLM usage rises sharply
+- [CXL — AEO: The Comprehensive Guide for 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Authoritative breakdown of opening-answer format, crawler access, and entity consistency for AI visibility
+- [ALM Corp — AEO 2026: Practical Playbook for Google AI Overviews, ChatGPT, Perplexity, and Claude](https://almcorp.com/blog/answer-engine-optimization-2026/) — Platform-specific AEO tactics across the four dominant AI answer engines
+- [HubSpot — Answer Engine Optimization Trends 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-trends) — Covers multi-format citation surfaces, local AEO pages, and entity consistency as 2026 trend drivers
+- [Averi AI — Google AI Overviews Hit 48% of Queries: The 2026 Citation Playbook](https://www.averi.ai/blog/google-ai-overviews-optimization-how-to-get-featured-in-2026) — Documents AI Overviews expansion to 48% of queries / 2 billion monthly users as of early 2026
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — End-to-end GEO strategy covering entity markup, AI crawler access, and content structure
+- [Enrich Labs — GEO: The Complete 2026 Guide to Ranking in AI Search](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — Covers first-200-words rule, specific verifiable claims, and recency signals for AI citation
+- [TrySight — AI Model Citation Optimization: Complete 2026 Guide](https://www.trysight.ai/blog/ai-model-citation-optimization) — Detailed citation mechanics: precision language, sourced data, and extractable table formats
+- [Siftly AI — How to Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Practical section structure (H2/H3 cadence, heading-as-takeaway principle) and FAQPage schema impact
+- [Frase.io — Complete AEO Guide 2026](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — Confirms 80% of AI-cited URLs are absent from Google's top 100 results; AEO requires a distinct strategy from traditional SEO ranking
+- [Google Search Central — AI Optimization Guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — Official Google documentation on optimizing for generative AI features in Search
+- [Elsner — GEO vs AEO vs SEO: 2026 Comparison Guide](https://www.elsner.com/geo-vs-aeo-vs-seo-comparison-guide/) — Strategic framework for query-type-based allocation across SEO, AEO, and GEO
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AI Overviews Scale — Now a Mainstream Priority
+- Google AI Overviews now appear in **48% of all queries** and reach **2 billion monthly users** in 200+ countries — Google's own CEO described this as the fastest feature adoption in the company's history; AIO optimization is no longer optional
+- AI typically cites only **2–7 domains** per response — the competitive frame has shifted from ranking on page 1 among 10 links to earning one of a handful of cited sources in a synthesized answer
+- Gartner projects a **25% drop in traditional search volume by 2026** as users switch to AI-powered answer engines; traffic diversification to AI citation surfaces is a hedge against this structural decline
+
+#### Critical New Finding: AI Citation ≠ Google Ranking
+- **80% of AI-cited URLs do not appear in Google's top 100 results** — AI citation optimization and traditional SEO ranking are separate disciplines requiring distinct strategies, separate KPIs, and different content structures
+- Track three dedicated AI visibility metrics: **mention rate** (% of AI answers that name your brand), **citation rate** (% of AI answers that link to your domain), and **citation position** (where your source appears in the AI answer) — these are more relevant than SERP rank for AI channels
+- Being well-ranked in Google is still a prerequisite for AI Mode inclusion, but high traditional rank does not guarantee AI citation; you must also optimize content structure explicitly for extraction
+
+#### Content Formatting for AI Citation
+- Open every page with a clean **40–60 word direct answer** to the primary query in the first paragraph — LLMs scrape and extract this chunk first as the primary citation candidate
+- The **first 200 words** of any article must directly and completely answer the primary query; AI retrieval systems evaluate opening content most heavily when selecting sources to cite
+- Use **question-based H2 and H3 headings** that summarize each section's takeaway explicitly (e.g., "Does FAQPage Schema Increase AI Citation Rate?" not "Schema Tips") — heading text is weighted in citation decisions
+- Structure articles into **3–4 main H2 sections**, each supported by **2–4 H3 subsections** at roughly 100–150 words per section — this chunk size consistently outperforms both shorter fragments and long prose blocks for AI retrieval
+- Write **precise, sourced claims** over vague language: "our 2025 benchmark across 412 deployments found a 38% reduction in resolution time" is far more citable than "this approach significantly reduces resolution time"
+- Pages **updated within the last two months earn 28% more AI citations** than older content on the same topic — content freshness is a direct citation signal, not just a soft quality indicator
+
+#### Schema Markup Recommendations
+- **FAQPage schema** on all Q&A sections is the highest-impact single AEO optimization — AI engines extract structured Q&A pairs directly, bypassing prose parsing entirely
+- **HowTo schema** with populated `name` and `text` fields on every numbered-step guide; steps are pulled verbatim into AI Overviews
+- **Article / BlogPosting schema** with `author`, `datePublished`, `dateModified`, and `about` fields is required on every article targeting AI citation
+- **Organization schema** on homepage/about page with consistent `name`, `url`, `logo`, and `sameAs` fields builds entity recognition across AI knowledge graphs
+- Implement **Article, Organization, FAQ, HowTo, and BreadcrumbList** as the core five schema types; expand to **Speakable** schema for paragraphs targeting voice assistant retrieval
+- Review `robots.txt` to confirm AI crawlers (`GPTBot`, `ClaudeBot`, `PerplexityBot`, `Googlebot-Extended`, `anthropic-ai`) are **not blocked** — blocking any one correlates with citation decline across all AI platforms
+
+#### Topical Authority and Internal Linking
+- One comprehensive **pillar page** per core topic supported by 5–10 narrowly focused subtopic articles with bidirectional internal links — AI engines use internal link graphs to infer topical authority clusters
+- Consistent **entity representation** across your site, Google Business Profile, LinkedIn, Wikidata, and major directories is a prerequisite for AI knowledge graph inclusion — any name mismatch degrades entity resolution
+- Earning **backlinks from high-authority domains** remains the strongest proxy signal for AI Mode inclusion (domain authority is 3× more predictive of AI Mode citation than content quality alone per SE Ranking data)
+
+#### Author Credentialing — Mandatory, Not Optional
+- **Named, credentialed authors are required** for sustained AI citation — anonymous bylines ("Content Team," "Staff Writer") are treated as a GEO penalty and suppress citation rate across major LLMs
+- Every author must have a **verifiable external presence** (LinkedIn profile, published bylines on authoritative third-party sites) so AI models can resolve the author to a known entity independent of your site
+- Add detailed **author bio pages** with relevant credentials, publication history, and area of expertise — AI systems use bio content as an E-E-A-T proxy when selecting among competing sources
+
+#### Perplexity / ChatGPT / Claude Optimization
+- Structure content around **quotable standalone sentences** — LLMs lift individual sentences and short paragraphs rather than extracting contextual meaning, so each sentence should make sense in isolation
+- Include **extractable comparison tables**, numbered lists, and FAQ blocks in every major content piece to expand the number of independently citable units per page
+- Add an `llms.txt` file in the site root to guide non-Google AI systems on content prioritization (note: Google officially does not process `llms.txt` as a ranking signal, but it may benefit Perplexity, Claude, and ChatGPT crawlers)
+
+#### Implementation Timeline
+- **Weeks 1–8**: Foundation — schema implementation, entity consistency audit, content restructuring (answer-first format, heading rewrites, author credentialing)
+- **Months 3–6**: Authority building — cross-platform presence (YouTube, Reddit, authoritative forums), citation relationship building, cornerstone content refresh cycle
+- **90-day checkpoint**: Most brands see measurable AI citation improvements within 90 days of systematic optimization; set up AI-referred session tracking in analytics before this window to have a baseline
+
+### Notable Insight This Week
+
+The most important finding this week is a paradigm shift buried in the citation data: **80% of URLs cited by AI search engines do not appear in Google's top 100 results**. This single statistic invalidates the assumption that excellent traditional SEO is sufficient for AI visibility — it isn't. AI citation and Google ranking are now largely orthogonal disciplines, each requiring its own strategy, content format, and measurement framework. A page can rank #1 in Google and never be cited by ChatGPT or Perplexity, while a page buried on page 5 of Google can be frequently cited by AI engines because its structure — precise sourced claims, answer-first format, FAQPage schema, named credentialed author — is optimized for extraction rather than ranking. The practical implication: content and SEO teams need to build a parallel AI citation workflow alongside their traditional SEO workflow, tracking citation rate and mention rate as first-class KPIs, not trailing metrics. The upside is concrete: 90 days of systematic structural optimization produces measurable citation gains, and AI-referred traffic grew 527% year-over-year in 2025 — the channel is large enough to justify the investment now.
+
+---
+
 ## Update: 2026-05-18
 
 ### Sources Reviewed
