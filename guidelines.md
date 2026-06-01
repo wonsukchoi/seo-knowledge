@@ -4,6 +4,68 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-06-01
+
+### Sources Reviewed
+- [Neil Patel on X — GEO/AEO ROI Acceleration](https://x.com/neilpatel/status/2028092896881082554) — Patel confirms GEO/AEO is likely to become the most profitable marketing channel at scale; ROI trend accelerating further into 2026 as LLM usage rises sharply
+- [GrackerAI — What Experts Say About AEO, GEO, and AI Search](https://gracker.ai/blog/what-experts-say-about-aeo-geo-and-ai-search) — Aggregated expert consensus: structure and AI-citation formatting now outweigh thoroughness and backlink count for AI visibility
+- [Elsner — GEO vs AEO vs SEO: 2026 Comparison Guide](https://www.elsner.com/geo-vs-aeo-vs-seo-comparison-guide/) — Query-type allocation framework: AEO for direct-answer queries, GEO for comprehensive AI citation, traditional SEO as prerequisite foundation
+- [CXL — AEO: The Comprehensive Guide for 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Confirmed: opening-answer format, AI crawler access, and entity consistency remain the top three AEO levers
+- [ALM Corp — AEO 2026 Practical Playbook](https://almcorp.com/blog/answer-engine-optimization-2026/) — Platform-specific tips across Google AI Overviews, ChatGPT, Perplexity, and Claude; first-party data cited as uniquely uncopyable citation asset
+- [HubSpot — AI Overviews Optimization Playbook 2026](https://blog.hubspot.com/marketing/optimize-for-ai-overviews) — FAQ + HowTo + Article schema combined increases citation rate 2.5–3× vs. pages with no schema; pillar-cluster model remains best practice
+- [Siftly AI — How to Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Five quantified content qualities correlated with AI citation: clarity (+32.83%), E-E-A-T signals (+30.64%), Q&A format (+25.45%), section structure (+22.91%), structured data (+21.60%)
+- [TrySight — AI Model Citation Optimization: Complete 2026 Guide](https://www.trysight.ai/blog/ai-model-citation-optimization) — Weekly monitoring and A/B testing are now required practices; citation graphs shift faster than content strategies
+- [Frase.io — Complete AEO Guide 2026](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — Industry-specific AEO pages and local AEO content emerging as high-impact, low-competition citation opportunities
+- [Respona — AI Citation Optimization: The 4-Step Framework](https://respona.com/blog/ai-citation-optimization/) — Four-step framework: (1) identify AI-cited topics, (2) restructure for extraction, (3) amplify with authority signals, (4) monitor and iterate
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AI Overviews & Traffic Impact — The Adaptation Deadline Has Passed
+- Over **25% of all queries** now trigger a Google AI Overview in 2026, and sites that haven't adapted to AI-first content structure are reporting **20–40% traffic declines** on informational queries — the adaptation window is closed; mitigation work is urgent
+- Pages combining **FAQ schema + HowTo schema + Article schema** are cited **2.5–3× more often** than pages with no structured data — implementing all three schema types together yields compounding gains, not additive ones
+- AI Overviews most frequently cite: comprehensive how-to guides with numbered steps, definition-first "what is" articles, and comparison pieces with explicit pros/cons tables — these three formats account for the majority of AIO citation share
+
+#### Quantified Citation Quality Signals (New Research)
+- Five content qualities have a **statistically significant positive correlation** with AI citation rate: clarity and summarization (+32.83%), E-E-A-T signals (+30.64%), Q&A format (+25.45%), section structure (+22.91%), and structured data elements (+21.60%) — prioritize in this order
+- Content with **verifiable, sourced statistics** achieves 30–40% higher visibility in AI-generated responses (Princeton research) — replace every vague claim ("this significantly reduces time") with a precise one ("reduces time by 38% — Source: [X]")
+- Lead every article and major section with a **direct two-sentence answer** in the first 100 words; LLMs lift these chunks first as primary citation candidates
+- Pages **updated within the last two months** earn **28% more AI citations** than older content on the same topic — monthly content refreshes for top-performing pages are now a citation hygiene requirement
+
+#### Content Formatting for AI Citation
+- Open every page with a **40–60 word direct answer** to the primary query — this is the single most frequently extracted chunk across all LLM citation models
+- Use **question-based H2/H3 headings** that state the section's takeaway explicitly (e.g., "Does FAQPage Schema Increase AI Citation Rate?" not "Schema Tips") — heading text is weighted in citation candidate selection
+- Structure each article into **3–4 main H2 sections** with **2–4 H3 subsections**, each subsection approximately 100–150 words — this chunk size consistently outperforms both shorter fragments and long prose blocks for AI retrieval
+- Every major content piece should include at least one: **FAQ block**, **comparison table**, and **numbered how-to list** — each format creates independently citable units that expand citation surface area per page
+
+#### Schema Markup Recommendations
+- **FAQPage schema** on all Q&A sections remains the single highest-impact AEO optimization; structured Q&A pairs are extracted directly by AI engines, bypassing prose parsing entirely
+- **HowTo schema** with populated `name` and `text` fields for every step on all procedural guides; step text is pulled verbatim into AI Overviews
+- **Article / BlogPosting schema** with `author`, `datePublished`, `dateModified`, and `about` fields is required on every article targeting AI citations
+- **Organization schema** on homepage/about page with consistent `name`, `url`, `logo`, and `sameAs` (social profiles) builds entity recognition in AI knowledge graphs
+- **Speakable schema** on answer-focused paragraphs for voice assistant retrieval coverage
+
+#### Topical Authority, Internal Linking & First-Party Data
+- Maintain one comprehensive **pillar page** per core topic supported by 5–10 narrowly focused subtopic articles with bidirectional internal links — AI engines use internal link graphs to infer topical authority clusters
+- **First-party data** (proprietary benchmarks, customer outcome statistics, original surveys) earns brand-specific citations that third-party statistics cannot replicate — AI engines cite the original source; own your data
+- Consistent **entity representation** across your site, Google Business Profile, LinkedIn, Wikidata, and major industry directories is a prerequisite for AI knowledge graph inclusion — any name mismatch degrades entity resolution and suppresses citation rate
+
+#### Perplexity / ChatGPT / Claude Optimization
+- Review `robots.txt` and confirm AI crawlers (`GPTBot`, `ClaudeBot`, `PerplexityBot`, `Googlebot-Extended`, `anthropic-ai`) are **not blocked** — blocking any one correlates with citation share decline across all AI platforms, not just the blocked crawler
+- Structure content around **quotable standalone sentences** — LLMs lift individual sentences and short paragraphs rather than extracting contextual meaning; every sentence should make sense in isolation
+- Add an `llms.txt` file in the site root to guide non-Google AI systems on content prioritization (note: Google officially does not process `llms.txt` as a ranking signal, but Perplexity, Claude, and ChatGPT crawlers may benefit)
+- Use **clear, specific alt text** on all images and diagrams; AI parsers index alt text as structured content and include it in citation decisions
+
+#### Monitoring & Iteration
+- **Weekly monitoring** of AI citation rates and A/B testing of content structure changes are now non-negotiable — citation graphs shift faster than traditional SERP rankings
+- Track three dedicated AI visibility metrics: **mention rate** (% of AI answers naming your brand), **citation rate** (% of AI answers linking your domain), and **citation position** (placement order in AI answer)
+- Set up a dedicated analytics segment for AI-referred traffic; this channel grew **527% YoY** in 2025 and is the fastest-growing organic source in 2026
+
+### Notable Insight This Week
+
+The most significant new research finding this week is a set of **quantified correlation coefficients** between specific content qualities and AI citation rate — the clearest empirical signal yet on where to focus optimization effort. Clarity and summarization carries the strongest positive correlation at +32.83%, followed by E-E-A-T signals (+30.64%), Q&A format (+25.45%), section structure (+22.91%), and structured data (+21.60%). What makes this finding actionable is the priority order it implies: teams without bandwidth for a full content overhaul should start with clarity rewrites (front-loading answers, removing padding) and E-E-A-T improvements (named authors with credentials, sourced statistics) before touching schema or structural changes — because those two factors alone account for more than 63% of the measured citation uplift. Combined with the finding that pages updated within the last two months earn 28% more AI citations, the highest-ROI weekly action for most teams is: pick your top five informational pages, rewrite the opening paragraph to lead with a direct 40–60 word answer, add a sourced statistic, update the "Last modified" date — then measure citation rate change over 30 days.
+
+---
+
 ## Update: 2026-05-25
 
 ### Sources Reviewed
