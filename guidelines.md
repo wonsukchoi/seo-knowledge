@@ -4,6 +4,60 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-06-08
+
+### Sources Reviewed
+- [Neil Patel on X — GEO/AEO ROI 2024–2026](https://x.com/neilpatel/status/2028092896881082554) — Documents accelerating ROI from GEO/AEO vs. traditional SEO; Patel expects LLM-driven growth to sharpen further through 2026
+- [NP Digital — AEO/GEO vs. SEO: On-Demand Webinar](https://advanced.npdigital.com/aeo-geo-vs-seo-on-demand-webinar/) — NP Digital positions GEO/AEO as likely the most profitable marketing channel at scale; covers AI-only brand discovery without click-through
+- [Search Engine Journal — AEO in 2026: Which Content Formats Earn AI Citations (Webinar)](https://www.searchenginejournal.com/aeo-in-2026-which-content-formats-earn-ai-citations-how-to-produce-more-webinar/572870/) — Empirical breakdown of content types most cited by LLMs; schema markup lift data
+- [Google Search Central — Guide to Optimizing for Generative AI Features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — Google's official position: AEO and GEO are "still SEO"; same quality signals apply; llms.txt is not a Google ranking signal
+- [CXL — AEO: The Comprehensive Guide for 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Freshness benchmark: AI-surfaced URLs average 1,064 days old vs. 1,432 for traditional results (25.7% freshness advantage); 100–300 word sections confirmed as citation sweet spot
+- [Averi AI — Google AI Overviews Optimization: 2026 Playbook](https://www.averi.ai/blog/google-ai-overviews-optimization-how-to-get-featured-in-2026) — AI Overviews grew from 31% to 48% of all tracked queries (Feb 2025 to Feb 2026); cited-source type analysis
+- [Wellows — 11 Best Practices for Content Optimization in 2026](https://wellows.com/blog/best-practices-content-optimization/) — Schema markup delivers 2.5× higher AI citation rate vs. unstructured pages; FAQ + HowTo + Article combination yields compounding gains
+- [LLMrefs — Generative Engine Optimization: The 2026 Guide to AI Search Visibility](https://llmrefs.com/generative-engine-optimization) — Author credentialing requirements, AI crawler access, and first-200-words rule for GEO
+- [ALM Corp — AEO 2026 Practical Playbook](https://almcorp.com/blog/answer-engine-optimization-2026/) — Platform-specific tactics for Google AI Overviews, ChatGPT, Perplexity, and Claude; first-party data as uncopyable citation asset
+- [Quolity AI — AI Citations Optimization: Strategies & Measurement Guide](https://quolity.ai/ai-citations-optimization/) — Research: only 12% of ChatGPT citations match URLs on Google's first page
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### GEO/AEO ROI & Budget Allocation
+- Neil Patel's documented 2024–2025 ROI data shows GEO/AEO outperforming traditional SEO as a traffic and conversion channel, with further acceleration projected — teams not yet tracking AI citation rate are measuring the wrong KPI for the fastest-growing organic channel
+- Customers are now discovering brands through ChatGPT, Google AI Overviews, Perplexity, TikTok, and Reddit **without ever clicking through** to a website — AI citation rate is now a brand equity metric, not just a traffic metric, and must be tracked alongside organic sessions and branded search volume
+- Allocate **30–40% of content production budget** toward AI citation-optimized content by Q3 2026; the ROI gap between AI-cited and non-cited brands is widening with each quarter of inaction
+
+#### AI Citation ≠ Google Ranking (Reinforced by New Data)
+- New research confirms only **12% of ChatGPT citations** match URLs on Google's first page — AI citation and traditional SERP ranking are largely orthogonal disciplines requiring separate strategies, KPIs, and content structures
+- Publishers that have not adapted to AI-first content structure are reporting **25–40% traffic declines** on informational queries in 2026 — prioritize auditing and restructuring informational pages first, as they are most exposed
+
+#### Content Length & Extraction Benchmarks (New Precision Data)
+- AI systems most frequently extract passages between **134–167 words**, with **62% of all AI-featured content** falling within the 100–300 word range — calibrate section length to this range across all content as a structural default
+- Sections shorter than 80 words or longer than 300 words see measurably lower citation rates; the 100–300 word zone is the confirmed "citation sweet spot" for LLM extraction
+- Position key answers within the **first 100–200 words**; AI retrieval systems weight opening content most heavily when selecting citation candidates
+
+#### Schema Markup — Compounding Returns Confirmed
+- Content with any proper schema markup delivers a **2.5× higher chance** of appearing in AI-generated answers vs. pages with no structured data — schema implementation alone is the single highest-leverage technical AEO change
+- Combining **FAQPage + HowTo + Article** schema yields **2.5–3× citation rate improvement** over no schema — the three types together create compounding gains beyond their individual impact; implement all three on every comprehensive content page
+- **Organization schema** with consistent `sameAs` links to social profiles is a prerequisite for AI knowledge graph entity inclusion — brands without it are not being reliably resolved as named entities by LLM knowledge bases
+
+#### Authority, E-E-A-T & Author Credentialing
+- E-E-A-T signals carry a **+30.64% correlation** with AI citation rate (second only to clarity/summarization at +32.83%) — external expert citations, demonstrated credentials, and sourced factual claims are the second-highest priority after answer clarity
+- Named, credentialed authors with verifiable external presence remain mandatory — **anonymous bylines are treated as a GEO penalty** that suppresses citation rate across all major LLMs regardless of domain authority
+- Content with **verifiable, sourced statistics** achieves 30–40% higher visibility in AI-generated responses — replace every vague claim with a precise, attributed data point in every content refresh cycle
+
+#### Google AI Overviews (AIO) — Scale Update
+- Google AI Overviews now appear in **48% of all tracked queries** as of early 2026, up from 31% in February 2025 — AIO optimization is now a mainstream search priority, not a niche tactic
+- Google officially reaffirms: **AEO and GEO are "still SEO"** — the same quality, relevance, and E-E-A-T signals that drive traditional SEO drive AI Overview inclusion; no separate optimization framework is required for Google's generative features
+
+#### Perplexity / ChatGPT Optimization
+- Confirm `robots.txt` whitelists all major AI crawlers: `GPTBot`, `ClaudeBot`, `PerplexityBot`, `Googlebot-Extended`, and `anthropic-ai` — any single block correlates with citation share decline across all AI platforms, not just the blocked crawler
+- Note: Google officially does not process `llms.txt` as a ranking signal; retain it for non-Google AI crawler guidance (Perplexity, Claude, ChatGPT) but do not substitute it for schema or content quality work on Google-targeted pages
+
+### Notable Insight This Week
+
+The defining new finding this week is a behavioral shift that NP Digital's research is calling the central marketing challenge of 2026: consumers are now routinely discovering brands through ChatGPT, Perplexity, and Google AI Overviews **without ever clicking through to a website**. This zero-click AI discovery pattern means that traditional analytics — organic sessions, click-through rate, first-page rank — no longer capture the full commercial value of AI search visibility. A brand cited in thousands of AI Overviews per day may be generating substantial brand awareness, consideration, and downstream branded search volume that registers as "direct" traffic or branded search rather than organic. The practical implication is that content ROI frameworks need to expand: AI citation rate, branded search volume growth, and AI-referred session share must all be tracked together to accurately measure GEO performance. Teams relying solely on organic session counts will systematically undervalue their best-performing AI-optimized content — and underinvest in the channel growing fastest.
+
+---
+
 ## Update: 2026-06-01
 
 ### Sources Reviewed
