@@ -4,6 +4,58 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-06-15
+
+### Sources Reviewed
+- [Neil Patel on X — GEO/AEO Is the Most Profitable Channel at Scale](https://x.com/neilpatel/status/2028092896881082554) — Patel confirms ROI acceleration into 2026; frames brand authority through citations as the central SEO challenge of the year
+- [NP Digital — AEO/GEO vs. SEO: On-Demand Webinar](https://advanced.npdigital.com/aeo-geo-vs-seo-on-demand-webinar/) — What's different, what overlaps, and what actually works in AI-first discovery; AI-only brand discovery without click-through is now mainstream
+- [Neil Patel on LinkedIn — Google AI Mode Has Flipped the Entire SEO Landscape](https://www.linkedin.com/posts/neilkpatel_google-ai-mode-just-flipped-the-entire-seo-activity-7440004308546396160-tLeL) — AI Mode positioned as the largest structural shift in SEO since mobile-first indexing
+- [Elsner — GEO vs AEO vs SEO: 2026 Comparison Guide](https://www.elsner.com/geo-vs-aeo-vs-seo-comparison-guide/) — Confirms GEO earns a place among only 2–7 domains cited per AI response; strategic allocation framework across all three disciplines
+- [CXL — AEO: The Comprehensive Guide for 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Multimodal AEO now required: Google confirmed AI Overviews incorporate visual signals (images/videos) as of January 2026
+- [AIM Multiple — AEO Tips & Best Practices](https://aimultiple.com/answer-engine-optimization) — Platform-specific signal breakdown for ChatGPT, Perplexity, and SearchGPT; multimodal AEO requirements
+- [DOJO AI — Complete 2026 Guide to AEO](https://www.dojoai.com/blog/answer-engine-optimization-aeo-guide-dynamic-ai-seo) — RAG and query fan-out mechanics explained: AI search breaks a single query into multiple sub-queries, requiring cluster-level content relevance
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — May 2026 Google guidance update confirmed; query fan-out implications for content strategy
+- [RevvGrowth — AEO Best Practices for Modern Search 2026](https://www.revvgrowth.com/aeo/answer-engine-optimization-best-practices) — Topical authority and content clusters as prerequisite for stable (not just frequent) AI citation placement
+- [Siftly AI — Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Citation density benchmarks and "lead with answer" structural requirements for AI extraction
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### Brand Authority as the New SEO North Star
+- Neil Patel's 2026 framing is now definitive: **"Authority = Citations"** — brand authority in AI search is earned through being cited, not through ranking; teams not tracking citation rate are optimizing for a metric that no longer determines brand discovery
+- GEO/AEO is projected to be the **most profitable marketing channel at scale** in 2026, with documented ROI acceleration from 2024 to 2025 continuing to compound — treat it as a primary channel investment, not a secondary SEO tactic
+- Google AI Mode has structurally altered the competitive landscape: AI Mode synthesizes answers from 2–7 cited domains per query, collapsing the competitive set from 10 blue links to a handful of cited sources
+
+#### Multimodal AEO — Now Required, Not Optional
+- Google confirmed in January 2026 that AI Overviews now incorporate **visual signals** (images and videos) — text-only AEO strategies are structurally incomplete; optimize all images with descriptive, keyword-rich alt text and ensure video content follows answer-first structure
+- Consistent topical authority expressed **across formats** (articles, video descriptions, image captions, structured data) earns **more stable citation placements** — stability is the new signal; cross-format content consistency makes AI citation more durable and predictable than text-only optimization
+- Add concise summaries to long-form and user-generated content; format expert reviews and comparisons as **pro/con lists with short bullet points** — these formats are most readily extracted by AI Overviews from non-article content types
+
+#### RAG + Query Fan-Out: Why Content Clusters Are Now Mandatory
+- AI search engines use **retrieval-augmented generation (RAG) and query fan-out**, decomposing a single user question into multiple related sub-queries and synthesizing the best available source for each — content must be relevant across a **cluster of related questions**, not just one primary keyword
+- A single well-optimized page will be cited for at most one sub-question and displaced by competitors for the rest; a **pillar page with 5–10 narrowly focused subtopic articles** is the minimum viable cluster to compete across the full question graph
+- Map the full **question graph** around each core topic using People Also Ask data, AI search auto-suggestions, and community forums — then build a dedicated content page for each sub-question node, because AI search cites by sub-question, not by keyword rank
+
+#### Platform-Specific AEO: Differentiated Signals Confirmed for 2026
+- **ChatGPT / SearchGPT**: Favors conversational content with comprehensive topic coverage; combine traditional SEO signals (domain authority, backlinks) with answer-first content structure — both signals reinforce each other for ChatGPT citation
+- **Perplexity**: Prioritizes factual accuracy and citation practices — link every claim immediately to a primary source (not in a distant footnote bibliography); Perplexity actively checks source credibility at citation time
+- **Google AI Mode / AI Overviews**: Rewards consistent E-E-A-T and topical authority; content with BLUF (Bottom Line Up Front) openings and added summaries outperforms equivalent content without them
+
+#### Content Strategy for Stable, Durable Citation Placement
+- **Publish on a predictable cadence** within your core topic cluster rather than producing varied one-off content; AI engines build topic-authority models and consistent publishing reinforces entity-topic associations, improving both citation frequency and citation stability
+- Update all cornerstone content with new data, a visible `Last updated` timestamp, and a structure pass at least once per quarter; pages updated within the last two months earn **28% more AI citations** than stale pages on the same topic
+- Move key answers to the opening sentence of each content section — AI engines perform a **first-chunk extraction pass** before analyzing full-document context; the opening sentence of each H2/H3 section is disproportionately likely to become the cited text
+
+#### Structured Data + Multimodal Content = Compounding Advantage
+- Implement **FAQPage + HowTo + Article schema** on all comprehensive content pages — this schema combination delivers 2.5–3× citation rate improvement; any comprehensive page without this stack is structurally disadvantaged in 2026
+- Treat **image alt text as structured content**, not accessibility metadata — AI engines index alt text as part of their content model; keyword-rich, descriptive alt text on all images and diagrams improves overall page citation probability
+- Include **comparison tables and numbered how-to lists** in every major content piece; these formats create independently citable units that expand the number of AI extraction points per page, compounding total citation surface area per URL
+
+### Notable Insight This Week
+
+The most significant structural finding this week is how **RAG + query fan-out mechanics** reframe the entire content strategy debate. AI search engines do not retrieve a single best page for a user's query — they decompose the query into multiple sub-questions, retrieve the best available source for each sub-question independently, and synthesize the results into a single answer. This means the unit of competition in AI search is no longer the individual page but the **topic cluster**: the brand that has comprehensively covered a topic across a cluster of related pages will be cited across multiple sub-questions within a single AI response, while a brand with one highly-optimized page will be cited for at most one sub-question and then displaced by competitors for the rest. The practical implication is a fundamental shift in how content calendars should be planned: instead of choosing between competing high-volume keyword targets, teams should map the full question graph around their core topics and build a dedicated page for each sub-question node — because AI search cites by sub-question, not by keyword rank. This is arguably the most important strategic reframe for content teams since the shift from keyword optimization to topical authority.
+
+---
+
 ## Update: 2026-06-08
 
 ### Sources Reviewed
