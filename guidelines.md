@@ -4,6 +4,63 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-06-22
+
+### Sources Reviewed
+- [NP Digital — AEO/GEO vs. SEO: On-Demand Webinar](https://advanced.npdigital.com/aeo-geo-vs-seo-on-demand-webinar/) — Patel's team introduces "Systemic Authority" as the 2026 competitive moat; AI engines decide whether to *trust* a brand as the definitive answer, not just rank it
+- [Elsner — GEO vs AEO vs SEO: 2026 Comparison Guide](https://www.elsner.com/geo-vs-aeo-vs-seo-comparison-guide/) — Strategic allocation framework: GEO for comprehensive topics, AEO for short answerable questions, both required for full AI-search coverage
+- [Search Engine Journal — Google's AI Search Guide Calls AEO and GEO 'Still SEO'](https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026/) — Google's official position reconfirmed: AEO/GEO remain standard SEO; llms.txt and AI-specific content rewriting are not ranking signals for Google's generative features
+- [CXL — Answer Engine Optimization: The Comprehensive Guide for 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Definitional, process, and comparison query types defined as distinct AEO intent buckets requiring different content formats
+- [HubSpot — AEO Best Practices Marketing Teams Can't Ignore](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — Reddit and Quora brand presence shown to deliver ~4× higher citation probability; community content confirmed as a citation amplifier
+- [HubSpot — Answer Engine Optimization Trends 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-trends) — Local AEO pages, multi-format content (video, audio), and entity consistency identified as 2026 trend drivers
+- [LLMrefs — Generative Engine Optimization: The 2026 Guide to AI Search Visibility](https://llmrefs.com/generative-engine-optimization) — Anonymous bylines treated as GEO penalties regardless of domain authority; AI crawlers commonly blocked via robots.txt without site owners realizing it
+- [Enrich Labs — GEO: The Complete 2026 Guide to Ranking in AI Search](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — Citation-worthiness defined as the intersection of semantic richness, factual accuracy, and comprehensive topic coverage
+- [Crawl Vision — How to Optimize Your Content for Google AI Overviews in 2026](https://crawlvision.com/blog/optimize-content-for-google-ai-overviews-2026/) — Content freshness critical: outdated dates and stale statistics reduce eligibility for AIO summarization; consistent maintenance required
+- [Siftly AI — Optimize Content to Get Cited by AI Search Engines: Complete 2026 Guide](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Content with proper authorship metadata cited 40% more frequently than anonymously published content; precise verifiable claims favored over vague approximations
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### Systemic Authority: The New Competitive Moat
+- Neil Patel's latest framing coins **"Systemic Authority"** as the 2026 differentiator: AI engines don't rank pages, they decide whether to *trust* a brand as the definitive answer — authority must be demonstrated simultaneously across every surface (web, social, community forums, video)
+- Brands winning AI search in 2026 are building authority systemically: **consistent entity presence across the web, named credentialed authors, community citations on Reddit/Quora, and cross-platform content reinforcement** — not just optimizing individual pages in isolation
+- **Sentiment analysis** has emerged as a confirmed new AI ranking factor: AI engines assess how positively your brand is discussed in third-party content — proactive review acquisition and reputation management are now SEO tasks, not just marketing tasks
+
+#### AEO Query Type Strategy: Match Format to Intent
+- Map content to three AEO-specific intent types: **definitional** (what is X), **process** (how to do X), and **comparison** (X vs. Y) — each demands a different structure; definitional content needs a clear one-sentence definition in the opening, process content needs numbered steps, comparison content needs a structured table or pro/con list
+- Target **conversational, natural-language queries** with exact phrasing in H2/H3 headings — AI engines match section headings to user questions verbatim; a heading phrased as a question is more citable than an equivalent topic heading
+- GEO is more effective for **comprehensive, multi-part topics**; AEO targets short, directly answerable questions — a 2026 content calendar should deliberately allocate between the two formats by query type
+
+#### Community Presence as a Citation Multiplier
+- Domains with heavy **Reddit and Quora brand mention volume** have approximately **4× higher citation probability** vs. those with minimal community presence — invest in building authentic contributions on high-authority forums as a structured part of content strategy
+- Earning **brand mentions in community threads** (Reddit AMAs, Quora answers, forum discussions) that link back to authoritative on-site resources creates a self-reinforcing citation loop: community posts generate AI citations, which reinforce brand authority, which improves organic citation rates
+- Apply answer-first, citation-friendly formatting principles to **Reddit posts and Quora answers** themselves — these platforms account for ~21% and a growing share of AI Overview citations across verticals
+
+#### GEO Crawlability and Author Authority
+- **Audit robots.txt immediately**: many sites unknowingly block AI crawlers (`GPTBot`, `ClaudeBot`, `PerplexityBot`, `anthropic-ai`) — a silent block removes all content from AI citation consideration with no error signal to indicate it is happening
+- Every GEO-optimized content piece requires a **named, credentialed author** with a verifiable external presence (LinkedIn, published bylines, expert profiles) — anonymous or "content team" bylines are treated as GEO penalties that suppress citation rate across all major LLMs regardless of domain authority
+- Place the complete primary answer in the **first 200 words** — AI retrieval systems using real-time web access (Perplexity, Google AI Overviews) weight opening content most heavily and frequently truncate their retrieval pass after the first major chunk
+
+#### Metadata and Precision: 40% More Citations
+- Content with proper **authorship metadata** (Article schema `author` field, structured byline, author bio with credentials) is cited **40% more frequently** than anonymously published content — authorship metadata is not optional boilerplate
+- **Precise, verifiable claims** earn more citations than vague approximations — write "the conversion rate is 15.2% (Source, 2025)" instead of "the rate is around 15%" for every factual assertion; AI models preferentially cite specificity over approximation
+- Pages **updated within the last two months** earn 28% more AI citations than equivalent stale content — implement a rolling 60-day refresh schedule for all high-value pages, updating statistics, refreshing the `dateModified` field, and adding a visible `Last updated` timestamp
+
+#### Google AI Overviews: Freshness and Cluster Depth
+- AI Overviews now trigger on **20–40% more query types** than traditional featured snippets in 2026 — audit which queries in your niche now surface an AIO and ensure those pages have answer-first structure, FAQPage schema, and a current `Last updated` date
+- Google AI Overviews favor sources that **comprehensively cover a topic cluster**, not isolated high-performing pages — a pillar page without its supporting subtopic articles is at a structural disadvantage even if the pillar itself is technically well-optimized
+- Outdated statistics, stale publish dates, or missing update timestamps **reduce eligibility for AIO summarization** — set 60-day calendar reminders to refresh cornerstone content rather than waiting for traffic decline as the trigger
+
+#### Perplexity / ChatGPT: Credibility Signals at Citation Time
+- **Perplexity verifies source credibility at citation time** — link every factual claim directly to a primary source (study, official report, documentation) in the body of the content; Perplexity penalizes unsourced assertions and deferred bibliography references
+- **ChatGPT / SearchGPT** citation probability compounds from both traditional SEO signals (domain authority, backlinks) and answer-first content structure — build both in parallel rather than treating them as competing priorities
+- Establish a consistent **topic-cluster publishing cadence**; AI engines build topic-authority models over time and irregular publishing weakens the entity-topic association that produces stable, durable citation placement
+
+### Notable Insight This Week
+
+The most immediately actionable new signal this week is the **40% citation premium for properly attributed content**. While answer-first formatting and structured data have dominated the GEO conversation for months, the metadata dimension — author credentials embedded in Article schema, bylines with verifiable external profiles, and explicit sourcing of every statistic — is the highest-leverage lever most sites have not yet executed. Many pages already have adequate content structure but are losing citations because their `author` fields are empty, bylines are anonymous, or statistics are asserted without inline source attribution. A targeted audit of the top 20–30 pages in a site's AIO-eligible content cluster, focused specifically on authorship metadata and inline source attribution, is likely to produce measurable citation rate improvement within 4–6 weeks — faster and cheaper than restructuring content or building new topic clusters from scratch.
+
+---
+
 ## Update: 2026-06-15
 
 ### Sources Reviewed
