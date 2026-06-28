@@ -4,6 +4,53 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-06-28
+
+### Sources Reviewed
+- [Neil Patel on LinkedIn — Google AI Mode Shifts SEO Landscape](https://www.linkedin.com/posts/neilkpatel_google-ai-mode-just-flipped-the-entire-seo-activity-7440004308546396160-tLeL) — Patel frames Google AI Mode as the largest SEO structural shift since mobile-first indexing; traditional 10-blue-link competitive set is collapsing to 2–7 cited domains per AI response
+- [ekamoira.com — Neil Patel on AI-SEO Is Changing Everything in 2026](https://www.ekamoira.com/spotlight/ai-search-optimization/tMBdA2gkXgk) — Synthesizes Patel's current position: authority equals citations, brands building systemic multi-surface authority are winning, publishers not adapting report 25–40% traffic declines on informational queries
+- [Neil Patel on Facebook — AI SEO/GEO/AEO Is Not Dying](https://www.facebook.com/neilkpatel/posts/ai-seogeoaeo-doesnt-seem-to-be-dying-anytime-soon) — Reaffirms compounding returns for brands sustaining AI search investment through 2026
+- [TapClicks — 8 Answer Engine Optimization Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Introduces 2.8× citation lift benchmark for sequential heading hierarchy (H2 > H3 > H4); emphasizes brand-mention ecosystems in trusted external sources
+- [Position Digital — AEO: 6 Best Practices for 2026](https://www.position.digital/blog/answer-engine-optimization-best-practices/) — Highlights content freshness auditing workflow: start with pages that already receive AIO impressions, update statistics and platform-behavior references first
+- [ALM Corp — AEO 2026 Practical Playbook](https://almcorp.com/blog/answer-engine-optimization-2026/) — Platform-specific credibility signals across Google AI Overviews, ChatGPT, Perplexity, and Claude; confirms first-party data as a uniquely uncopyable citation asset
+- [LLMrefs — GEO: The 2026 Guide to AI Search Visibility](https://llmrefs.com/generative-engine-optimization) — Reinforces named-author requirement and AI-crawler whitelisting; introduces "citation-worthiness" as the intersection of semantic richness, factual accuracy, and comprehensive topic coverage
+- [Siftly AI — Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Reports AI Overview adoption grew 58% year-over-year by early 2026; weekly citation monitoring shown to outperform quarterly audits for tracking AI visibility shifts
+- [Wellows — 11 Best Practices for Content Optimization in 2026](https://wellows.com/blog/best-practices-content-optimization/) — Lead-with-a-two-sentence-answer-in-first-100-words as primary AI citation lever; modular section design where each H2/H3 answers one question independently
+- [Digivate — Optimizing Content for Google AI Overviews (2026)](https://www.digivate.com/blog/aeo/how-to-rank-in-google-ai-overviews-2026-2/) — Confirms pages with FAQ + HowTo + Article schema combined are cited 2.5–3× more; content types most favored: numbered how-tos, definition articles, structured comparisons
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### Google AI Mode: The Largest SEO Shift Since Mobile-First Indexing
+- Neil Patel's June 2026 LinkedIn post positions **Google AI Mode** as more structurally disruptive than Google AI Overviews — AI Mode replaces the entire SERP with a synthesized AI answer for many query types, reducing the competitive field from 10 ranked pages to **2–7 cited domains per response**; brands not optimizing for citation are effectively invisible in this environment
+- The 2026 imperative is no longer "rank on page 1" but "earn one of the handful of cited slots per AI response" — **topical authority, citation-friendly formatting, and systemic brand trust** are the three pillars that determine citation slot assignment
+- AI SEO investment compounds over time: brands that sustained GEO/AEO investment through 2025 and into 2026 report measurably higher citation rates than competitors who paused or de-prioritized — **citation authority is sticky in the same way that traditional domain authority is sticky**
+
+#### Heading Hierarchy: A 2.8× Citation Lift Most Sites Are Missing
+- Pages using a **strict sequential heading hierarchy** (H2 → H3 → H4 with no skipped levels) earn **2.8× more AI citations** than pages with flat or unstructured heading hierarchies — this is the highest single-element citation lift ratio confirmed this week and is achievable through a purely structural edit with no content rewrite required
+- Heading text should serve a dual function: **summarize the section's key takeaway AND mirror the natural-language phrasing of user queries** — a heading such as "Does Heading Structure Improve AI Citation Rate?" outperforms "Heading Best Practices" for both AI extraction and AEO query matching
+- Audit every pillar and cluster page for heading hierarchy violations (H2 jumping to H4, H3 used inconsistently) — this audit is fast, free, and offers one of the cleanest citation lift opportunities available in 2026
+
+#### AI Overview Adoption: 58% YoY Growth Resets Urgency Baseline
+- Google AI Overviews adoption grew **58% year-over-year by early 2026** — this accelerating expansion means AI Overviews now intercept a majority of informational queries across virtually every vertical; treating AIO optimization as optional or future-dated is no longer defensible
+- Citation graphs shift **weekly**, not quarterly — teams running monthly or quarterly AIO audits are systematically missing intra-cycle citation gains and losses; establish a weekly citation monitoring cadence and treat citation-rate change as a leading indicator of brand visibility trends
+- AI Overview content preferences for 2026 remain stable: **comprehensive numbered how-to guides, definition-first "what is" articles, and structured comparison pieces with explicit pros/cons tables** — these three formats account for the majority of citation share and should be prioritized in every content calendar
+
+#### Brand-Mention Ecosystem: Trust Signals Beyond Your Domain
+- AI engines do not assess your content in isolation — they evaluate your brand's presence across sources **they already trust**; brand mentions in authoritative third-party content (news coverage, industry studies, expert roundups) are weighted heavily in citation eligibility decisions
+- Actively pursue **brand mentions without links** in credible third-party sources; unlinked brand mentions contribute to AI knowledge graph entity recognition and can lift citation eligibility even when they produce no direct referral traffic
+- AI engines conduct credibility verification at citation time — every factual claim on your site should link **inline to a primary source** (study, official documentation, government data) rather than to a bibliography section; inline sourcing is weighted more heavily than deferred references
+
+#### Content Freshness Audit: Start With AIO-Impression Pages
+- Run freshness audits starting with pages that **already receive AI Overview impressions** in Google Search Console — these pages are already citation-eligible and have the highest ROI for freshness updates vs. pages with no AIO exposure yet
+- Update in priority order: (1) outdated statistics and data points, (2) stale platform-behavior references (tool names, feature descriptions), (3) publish and modify timestamps, (4) "Last updated" visible timestamp — this sequence produces the fastest citation eligibility improvement per hour of edit time
+- A page whose statistics reference dates from 2023 or 2024 without update is actively penalized in AI citation models in 2026; AI engines treat stale data as a trust signal failure, not a minor quality issue
+
+### Notable Insight This Week
+
+The most strategically significant finding this week is the **2.8× citation lift from sequential heading hierarchy** — a structural optimization that most sites have not completed despite months of GEO investment in content rewrites, schema, and authority building. What makes this particularly noteworthy is its asymmetry: heading hierarchy is a pure structural edit, requiring no new research, no content creation, and no external relationship building — yet it delivers a larger citation multiplier than many labor-intensive content initiatives. The implication is that many sites currently chasing diminishing returns on marginal content improvements have a simpler, faster win sitting in their existing pages: a one-time heading structure audit across their top 20–30 AIO-eligible pages, correcting H-level skips and rewriting heading text to state each section's takeaway as a natural-language question, could deliver measurable citation rate improvement within a few weeks. Combined with the 58% YoY growth in AI Overview adoption — meaning the citation opportunity is expanding faster than most teams are optimizing for it — the urgency for completing foundational structural work before adding new content layers is higher than ever.
+
+---
+
 ## Update: 2026-06-22
 
 ### Sources Reviewed
