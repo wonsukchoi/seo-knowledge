@@ -4,6 +4,59 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-06-29
+
+### Sources Reviewed
+- [Neil Patel LinkedIn — How AI Search Has Changed SEO Forever](https://www.linkedin.com/posts/neilkpatel_ai-seo-digitalmarketing-activity-7370063368121913344-1hqr) — Patel confirms brand authority now equals citations; first-page Google ranking produces only a 38% chance of appearing in ChatGPT answers
+- [ekamoira.com — Neil Patel on AI-SEO Changing Everything in 2026](https://www.ekamoira.com/spotlight/ai-search-optimization/tMBdA2gkXgk) — Synthesizes Patel's position that "traditional SEO is the entry ticket" and GEO authority compounds over time
+- [Elsner — GEO vs AEO vs SEO: Rank, Answer & Get Cited in 2026](https://www.elsner.com/geo-vs-aeo-vs-seo-comparison-guide/) — Practical allocation framework: AEO for short answerable queries, GEO for comprehensive multi-part topics
+- [TapClicks — 8 Answer Engine Optimization Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Sequential H2→H3→H4 hierarchy produces 2.8× citation lift; brand-mention ecosystems in trusted external sources are essential
+- [ALM Corp — AEO 2026 Practical Playbook](https://almcorp.com/blog/answer-engine-optimization-2026/) — Platform-specific credibility signals across Google AI Overviews, ChatGPT, Perplexity, and Claude; first-party data as uncopyable citation asset
+- [Enrich Labs — GEO: The Complete 2026 Guide to Ranking in AI Search](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — Named credentialed authors required; anonymous bylines are confirmed GEO penalties; AI crawler whitelisting in robots.txt is critical
+- [LLMrefs — GEO: The 2026 Guide to AI Search Visibility](https://llmrefs.com/generative-engine-optimization) — Introduces llms.txt as a mechanism for guiding AI crawlers; citation-worthiness defined as semantic richness × factual accuracy × topic coverage
+- [Wellows — 11 Best Practices for Content Optimization in 2026](https://wellows.com/blog/best-practices-content-optimization/) — Lead-with-a-two-sentence-answer in first 100 words is primary AI citation lever; each H2/H3 should answer one question independently
+- [Siftly AI — Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Pages updated within the last two months earn 28% more AI citations; content with citations, quotes, and data earns 30–40% visibility lift
+- [Logic Inbound — How to Optimize Content for Google AI Overviews 2026](https://logicinbound.com/how-to-optimize-content-for-google-ai-overviews-2026/) — Topic cluster strategy with pillar pages is most reliable path to sustained AI citation; non-adapting sites report 20–40% traffic declines
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AI Search Displacement: The Numbers That Reset Urgency
+- **Ranking #1 on Google gives only a 38% chance of appearing in ChatGPT answers** — traditional SEO and AI search visibility are now independent channels requiring independent optimization; brands treating them as the same discipline are leaving the majority of their AI citation potential unaddressed
+- Non-adapting sites continue to report **20–40% traffic declines on informational queries** as Google AI Overviews and AI Mode intercept queries before the user ever reaches the blue links; every week without GEO optimization is a week of compounding visibility loss
+- LLMs cite only **2–7 domains per response** on average, compared to 10 ranked results in traditional search — the competitive field has effectively collapsed, making first-mover citation authority significantly more defensible than first-page rankings ever were
+
+#### Content Opening: The First 200 Words Determine Citation Eligibility
+- **Place the complete answer within the first 200 words** — AI retrieval systems using RAG (Retrieval-Augmented Generation) evaluate page relevance primarily on opening content; a page that builds toward its answer is algorithmically invisible to these systems regardless of content depth
+- Open every article with a **direct two-sentence answer** to the primary query in the first 100 words — large language models lift these top-of-content chunks first when constructing synthesized responses; bury the answer and you are removed from citation consideration before the rest of the page is processed
+- The first 1–2 sentences after each H2/H3 heading are the segments AI engines most frequently extract and cite — **start every section with a single declarative sentence summarizing the key takeaway**, then support it; the inverse structure (context first, point last) loses the citation to a competitor who states the point immediately
+
+#### Structured Content Formatting: Parsability as a Ranking Factor
+- **FAQPage schema is the highest-impact single schema markup** for AEO/GEO — FAQ content maps directly to how users query AI engines, and FAQ-marked sections are extracted verbatim for voice search and AI Overviews responses; implement it on every page targeting question-based queries
+- Use a **strict H2 → H3 → H4 heading hierarchy with no skipped levels** — pages with sequential heading structures earn a confirmed 2.8× citation lift over unstructured equivalents; this single structural fix requires no content rewrite and is the fastest citation-rate improvement available
+- Implement the full **Article + FAQ + HowTo + Organization schema stack** where applicable — pages combining multiple schema types are cited 2.5–3× more than pages with no schema or single-type schema; schema is now a prerequisite, not an enhancement
+- Use **short paragraphs, descriptive heading text, comparison tables, and FAQ blocks** as default formatting — AI engines surface content that is easiest to parse and extract, not content that is most insightful in long-form; modular formatting where each section answers exactly one question independently is the target architecture
+
+#### Author Authority: Named Experts Are a Hard Requirement
+- **Anonymous bylines are a confirmed GEO penalty** — AI engines weight author credentials in citation decisions, and "content team" or unlabeled authorship is treated as a trust-signal failure regardless of domain authority; every piece of content targeting AI citation must have a named, credentialed author with a verifiable external presence
+- Author pages should include credentials, external publication history, and links to verifiable profiles (LinkedIn, industry publications) — AI engines cross-reference these signals when assessing citation worthiness
+- **Content with proper authorship metadata earns approximately 40% more AI citations** than anonymously published content — the overhead of creating author profiles is justified by this lift alone
+
+#### Technical Foundation: Crawlability and freshness
+- **Audit robots.txt to ensure AI crawlers are not blocked** — GPTBot (ChatGPT), ClaudeBot (Anthropic), and PerplexityBot are commonly blocked by default configurations or overly aggressive robots.txt rules; blocking them removes you from those platforms' citation pools entirely
+- Consider adding an **llms.txt file** to your site root to guide AI systems toward your most authoritative and citation-ready content — this emerging standard is analogous to sitemap.xml and allows you to signal which pages should be prioritized for AI indexing
+- **Pages updated within the last two months earn 28% more AI citations** than older content — freshness is a mechanical citation factor, not just a quality signal; establish a rolling content audit schedule targeting statistics, platform-behavior references, and pricing data first
+
+#### Perplexity and ChatGPT Signals: Beyond Google
+- Brand mentions on **Reddit and Quora** in authoritative threads produce approximately **4× higher citation probability** in Perplexity and ChatGPT compared to domains with minimal community presence — building community engagement is now directly tied to AI search visibility, not just brand awareness
+- **Original research, proprietary data, and expert commentary** are the content types that most consistently attract AI citations across all platforms — synthesized or paraphrased content from existing sources offers minimal citation differentiation; unique data is the most defensible citation moat
+- Include **inline citations to primary sources** (original studies, official documentation, government data) rather than deferred bibliography sections — AI engines weight inline sourcing more heavily than end-of-article references when assessing factual reliability
+
+### Notable Insight This Week
+
+The most strategically significant finding this week is the **38% ChatGPT visibility rate for #1 Google rankings** — a data point that fundamentally reframes how SEO investment should be allocated. For years, achieving top Google rankings was treated as the universal proxy for search visibility, but this number reveals that the two visibility systems are now largely decoupled: a site can dominate Google's traditional results and simultaneously be invisible in ChatGPT, Perplexity, and AI Mode responses. The practical implication is that brands running traditional SEO programs without a parallel GEO/AEO layer are optimizing for a shrinking share of search interactions. The corrective is not to abandon traditional SEO — Patel and others consistently confirm it remains the foundational entry requirement — but to layer citation-oriented optimizations on top: named authors, opening-paragraph answers, FAQPage schema, AI-crawler whitelisting, and community presence building. Brands that complete this foundational GEO layer will hold an increasingly defensible advantage as AI search intercepts a growing proportion of queries, while those deferring the work face a widening visibility gap that will be substantially harder and more expensive to close later.
+
+---
+
 ## Update: 2026-06-28
 
 ### Sources Reviewed
