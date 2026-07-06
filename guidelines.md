@@ -4,6 +4,58 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-07-06
+
+### Sources Reviewed
+- [Neil Patel — GEO vs AEO: What's the Difference?](https://neilpatel.com/blog/geo-vs-aeo/) — Patel's canonical 2026 breakdown: AEO targets short answerable questions, GEO targets comprehensive topics for AI synthesis; a smart strategy deploys both based on query intent
+- [ekamoira.com — Neil Patel on AI-SEO Is Changing Everything in 2026](https://www.ekamoira.com/spotlight/ai-search-optimization/tMBdA2gkXgk) — Patel's current thesis: "Authority = Citations"; brands winning AI search build trust AI systems recognize across every platform simultaneously
+- [Conductor — The 2026 AEO/GEO Benchmarks Report](https://www.conductor.com/academy/aeo-geo-benchmarks-report/) — First large-scale SHAP analysis of AI citation predictors: domain authority is the single strongest signal (SHAP 0.63); confirms 3-month citation cliff for stale content
+- [Search Engine Journal — Google's New AI Search Guide Calls AEO and GEO 'Still SEO'](https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026/) — Google officially reaffirms AEO/GEO is still SEO; explicitly says llms.txt and "content chunking" are not ranking signals for Google's generative features
+- [ALM Corp — AEO 2026 Practical Playbook](https://almcorp.com/blog/answer-engine-optimization-2026/) — Platform-specific credibility signals across Google AI Overviews, ChatGPT, Perplexity, and Claude; first-party data confirmed as uniquely uncopyable citation asset
+- [Jasper — What is Generative Engine Optimization? GEO vs AEO vs SEO Guide 2026](https://www.jasper.ai/blog/geo-aeo) — Synthesizes platform citation patterns: Google AI Overviews favor Reddit (20%), YouTube (19%), Quora (14%); ChatGPT has diversified from its prior Wikipedia dominance
+- [HumanizeAI — Google AI Search Optimization: The 2026 Guide](https://humanizeai.com/blog/google-ai-search-optimization-guide-2026/) — Comprehensive 2026 signal taxonomy covering trust, entity authority, and content depth as the three legs of AI search visibility
+- [TapClicks — 8 Answer Engine Optimization Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Reconfirms 2.8× citation lift for sequential H2→H3→H4 heading hierarchy; emphasizes brand-mention ecosystems in trusted external sources
+- [Digivate — Optimizing Content for Google AI Overviews (2026)](https://www.digivate.com/blog/aeo/how-to-rank-in-google-ai-overviews-2026-2/) — Pages with FAQ + HowTo + Article schema combined are cited 2.5–3× more than unschemed equivalents
+- [Wellows — 11 Best Practices for Content Optimization in 2026](https://wellows.com/blog/best-practices-content-optimization/) — Pages updated within the last two months earn 28% more AI citations; content with citations and data has 30–40% higher AI visibility
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### Domain Authority Is Still the Strongest AI Citation Signal
+- The Conductor 2026 AEO/GEO Benchmarks Report is the first to apply SHAP analysis to AI citation predictors at scale: **domain authority has a SHAP value of 0.63**, making it the single strongest predictor of whether a page earns an AI citation — content-level signals matter, but they operate on a foundation set by domain authority
+- This has a critical strategic implication: technical GEO optimizations (schema, heading hierarchy, answer-first openings) deliver their full lift only on high-DA domains; sites with weak domain authority must **invest in link-building and brand-authority signals first** before expecting significant citation gains from content-structure changes alone
+- Traditional link acquisition for domain authority still compounds directly into AI citation rate in 2026 — the two are not competing investment priorities; they are the same investment
+
+#### Google's Official Clarification: llms.txt Is Not a Google Ranking Signal
+- Google's updated AI optimization guide explicitly states that **AEO and GEO are still SEO** — optimizing for generative AI search is optimizing for the search experience, not a separate discipline requiring separate tactics
+- Google explicitly discourages creating **llms.txt files** or "chunking" content for AI consumption as ranking tactics for Google Search; these have no effect on Google's generative features and represent wasted effort that should be redirected to E-E-A-T signals
+- For Google's AI features, the priority signals are: **page quality (E-E-A-T), structured data, content freshness, and topical authority** — the same signals that determine traditional organic ranking; no Google-specific AI tricks or files are needed or effective
+
+#### The 3-Month Citation Cliff: Freshness Has a Hard Deadline
+- The Conductor benchmarks confirm a **3-month citation cliff**: content more than 90 days old without an update experiences a measurable drop in AI citation rate, regardless of initial quality or schema implementation
+- This is a more aggressive freshness requirement than the 60-day benchmark from prior weeks — set **90-day hard-refresh reminders** on all cornerstone content rather than waiting for traffic signals; the citation drop precedes any visible traffic change
+- Priority refresh sequence: (1) update statistics and dates with explicit inline sources, (2) add or update FAQ schema blocks with current question phrasing, (3) revise the `dateModified` field and add a visible "Last updated" timestamp, (4) rewrite the opening paragraph to reflect any new developments
+
+#### Platform-Specific Citation Source Patterns Confirmed for July 2026
+- Google AI Overviews citation sources are now mapped: **Reddit (20%), YouTube (19%), Quora (14%)** are the top three cited external sources — community presence on these platforms is not optional for brands wanting AIO citations from third-party sources
+- **ChatGPT has diversified away from Wikipedia dominance** since late 2025; it now distributes citations more broadly across high-DA editorial domains — maintaining strong editorial presence across multiple authoritative sites matters more than optimizing for any single citation source
+- **Perplexity** surpassed 500 million monthly queries in 2026 and prioritizes factual accuracy with inline source attribution at citation time; every factual claim must link to a primary source in the content body, not in a footnote or bibliography
+
+#### Answer-First Formatting: The 200-Word Rule and Precision Lift
+- AI retrieval systems using real-time web access (Perplexity, Google AI Overviews, ChatGPT Browse) evaluate relevance **primarily on opening content**; the first 200 words must deliver a complete, standalone answer to the primary query — the rest of the page provides supporting depth, not the core answer
+- **Precise, verifiable claims** earn measurably more citations than vague approximations: "The average conversion rate is 3.2% (Source, 2025)" is cited more than "the rate is about 3%"; every factual assertion should include a specific figure and an inline source
+- Structure articles into distinct, independently useful sections where **each H2/H3 answers one question completely on its own** — modular section design enables AI engines to excerpt a single section without extracting the full article, and partially-extracted pages are cited more frequently than pages that only make sense as a whole
+
+#### Schema Combination Multiplier: 2.5–3× Citation Lift
+- Pages implementing **FAQ + HowTo + Article schema in combination** are cited 2.5–3× more frequently than unschemed equivalents — schema combination is the highest-ROI technical implementation remaining for most sites
+- **FAQPage schema** is the single highest-impact AEO schema: it gives AI engines pre-extracted question-answer pairs and is used directly by Google AI Overviews to populate response sections; if only one schema type gets implemented, it should be FAQPage
+- Audit **robots.txt to confirm AI crawlers are not blocked** (`GPTBot`, `ClaudeBot`, `PerplexityBot`, `anthropic-ai`); a silent crawler block removes all content from AI citation eligibility with no error signal — this audit takes under 10 minutes and should be done immediately if not already completed
+
+### Notable Insight This Week
+
+The Conductor benchmarks report's SHAP analysis is the most consequential new finding of the week: **domain authority is the single strongest predictor of AI citation eligibility, with a SHAP value of 0.63** — far outweighing any individual content-level or technical optimization. This reframes the entire GEO/AEO conversation. Many teams have been deep in schema audits, heading rewrites, and answer-first formatting improvements — all of which are real and worthwhile signals — while the underlying DA ceiling limits how much any of those changes can deliver. The practical implication is a two-tier strategy: for sites already above the DA threshold where their GEO-targeted content competes, content-level optimizations deliver near-full value and the focus belongs on schema, freshness, and answer-first structure; for sites below that threshold, the fastest path to AI citation gains is a focused link acquisition and brand-authority campaign, because technical GEO work on low-DA pages produces only marginal lift regardless of execution quality. Combined with Google's official confirmation that llms.txt and content chunking have zero effect on Google Search's generative features, this week's findings sharpen the priority stack considerably: build domain authority, then apply the structural GEO playbook — not in parallel with equal weight, but in the sequence that maximizes return at each stage.
+
+---
+
 ## Update: 2026-06-28
 
 ### Sources Reviewed
