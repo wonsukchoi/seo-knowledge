@@ -4,6 +4,59 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-07-13
+
+### Sources Reviewed
+- [Neil Patel — AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — Patel's taxonomy: AEO targets short answerable questions, GEO targets AI synthesis on comprehensive topics; both run on traditional SEO fundamentals (schema, technical structure, non-commodity content)
+- [Neil Patel — GEO vs AEO: What's the Difference?](https://neilpatel.com/blog/geo-vs-aeo/) — GEO is optimizing for AI platforms that find, understand, and cite your brand; traditional SEO no longer sufficient on its own in 2026
+- [Position Digital — Answer Engine Optimization: 6 Best Practices for 2026](https://www.position.digital/blog/answer-engine-optimization-best-practices/) — Emphasizes lead-with-direct-answer format, entity consistency, and unifying AEO with SEO strategies
+- [HubSpot — Answer Engine Optimization Trends in 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-trends) — Six strategic AEO focus areas: local pages, answer-first format, entity consistency, AI visibility tracking, unified AEO/SEO, and multi-format optimization
+- [GenOptima — AEO Techniques 2026: The Complete Guide](https://www.gen-optima.com/blog/aeo-techniques-2026-complete-guide/) — Domains with millions of brand mentions on Quora and Reddit have ~4× higher AI citation rates than those with minimal community activity
+- [Search Engine Land — Mastering Generative Engine Optimization in 2026](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — GEO success metric is earning a slot among the 2–7 domains LLMs typically cite per response; author credibility and first 200 words are primary ranking signals
+- [Enrich Labs — GEO: The Complete 2026 Guide to Ranking in AI Search](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — AI systems weigh recency hard: a 2024 guide with no updates loses ground to a 2026 article on the same topic; anonymous or "content team" bylines are treated as GEO penalties
+- [Crawl Vision — How to Optimize Your Content for Google AI Overviews in 2026](https://crawlvision.com/blog/optimize-content-for-google-ai-overviews-2026/) — AI Overviews appear for 15–25% of all searches; 62% of AIO citations now come from pages NOT in the top-10 organic results for the query
+- [eSEOspace — How Google AI Overviews Impact SEO in 2026](https://eseospace.com/blog/how-ai-overviews-impact-seo-2026/) — Pages with FAQ + HowTo + Article schema combined earn 2.5–3× more AI Overview citations; ranking #1 no longer guarantees clicks
+- [Siftly AI — How to Optimize Content to Get Cited by AI Search Engines: 2026 Guide](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Ranked listicles are the top citation format (63% of citations point to listicle pages); clean URL slugs show the highest correlation with AI citation frequency among all technical variables
+- [Wellows — 11 Best Practices for Content Optimization in 2026](https://wellows.com/blog/best-practices-content-optimization/) — Bottom Line Up Front (BLUF): AI systems most often cite the first 1–2 sentences after each heading; first 50 words on any page are the highest-priority real estate
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AI Overviews Now Cite Predominantly Non-Top-10 Sources
+- **62% of Google AI Overview citations come from pages outside the top-10 organic results** for the query — AI Overviews draw from a distinct candidate pool compared to traditional SERP; being ranked highly no longer guarantees AI citation eligibility, and content optimized for answer-readiness can earn AIO inclusion even from positions #15–50
+- The new visibility currency in 2026 is **being cited inside an AI Overview**, not holding the #1 organic rank; brands should measure AI citation share alongside traditional rank tracking and treat them as separate KPIs
+- AIO citation probability is highest for: numbered how-to guides, "what is" definition articles, "X vs Y" comparison pieces with structured comparison sections, and listicle-style content with clean H2/H3 hierarchy — these formats match how AI engines decompose compound queries into sub-questions
+
+#### Ranked Listicles and BLUF Format Dominate AI Citations
+- **63% of all AI citations point to listicle-style pages**; 71–86% of those citations reference numbered (ranked) Top-N lists rather than unordered lists — transform bulleted lists into numbered ranked lists wherever the content supports it
+- Adopt the **Bottom Line Up Front (BLUF) format**: place the direct answer in the first 50 words of every page, and open each H2/H3 section with a one-sentence summary of that section's key takeaway — AI engines cite the first 1–2 sentences after headings most frequently
+- Precise, verifiable claims earn measurably more citations than vague approximations: **"The average conversion rate is 3.2% (Source, 2025)"** will be cited more than **"the rate is about 3%"** — every factual assertion should include a specific figure with an inline source attribution
+
+#### Author Credibility Is Now a Hard GEO Ranking Signal
+- **Anonymous content and "content team" bylines are GEO penalties** in 2026: AI systems increasingly weight author credentials when selecting citation sources — every piece of GEO-optimized content needs a named author with verifiable external presence (LinkedIn profile, published bylines on external domains, professional bio with credentials)
+- Named authors with demonstrable expertise in their topic area earn higher trust signals from both Perplexity and ChatGPT; build author entity authority by publishing guest content on high-DA domains under the same author name used on your own site
+- Include structured **Person schema** on every author bio page, linking to their organizational affiliation (Organization schema), published works, and social profiles — this creates an entity graph AI engines can resolve when evaluating source credibility
+
+#### Community Presence Drives a 4× Citation Rate Lift
+- Domains with millions of brand mentions and content distributed on **Quora and Reddit** show approximately **4× higher AI citation rates** than those with minimal community activity — active community presence is now a measurable AI search signal, not just a brand-building exercise
+- Google AI Overviews already cite Reddit (20%), YouTube (19%), and Quora (14%) as their top three external citation sources; brands that appear in those community discussions inherit citation authority when AI engines retrieve forum-based answers
+- Create a brand presence strategy for Q&A platforms: seed genuine, expert-quality answers on Quora in your topic areas; identify subreddits where your target audience asks questions and participate authentically — these community citations compound over time
+
+#### Schema: JSON-LD + FAQPage as the Minimum Viable Implementation
+- Use **JSON-LD for all schema markup** — every AI engine prefers it because it is cleanly separated from HTML and easier to parse programmatically; microdata embedded in HTML is harder for AI crawlers to extract reliably
+- **FAQPage schema is the single highest-impact AEO implementation**: it gives AI engines pre-extracted question-answer pairs, maps directly to how users phrase prompts to AI assistants, and is used by Google AI Overviews to populate response sections — if only one schema type gets implemented this quarter, make it FAQPage
+- The **schema combination multiplier** remains confirmed: FAQ + HowTo + Article schema deployed together produces 2.5–3× the citation rate of any single schema type alone; prioritize multi-schema implementation on your highest-traffic, topically authoritative pages first
+
+#### GEO Technical Checklist: Crawlability and Content Freshness
+- Audit **robots.txt for AI crawler blocks** — confirm `GPTBot`, `ClaudeBot`, `PerplexityBot`, and `anthropic-ai` are not disallowed; a silent crawler block removes all content from AI citation eligibility with zero error signal
+- Content freshness is a hard ranking signal for AI engines: a **2026-published article on a topic outranks a 2024 article** that has not been updated, regardless of original quality — set 90-day refresh reminders on all cornerstone content and update statistics, dates, and examples with explicit inline sources
+- **Clean, descriptive URL slugs** show the highest correlation with AI citation frequency among all technical variables; keyword-stuffed or generic slugs underperform — ensure URLs match the primary question the content answers (e.g., `/how-to-optimize-for-ai-overviews` not `/seo-tips-2026-post-7`)
+
+### Notable Insight This Week
+
+The most significant finding this week is that **62% of Google AI Overview citations now come from pages not in the top-10 organic search results** for the same query. This is a fundamental break from traditional SEO logic, where ranking position determined visibility. AI Overviews are running their own retrieval pass — essentially a parallel search across a broader candidate pool — and selecting sources based on answer-readiness, structured data, and content authority rather than simply mirroring the SERP. For brands, this opens a major opportunity: content that ranks on page two or three but is formatted for AI citation (BLUF openings, FAQPage schema, ranked lists, named authors) can now earn AI Overview inclusion while simultaneously being invisible in traditional organic results. The implication is that GEO and AEO work on mid-ranking pages has a higher marginal return than doubling down on already-top-10 content, because the incremental AI citation gains available outside the top 10 are largely unclaimed. Teams should immediately audit their position-11-to-50 content for AEO formatting compliance and prioritize schema implementation there before expanding to lower-priority pages.
+
+---
+
 ## Update: 2026-07-06
 
 ### Sources Reviewed
