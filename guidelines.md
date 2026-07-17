@@ -55,6 +55,10 @@ This file is updated weekly by an automated research agent. The most recent find
 The Conductor benchmarks report's SHAP analysis is the most consequential new finding of the week: **domain authority is the single strongest predictor of AI citation eligibility, with a SHAP value of 0.63** — far outweighing any individual content-level or technical optimization. This reframes the entire GEO/AEO conversation. Many teams have been deep in schema audits, heading rewrites, and answer-first formatting improvements — all of which are real and worthwhile signals — while the underlying DA ceiling limits how much any of those changes can deliver. The practical implication is a two-tier strategy: for sites already above the DA threshold where their GEO-targeted content competes, content-level optimizations deliver near-full value and the focus belongs on schema, freshness, and answer-first structure; for sites below that threshold, the fastest path to AI citation gains is a focused link acquisition and brand-authority campaign, because technical GEO work on low-DA pages produces only marginal lift regardless of execution quality. Combined with Google's official confirmation that llms.txt and content chunking have zero effect on Google Search's generative features, this week's findings sharpen the priority stack considerably: build domain authority, then apply the structural GEO playbook — not in parallel with equal weight, but in the sequence that maximizes return at each stage.
 
 ---
+### 2026-07-17 [Moz] — Tackling 8,000 Title Tag Rewrites: A Case Study
+- **Source:** [Tackling 8,000 Title Tag Rewrites: A Case Study](https://moz.com/blog/tackling-8000-title-tag-rewrites-a-case-study)
+- **Key Takeaway:** Moz analyzed 8,000 title tag rewrites and found Google rewrites titles most aggressively when the original is too short, keyword-stuffed, or mismatched with the search query. Pages with clear, descriptive titles under 60 characters had the lowest rewrite rate.
+
 
 ## Update: 2026-06-28
 
