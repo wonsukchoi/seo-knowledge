@@ -4,6 +4,58 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-07-20
+
+### Sources Reviewed
+- [Neil Patel — AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — Patel's latest taxonomy: AEO = short answerable queries, GEO = comprehensive AI synthesis, LLMO = direct LLM model training influence; all three are complementary, not competing disciplines
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — Full GEO playbook covering entity schema, answer-block placement, AI-crawler unblocking, and freshness cadence
+- [Google Developers — AI Optimization Guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — Google's official guidance reconfirms E-E-A-T + structured data as the core ranking signals for generative AI features; explicitly discourages llms.txt as a Google ranking signal
+- [CXL — Answer Engine Optimization: Comprehensive Guide 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — 85% of AI brand mentions originate from third-party sources; being cited on authoritative external platforms is now as important as on-page optimization
+- [TapClicks — 8 AEO Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Six strategic AEO pillars: local pages, answer-first format, entity consistency, AI visibility tracking, unified AEO+SEO, multi-format content (video/audio)
+- [Digital Applied — Content Strategy for AI Overviews: Post-I/O 2026 Guide](https://www.digitalapplied.com/blog/content-strategy-ai-overviews-post-io-guide-2026) — Post-Google I/O 2026 update: AI Overviews now appear in 48% of US searches; 62% of citations come from pages NOT in the top-10 organic results; ranked listicles receive 63% of all AIO citations
+- [Siftly AI — Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Siftly data shows properly optimized content can achieve a 340% increase in AI mentions within 6 months; heavily cited content averages 18 words per sentence
+- [Respona — AI Citation Optimization: The 4-Step Framework](https://respona.com/blog/ai-citation-optimization/) — Bottom Line Up Front (BLUF) format confirmed as a top-tier citation lever; first 1–2 sentences after each heading are the primary extraction target for AI engines
+- [Wellows — 11 Best Practices for Content Optimization in 2026](https://wellows.com/blog/best-practices-content-optimization/) — Pages updated within the last two months earn 28% more AI citations; adding citations and data yields 30–40% higher AI visibility (Princeton GEO research reconfirmed)
+- [Eminence — AEO 2026: Optimize for AI Answer Engines](https://eminence.ch/en/aeo-answer-engine-optimization-2026/) — Perplexity surpassed 500 million monthly queries in 2026, now a primary AEO target alongside Google AI Overviews and ChatGPT
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### Listicles Are the Dominant AI Citation Format — Restructure Key Pages Accordingly
+- **63% of all Google AI Overview citations point to listicle-style pages**, and 71–86% of those listicles are ranked (numbered Top-N) lists — this makes numbered list articles the single highest-citation-rate format in 2026 regardless of topic
+- **62% of AI Overview citations come from pages NOT in the top-10 organic results** for the same query — AI citation eligibility and traditional organic ranking are decoupled; a page ranked #14 organically can outperform the #1 result for AI citations if its format matches AI extraction patterns
+- Audit your content library for high-value topics and convert them to **numbered listicles with explicit "Top N" framing** in the H1, each list item in its own H3 block with a one-sentence takeaway followed by 2–4 supporting sentences
+
+#### BLUF Format: First 1–2 Sentences After Every Heading Are the Primary Citation Target
+- AI engines — especially Google AI Overviews, Perplexity, and ChatGPT Browse — extract the first 1–2 sentences after an H2/H3 heading as the citation anchor; use the **Bottom Line Up Front (BLUF)** pattern: lead each section with the complete answer, then support it with details
+- Keep cited-candidate sentences to approximately **18 words** — Siftly's analysis of heavily cited content confirms 18 words per sentence as the sweet spot for AI readability and extraction; longer sentences are truncated at extraction time and lose citation precision
+- Structure each article into **3–4 H2 sections, each with 2–4 H3 subsections**, with headings that state the conclusion rather than tease it (e.g. "FAQPage Schema Increases Citations by 2.5×" vs. "Schema Markup Tips")
+
+#### Third-Party Citations Are Now as Important as On-Page Optimization
+- **85% of AI brand mentions originate from third-party sources** — external sites discussing your brand, not your own pages, are the majority pathway to AI visibility; SEO teams must now allocate resources to off-site brand-mention acquisition at the same priority level as on-page GEO
+- Perplexity's citation model at 500 million monthly queries **requires inline source links for every factual claim** — footnotes and bibliography sections are ignored; if a fact lives in your content without a same-paragraph hyperlink to a primary source, Perplexity will not credit you
+- Prioritize community presence on **Reddit, YouTube, and Quora** — Google AI Overviews' confirmed top-3 third-party citation sources for 2026 are Reddit (20%), YouTube (19%), and Quora (14%); publishing on these platforms is now a direct AIO citation channel
+
+#### Multi-Format Expansion: Video and Audio Are Becoming AI Citation Surfaces
+- Post-I/O 2026 guidance confirms Google AI Overviews now index **YouTube video transcripts as citation sources**; publishing video content with accurate auto-transcripts or manual captions adds a parallel citation surface with no additional written-content investment
+- AI search platforms are beginning to cite **audio/podcast transcripts** and structured **local pages** as part of the six strategic AEO pillars identified by TapClicks; teams serving geographic markets should build geo-targeted landing pages with local statistics and structured address schema
+- **Entity consistency across formats** — the same entity (brand, person, concept) described with identical attributes across video, audio, blog, and third-party mentions makes AI engines more confident in attribution and increases citation frequency
+
+#### Schema: FAQ + HowTo + Article Combination Remains 2.5–3× Lift
+- The **FAQ + HowTo + Article schema combination** continues to deliver 2.5–3× higher citation rates than unschemed equivalents — this is the highest-ROI single technical action for most sites and remains unchanged from prior weeks; if this has not been implemented, it takes priority over all other technical work
+- **FAQPage schema** maps directly to how users phrase queries to AI engines; AI systems can extract question-answer pairs verbatim from FAQPage markup, making it the single schema type most likely to be used directly inside an AI response
+- Add **Breadcrumb + Organization schema** alongside Article/FAQ/HowTo to give AI engines explicit entity context — who published this, what site it belongs to, and where it sits in the content hierarchy; this reduces AI hallucination of source attribution
+
+#### Content Freshness: 90-Day Hard-Refresh Cadence
+- AI engines weight recency heavily; a page published in 2024 with no updates will lose citation ground to a 2026 page on the same topic — **update cornerstone content every 90 days** with new data, an updated "Last updated" timestamp, and a revised FAQ schema block
+- Pages updated within the last two months earn **28% more AI citations** than equivalent content that has not been refreshed — the freshness signal precedes any organic traffic change; do not wait for ranking drops to trigger a refresh
+- Priority refresh sequence: (1) update statistics with new figures and inline sources, (2) revise FAQ schema with current question phrasing, (3) update `dateModified` in structured data and add a visible timestamp, (4) rewrite the opening 100–150 words to reflect 2026 context
+
+### Notable Insight This Week
+
+The most counterintuitive — and actionable — finding from this week's research is the **decoupling of AI citation eligibility from organic ranking**: 62% of Google AI Overview citations go to pages that are not even in the top-10 organic results for the same query. This fundamentally changes the ROI calculus for content investment. Teams that have been optimizing exclusively for Page 1 ranking are missing the majority of AIO citation traffic. Combined with the finding that 63% of all AIO citations go to listicle-style pages (particularly numbered Top-N lists), this implies a concrete tactical shift: create and maintain well-formatted, schema-rich, numbered listicle articles targeting the questions your audience asks AI engines, even if those articles sit at positions 11–30 organically. The citation path is through format and structure, not rank position. For brands currently below the domain authority threshold where GEO optimizations deliver full value, this is also encouraging news: a well-structured listicle page on a mid-DA domain can outperform a poorly-structured Page 1 result for AI citations.
+
+---
+
 ## Update: 2026-07-06
 
 ### Sources Reviewed
