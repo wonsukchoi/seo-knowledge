@@ -4,6 +4,61 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-07-27
+
+### Sources Reviewed
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — Full GEO playbook: position content around entities and semantic chunks, not keywords; SoM (Share of Model) is the primary GEO KPI
+- [CXL — Answer Engine Optimization: The Comprehensive Guide 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Multimodal AEO confirmed as 2026 standard; Google AI Overviews now incorporate visual signals, requiring images/video alongside text answers
+- [TapClicks — 8 AEO Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — FAQ, HowTo, Article, and Speakable schema stack; BLUF (Bottom Line Up Front) structure drives measurably higher citation rates
+- [Digital Applied — Content Strategy for AI Overviews Post-I/O 2026](https://www.digitalapplied.com/blog/content-strategy-ai-overviews-post-io-guide-2026) — AI Overview citations from top-10 organic results dropped to 38% by March 2026; 62% of citations now come from pages outside top-10
+- [Siftly — Optimize Content for AI Search Citations: 2026 Guide](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Pages with schema markup are 36% more likely to appear in AI responses; statistics boost citations by 41%, expert quotes by 29%
+- [Enrich Labs — GEO: Complete 2026 Guide to Ranking in AI Search](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — GEO targets 2–7 domains cited per AI response; entity-based structuring and answer blocks near page top are the entry-point tactics
+- [ekamoira.com — Neil Patel: AI-SEO Is Changing Everything in 2026](https://www.ekamoira.com/spotlight/ai-search-optimization/tMBdA2gkXgk) — Patel's current thesis: GEO and AEO still run on traditional SEO fundamentals (schema, technical structure, non-commodity content); authority still = citations
+- [DOJOAI — Complete 2026 Guide to AEO](https://www.dojoai.com/blog/answer-engine-optimization-aeo-guide-dynamic-ai-seo) — Answer engines favor content that is specific, step-by-step, and quantitative; general-concept pages are consistently passed over for citation
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AI Overviews Citation Sources Have Decoupled from Organic Rankings
+- By March 2026, **62% of Google AI Overview citations come from pages outside the top-10 organic results**, up from 24% in July 2025 — high organic ranking no longer guarantees AI citation, and low-ranking but well-structured pages now earn citations at scale
+- This means pages optimized for AIO visibility require a separate content strategy from pages optimized for organic blue-link rankings; running both optimizations on the same URL is possible but requires deliberate separation of signals
+- **Prioritize direct-answer structure, entity clarity, and schema over traditional ranking signals** when the primary goal is AI citation; a page can be on page 3 of Google and still be cited in AI Overviews if its answer format is superior
+
+#### BLUF (Bottom Line Up Front) Format Drives AI Citation Rate
+- AI retrieval systems evaluate relevance primarily on the **first 50–70 words** of a page or section — place the direct, plain-language answer in that window, not a hook or preamble; every H2/H3 section should start with one sentence summarizing the complete answer for that section
+- This "semantic chunk" principle means each section must be independently citable: AI engines extract one 200–400 word chunk from the most relevant section, not the full article; a page that only makes sense as a whole will be passed over for one that answers the question in paragraph 1
+- Structure articles into **3–4 main H2 sections with 2–4 H3 subsections each**, and write headings as takeaway statements (e.g., "FAQ Schema Boosts AI Citations by 36%") rather than vague topic labels (e.g., "Schema Tips")
+
+#### Schema Markup Stacking: 36%+ Citation Lift
+- Pages implementing schema markup are **36% more likely to appear in AI responses**; pages using FAQ + HowTo + Article schema in combination see **2.5–3× citation frequency** versus unschemed equivalents
+- **FAQPage schema** remains the single highest-ROI AEO schema: it pre-extracts Q&A pairs directly usable by AI Overviews, Perplexity, and ChatGPT Browse — implement it on any page with a question-based content section
+- Add **Speakable schema** for voice and multimodal queries; with AI Overviews now incorporating visual signals as of January 2026, also add `image` and `video` markup on any content where media is present
+
+#### Data and Statistics Are the Highest-Yield Citation Signals
+- **Statistics increase AI citation rates by 41%** on average; inline source citations (linking to primary data) increase citations by 28%; expert quotes increase by 29% — these are the three highest-ROI content elements for citation optimization
+- Write every factual claim in the format: "[Specific number] [context] ([Source, Year])" — "The average CTR for position 1 is 27.6% (Backlinko, 2025)" — vague approximations ("about 25–30%") are consistently bypassed in favor of precise, sourced figures
+- Original research and first-party data remain uniquely uncopyable citation assets; a single original study or survey with proprietary data generates compounding citations across AI platforms that cannot be replicated by content structure improvements alone
+
+#### Perplexity and ChatGPT: Platform-Specific Optimization Signals
+- **Perplexity** (now 500M+ monthly queries) prioritizes factual accuracy and requires inline source links at the claim level, not in footnotes; every factual sentence should link to a primary source within the body of the content — bibliography-style citation blocks at the page bottom are not parsed
+- **ChatGPT Browse** has diversified away from Wikipedia dominance; it now distributes citations broadly across high-DA editorial domains — authoritative brand presence across multiple editorial sites (not optimizing for one preferred domain) is the correct strategy
+- For **Perplexity and ChatGPT**, the content entity model matters as much as domain authority: clearly name your brand, product, or topic as a defined entity early in the content, tie it to established entities (industry, use case, geography), and use consistent entity language across pages to reinforce model understanding
+
+#### Multimodal AEO: Images and Video Are Now Ranking Signals for AI Overviews
+- Google confirmed in January 2026 that AI Overviews incorporate **visual signals** — images and videos on a page now influence whether it is cited and how prominently — "text-only AEO" is no longer sufficient for competitive queries
+- Add descriptive, keyword-rich `alt` text to all content images, use structured `VideoObject` schema for any embedded video, and ensure images are crawlable (not blocked in robots.txt and not loaded via JavaScript only)
+- For high-priority AEO pages, **embed at least one original diagram, chart, or instructional image** with relevant alt text; AI Overviews increasingly surface visual carousels alongside text citations, and visual-rich pages claim the carousel slot while text-only competitors do not
+
+#### GEO Metric: Track Share of Model (SoM), Not Just Organic Rankings
+- The primary GEO KPI is **Share of Model (SoM)**: the percentage of relevant AI-generated responses that cite your brand or domain, measured against competitors — this is distinct from Share of Voice in traditional SEO and requires separate tracking tooling (e.g., Profound, Semrush AI Toolkit, BrandMentions AI)
+- Run a monthly SoM audit across Google AI Overviews, Perplexity, and ChatGPT for your 20 highest-priority queries; compare against the prior month's baseline — citation rate movement precedes organic traffic movement by 4–6 weeks on average
+- AI systems typically cite **2–7 domains per response**; the practical goal is to be among those cited rather than to dominate all citations — even a 15–20% SoM on competitive queries represents meaningful brand exposure in AI-mediated search
+
+### Notable Insight This Week
+
+The most significant finding this week is the **decoupling of AI Overview citations from organic rankings**: by March 2026, 62% of AI Overview citations come from pages outside Google's top-10 organic results — a dramatic reversal from the 76% top-10 sourcing seen just eight months earlier in July 2025. This structural shift reframes AEO/GEO strategy entirely. The old assumption — that ranking on page one was a prerequisite for AI citation — is no longer accurate. Pages with superior answer formatting, BLUF structure, schema stacking, and inline data citations are now consistently outpacing higher-ranked competitors in AI visibility. Combined with the confirmation that statistics increase citation rates by 41% and that Speakable and image schema are now active signals in multimodal AI Overviews, the practical priority for this week is clear: audit your highest-traffic informational pages, confirm each opens with a direct answer in the first 50–70 words, add FAQ and Article schema if absent, and embed at least one data point with an explicit inline source. These changes can produce measurable SoM gains in the next 4–6 weeks even without any change to organic rankings.
+
+---
+
 ## Update: 2026-07-06
 
 ### Sources Reviewed
