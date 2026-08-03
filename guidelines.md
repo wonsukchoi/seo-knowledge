@@ -4,6 +4,57 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-08-03
+
+### Sources Reviewed
+- [Neil Patel — AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — Patel clarifies the full taxonomy: AEO targets short direct-answer queries; GEO targets comprehensive topics for AI synthesis; LLMO (Large Language Model Optimization) focuses on influencing training-data and long-term model behavior
+- [eMarketer — FAQ on GEO and AEO: Where AI Search and SEO Overlap in 2026](https://www.emarketer.com/content/faq-on-geo-aeo--where-ai-search-seo-overlap-2026) — GEO and AEO still run on traditional SEO fundamentals; Share of Model (SoM) is emerging as the primary AI-search KPI as clicks become scarcer
+- [ekamoira.com — Neil Patel on AI-SEO Is Changing Everything in 2026](https://www.ekamoira.com/spotlight/ai-search-optimization/tMBdA2gkXgk) — Patel's current thesis: "Authority = Citations"; many companies see organic traffic decline despite stable rankings as AI reshapes how information is surfaced
+- [CXL — Answer Engine Optimization (AEO): The Comprehensive Guide for 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Schema priority types for AEO confirmed as FAQPage, HowTo, Article, and Speakable; each page section must open with a standalone complete answer
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — Topical cluster authority confirmed as GEO's primary content signal; Share of Model (SoM) introduced as the leading GEO measurement metric
+- [Digital Applied — Content Strategy for AI Overviews: Post-I/O 2026 Guide](https://www.digitalapplied.com/blog/content-strategy-ai-overviews-post-io-guide-2026) — Real-time AI retrieval systems (Perplexity, Google AIO) evaluate relevance primarily on opening content; full answer must appear in the first 200 words
+- [eSEOspace — How Google AI Overviews Impact SEO in 2026](https://eseospace.com/blog/how-ai-overviews-impact-seo-2026/) — AI Overview citations from top-10 organic results dropped from 76% (July 2025) to 38% (March 2026); traditional organic rank is rapidly decoupling from AI citation eligibility
+- [Frase — Complete AEO Guide 2026](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — Pages with schema markup are 36% more likely to appear in AI responses; structured content achieves 30–40% higher AI visibility overall
+- [Quolity AI — AI Citations Optimization: Strategies & Measurement Guide](https://quolity.ai/ai-citations-optimization/) — LLMs use chunk-level extraction: a page can rank #1 in Google and never be cited if not structured for individual-section extraction by an LLM
+- [Crawl Vision — AI Citations & SEO: 8 Powerful Growth Strategies](https://www.crawlvision.com/blog/ai-citations-in-seo-2026/) — Multi-platform citation strategy required; Google AIO, Perplexity, ChatGPT, and Microsoft Copilot each apply different citation criteria
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### Organic Rankings and AI Citations Are Rapidly Decoupling
+- AI Overview citations from top-10 Google organic results dropped from **76% in July 2025 to 38% by March 2026** — a 38-point decline in 8 months confirming that ranking highly no longer ensures AI citation eligibility
+- LLMs use **chunk-level content extraction**: a page ranking #1 in Google may receive zero AI citations if its sections are not self-contained and independently answerable without reading the full article
+- Run a **separate AI citation audit track** alongside rank tracking: sample your top 20 queries in ChatGPT, Perplexity, and Google AIO weekly; track brand citation frequency as Share of Model (SoM) — the metric traditional rank reports cannot capture
+
+#### Chunk-Level Content Architecture Is the New Page Structure Standard
+- Divide articles into **3–4 H2 sections**, each with **2–4 H3 subsections**; AI systems often cite the first 1–2 sentences after a heading, so open every section with one sentence that delivers the complete takeaway, then provide supporting evidence below it
+- Make **headings self-summarizing**: replace vague headings ("Our Approach") with descriptive ones ("How to Structure Content for AI Citations in 3 Steps") — vague headings produce vague chunks that AI engines skip; descriptive headings produce citable, retrievable chunks
+- Place a **complete answer block in the first 200 words** of every page — 2–3 short sentences providing a definition, key result, or step list; real-time retrieval systems (Google AIO, Perplexity) sample this block first when assessing page relevance
+
+#### Schema Priority Stack: Speakable Is Now the Fourth Core Schema Type
+- The 2.5–3× citation lift for FAQ + HowTo + Article schema in combination is reconfirmed; add **Speakable schema** as a fourth priority type to extend citation eligibility to voice-search and AI assistant surfaces
+- **FAQPage schema** remains the single highest-impact AEO schema because it gives AI engines pre-extracted Q&A pairs usable directly in response generation; implement FAQPage first if only one schema type is being prioritized
+- **Article / BlogPosting schema** must include `dateModified` (freshness signal) and a named `author` entity linked to an author page (E-E-A-T signal AI systems use to assess first-hand experience and credibility)
+
+#### Share of Model (SoM): The Primary GEO Metric Replacing CTR
+- **Share of Model (SoM)** — how often your brand appears in AI-generated responses for target queries relative to competitors — has replaced click-through rate as the leading GEO measurement KPI for 2026
+- Establish a **SoM baseline now**: sample 20–30 representative queries weekly across ChatGPT, Perplexity, and Google AIO; count brand-citation frequency per platform and track week-over-week trends
+- To grow SoM, build **topical cluster authority**: publishing 5+ deeply interlinked articles on the same core topic signals to AI systems that your site is the canonical source — a single authoritative page rarely earns citation; a cluster of 5–10 on the same topic does
+
+#### AEO vs GEO vs LLMO: Choosing the Right Optimization Frame Per Content Type
+- **AEO**: target short, directly answerable queries; structure content as Q&A pairs with FAQPage schema; best for product, service, and definition queries where a one-sentence answer is the complete response
+- **GEO**: target comprehensive topic areas where AI synthesizes a longer answer from multiple sources; build topical clusters, publish original data, and optimize for SoM; best for informational and educational content
+- **LLMO** (emerging): influence AI training data and long-term model behavior by publishing in sources AI training corpora draw from — high-DA publications, Wikipedia, GitHub, academic journals; a longer investment cycle than AEO or GEO but compounding over time
+
+#### Multi-Platform Citation Strategy: Each AI Engine Has Different Criteria
+- **Google AI Overviews**: prioritize E-E-A-T, structured data, and freshness; community-platform presence matters — Reddit (20%), YouTube (19%), and Quora (14%) are currently the top-3 external sources cited by AIO
+- **Perplexity**: emphasizes factual accuracy with inline source attribution at citation time; every factual claim must link to a primary source in the content body (not a footnote); surpassed 500M monthly queries in 2026
+- **ChatGPT / Copilot**: has diversified away from Wikipedia as its primary citation source; distributes citations broadly across high-DA editorial domains — strong editorial presence across multiple authoritative publications matters more than any single source
+
+### Notable Insight This Week
+The most significant finding this week is the 38-point collapse in AI Overview citation overlap with traditional top-10 organic rankings — from 76% in July 2025 to just 38% by March 2026. This single data point reframes the SEO-vs-GEO debate: it is no longer possible to assume that ranking well in traditional organic search translates into AI citation. The two are diverging at speed. This creates an urgent measurement gap for most SEO teams — if your reporting stack only tracks rank and clicks, you are now flying blind on roughly 62% of the AI citation opportunities your content could be earning or missing. The immediate action is to establish a parallel Share of Model (SoM) monitoring routine alongside traditional rank tracking: sample your top 20 target queries across ChatGPT, Perplexity, and Google AIO weekly, and use those results to identify which pages need chunk-level restructuring — leading with a complete answer in the first 200 words, self-summarizing headings, and Speakable schema — rather than relying on rank position as a proxy for AI visibility.
+
+---
+
 ## Update: 2026-07-06
 
 ### Sources Reviewed
