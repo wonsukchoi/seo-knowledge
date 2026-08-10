@@ -4,6 +4,74 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-08-10
+
+### Sources Reviewed
+- [Neil Patel — GEO vs AEO: What's the Difference?](https://neilpatel.com/blog/geo-vs-aeo/) — Canonical breakdown: AEO targets short answerable questions for direct-answer surfaces; GEO targets comprehensive topics built for AI synthesis; 2026 strategy deploys both based on query intent and content type
+- [Neil Patel — AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — AEO, GEO, and LLMO are distinct but overlapping frameworks; customers now discover brands through ChatGPT, AI Overviews, and Perplexity without ever clicking through to a website
+- [eMarketer — FAQ on GEO and AEO: Where AI search and SEO overlap in 2026](https://www.emarketer.com/content/faq-on-geo-aeo--where-ai-search-seo-overlap-2026) — Confirms organic traffic declining for many publishers despite stable rankings; AI-first discovery is a structural shift, not a trend
+- [Position Digital — AEO: 6 Best Practices for 2026](https://www.position.digital/blog/answer-engine-optimization-best-practices/) — Lead sections with direct answers that stand alone; each priority question should have a complete answerable paragraph as its opening
+- [TapClicks — 8 Answer Engine Optimization Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Crawlability and page speed are baseline prerequisites; implement Schema.org and optimize title tags and meta descriptions as question-phrased copy
+- [AirOps — AEO: Your Complete Guide for 2026](https://www.airops.com/blog/aeo-answer-engine-optimization) — Positioning clarity is a core AEO signal: AI engines reward brands that state explicitly what they are, who they serve, and what they are not
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — GEO content is structured around entities, claims, and relationships rather than keywords; Share of Model (SoM) is the primary GEO success metric
+- [Enrich Labs — GEO: The Complete 2026 Guide](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — Only 38% of AI Overview citations come from pages in the traditional top-10; deep, nuanced, well-structured content outside the top 10 is regularly cited
+- [Digivate — Optimizing Content for Google AI Overviews (2026)](https://digivate.com/blog/aeo/how-to-rank-in-google-ai-overviews-2026-2) — AI Overviews now appear on nearly half of all search queries; pages with FAQ + HowTo + Article schema combined are cited 2.5–3× more than unschemed equivalents
+- [Qwairy — AI Citation Optimization Guide 2026](https://www.qwairy.co/blog/complete-ai-citation-optimization-guide) — Pages with schema markup are 36% more likely to appear in AI responses; author credentials visible on page increase citation probability by +40%
+- [Frase — Complete AEO Guide 2026](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — Optimal page structure: direct answer in first 60 words, H2→H3 hierarchy, bullet points and tables, statistics with inline source citations, visible author credentials, FAQ schema block, and `dateModified` in structured data
+- [Acquia — AEO Content Strategy: How to Structure Pages for AI Citation](https://www.acquia.com/blog/aeo-content-strategy-how-structure-pages-ai-citation) — Divide articles into 3–4 H2 sections each with 2–4 H3 subsections; AI systems often cite the first 1–2 sentences after a heading, so lead each section with a single summary sentence
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AEO vs GEO vs LLMO: Choose the Right Framework for Each Query Type
+- **AEO** (Answer Engine Optimization) targets short, discrete questions where a direct, complete answer wins the featured slot — use it for definitional queries, how-to fragments, and "best X for Y" comparisons
+- **GEO** (Generative Engine Optimization) targets comprehensive topics where AI synthesizes multiple sources into a single response — use it for thought leadership, deep guides, and any query where no single short answer suffices
+- **LLMO** (Large Language Model Optimization) focuses on being embedded in model training and persistent memory — a longer horizon investment; AEO and GEO yield faster returns in 2026
+- A smart 2026 strategy is not a choice between the three: map each content asset to the framework that fits its query intent, then apply the corresponding structural and technical tactics
+
+#### The 38% Rule: Top-10 Rankings No Longer Guarantee AI Visibility
+- Only **38% of AI Overview citations** come from pages ranking in the traditional top 10 — the majority of citations go to pages not in the top-10 SERP, meaning ranking alone is no longer sufficient for AI search presence
+- The implication: **content depth, topical completeness, and structural clarity** matter more than keyword rank for AI citation eligibility; pages that comprehensively cover a topic cluster on a single page are cited regardless of rank position
+- Build topically exhaustive content that answers the primary question AND every likely follow-up question in one place; AI engines favor single-page resources that eliminate the need to synthesize across multiple sites
+
+#### Share of Model (SoM): The New Primary GEO Metric
+- **Share of Model (SoM)** — how often your brand appears in AI-generated responses compared to competitors for relevant queries — is the emerging primary metric for measuring GEO success, replacing traditional rank tracking as the leading AI visibility KPI
+- Track SoM weekly by sampling 20–30 target queries across ChatGPT, Perplexity, and Google AI Overviews; brand appearance rate per engine reveals which platforms are citing you and which are not
+- SoM shifts before organic traffic changes, making it an early-warning signal for AI visibility gains and losses
+
+#### Content Structure Optimized for AI Retrieval
+- Place a **direct answer block in the first 60 words** of each page: 2–3 short sentences delivering a complete definition, key steps, or a summary list — AI retrieval systems (Perplexity, Google AI Overviews, ChatGPT Browse) evaluate relevance primarily on opening content
+- Structure each article into **3–4 H2 sections, each with 2–4 H3 subsections**; AI systems frequently cite the first 1–2 sentences after a heading, so every heading should be immediately followed by one clear summary sentence before supporting detail
+- Design for **modular extraction**: each H2/H3 section should answer one question completely on its own so AI engines can excerpt a single section without needing the full article — partially-extracted, independently coherent sections are cited more frequently
+- Use **precise, verifiable claims with inline sources** over approximations: "The average conversion rate is 3.2% (Source, 2025)" is cited more than "the rate is about 3%"; every factual assertion needs a specific figure and a named source inline, not in a footnote
+
+#### Schema Markup: The Highest-ROI Technical Lever Remaining
+- Pages implementing **FAQ + HowTo + Article schema in combination** are cited 2.5–3× more frequently than unschemed equivalents — schema combination remains the single highest-ROI technical implementation for most sites
+- **FAQPage schema** is the highest-impact individual AEO schema: it gives AI engines pre-extracted question-answer pairs used directly by Google AI Overviews; if only one schema type gets deployed, prioritize FAQPage
+- Pages with **any schema markup** are 36% more likely to appear in AI responses than pages with no structured data — even basic Article schema is a meaningful citation signal
+- Include `dateModified` in all structured data and a visible "Last updated" timestamp on the page; freshness metadata is read directly by AI systems and used to rank citations for time-sensitive queries
+
+#### Author Credentials as a Citation Signal (+40% Lift)
+- **Author credentials visible on page** increase AI citation probability by +40% — a named author with a linked bio, verifiable expertise signals (publications, title, credentials), and a profile photo is now a meaningful citation signal, not merely a trust design element
+- **97.5% of citations come from niche authorities**, not broad content sites — generalist content platforms are losing ground to domain specialists in AI citation races; narrow topical focus with deep expertise consistently outperforms wide-coverage content in AI search
+- Establish author E-E-A-T signals across multiple platforms (LinkedIn, industry publications, conference speaker pages) so AI systems can verify author expertise through multiple independent sources, not just the page itself
+
+#### AI Crawler Whitelist and Crawlability Audit
+- Confirm **AI crawlers are not blocked** in robots.txt: check for `GPTBot`, `ClaudeBot`, `PerplexityBot`, `anthropic-ai`, and `Googlebot` (for AI Overview access); a silent block removes all content from AI citation eligibility with no error signal
+- Ensure **page speed and crawlability** meet baseline thresholds — AI citation retrieval systems deprioritize slow or unreliable pages the same way traditional crawlers do; Core Web Vitals remain a prerequisite, not a differentiator
+- **Do not create llms.txt files** as a Google ranking tactic — Google has explicitly stated these have no effect on Google Search's generative features; invest that effort in E-E-A-T and structured data instead
+
+#### Perplexity and ChatGPT Citation Optimization
+- **Perplexity** (500M+ monthly queries in 2026) requires every factual claim to link to a primary source **inline in the content body** — footnotes and bibliography sections are not read; inline sourcing is the citation signal
+- **ChatGPT** has diversified away from Wikipedia dominance since late 2025; it now distributes citations across high-DA editorial domains — maintaining editorial presence across multiple authoritative external sites matters more than optimizing for any single source
+- For **Perplexity and real-time retrieval engines**, answer blocks positioned near the top of the page are weighted most heavily; the same answer placed in paragraph 10 vs. paragraph 1 produces measurably lower citation rates
+- AEO positioning clarity is a direct trust signal for LLMs: state explicitly in the content what your brand or page is, who it serves, and what it does not cover — AI systems use this self-description to match content to query intent
+
+### Notable Insight This Week
+
+The most consequential finding from this week's research is the **38% rule**: only 38% of Google AI Overview citations go to pages ranking in the traditional top 10, meaning the competitive set for AI visibility is fundamentally different from the competitive set for organic rankings. This breaks the assumption that "if we rank, we get cited." Teams optimizing for AI visibility need to treat **topical completeness and structural clarity** as first-order variables, not secondary polish — a page that covers the full topic cluster, answers follow-up questions proactively, uses modular H2/H3 structure, and implements FAQ + Article schema can be cited from position 15 or 30. Combined with the emerging primacy of **Share of Model (SoM)** as the leading GEO KPI, this week's findings point toward a clear operational shift: move SoM tracking into weekly reporting alongside rank tracking, then use the gap between your rank position and your citation rate to identify pages where structural or schema improvements would unlock AI visibility your rank already qualifies you for.
+
+---
+
 ## Update: 2026-07-06
 
 ### Sources Reviewed
