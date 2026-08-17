@@ -4,6 +4,60 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-08-17
+
+### Sources Reviewed
+- [Neil Patel — AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — Patel's team introduces LLMO (LLM Optimization) as a distinct third category: AEO = query-time retrieval, GEO = AI synthesis during search, LLMO = influencing what LLMs "know" through pre-training data and widely-cited content
+- [Neil Patel — How AI Search Has Changed SEO Forever](https://www.linkedin.com/posts/neilkpatel_ai-seo-digitalmarketing-activity-7370063368121913344-1hqr) — Confirms the "great decoupling": rankings and impressions can rise while clicks fall; zero-click AI answers have permanently restructured traffic economics
+- [Position Digital — AEO: 6 Best Practices for 2026](https://www.position.digital/blog/answer-engine-optimization-best-practices/) — Key operational insight: updating existing content improves AI visibility faster than publishing new pages; leads with direct standalone answers per section
+- [TapClicks — 8 AEO Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Reinforces Speakable schema as now explicitly recommended alongside FAQPage/HowTo/Article; all major AI platforms prioritize topical expertise, recency, extractability, and source quality
+- [Wellows — 11 Best Practices for Content Optimization in 2026](https://wellows.com/blog/best-practices-content-optimization/) — Pages updated within the last two months earn 28% more AI citations; structure matters more than length: a 500-word well-structured page outperforms a 3,000-word disorganized one
+- [Digivate — Optimizing Content for Google AI Overviews (2026)](https://www.digivate.com/blog/aeo/how-to-rank-in-google-ai-overviews-2026-2/) — Sites implementing schema earn 36% higher AI visibility; AI traffic converts at 14.2% vs 2.8% for organic, making citation-share a high-value business metric beyond traffic
+- [Siftly AI — Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — Generative engines parse meaning, not keywords; entity coverage and semantic richness now outweigh keyword-match signals in AI retrieval
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — GEO is an additional layer on top of SEO, not a replacement; brands excelling at GEO typically have strong traditional SEO foundations first
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### LLMO Emerges as a Third Optimization Category
+- Neil Patel's team now formally distinguishes **LLMO (LLM Optimization)** from AEO and GEO: AEO captures query-time retrieval answers, GEO captures AI synthesis during live search, and LLMO targets what LLMs "know" from pre-training — requiring high-quality content cited in Wikipedia, academic publications, and widely-archived editorial sources
+- LLMO has a longer time horizon than AEO/GEO (months to training cycles) but compounds differently: a brand embedded in training data earns citations even on queries where its web pages are not retrieved at query time
+- The three-category framework gives teams a cleaner way to allocate effort: short-cycle query content for AEO, evergreen synthesis content for GEO, and authoritative broadly-cited reference content for LLMO
+
+#### The Great Decoupling Is Confirmed and Accelerating
+- Multiple August 2026 sources confirm the "great decoupling": **organic impressions and rankings can increase simultaneously with declining click-through rates** as AI Overviews and AI Mode serve zero-click answers; brand SEO success must now be measured in citation share, not only traffic
+- Publishers not adapting to AI-answer formats report **25–40% traffic declines on informational queries** despite stable or rising rankings — the decoupling makes traditional rank-tracking an insufficient proxy for SEO ROI
+- Reframe internal KPIs now: add **AI citation rate, brand mention share in AI responses, and AI-sourced conversion volume** alongside traditional impressions, clicks, and rank metrics
+
+#### AI Traffic Converts at 5× the Rate of Organic — Citation Share Is a Revenue Metric
+- A key August 2026 benchmark: **AI-sourced traffic converts at 14.2% vs 2.8% for standard organic traffic** — earning citations in AI answers is not just a brand visibility play, it is a direct revenue driver worth prioritizing at the executive level
+- This conversion premium exists because AI citations appear in high-intent, answer-seeking contexts — users who click through from an AI citation are already pre-qualified by the AI's answer; content should be structured to serve as both the answer itself and a compelling reason to click through for more
+
+#### Content Updates Beat New Content for AI Visibility Gains
+- **Updating existing content improves AI citation rates faster than publishing new pages** — refreshing statistics, adding a direct-answer opening paragraph, upgrading to FAQ schema, and adding an inline-cited data point to existing pages delivers citation lift in weeks vs months for new pages
+- Prioritize updates in this order: (1) pages already appearing in AI Overviews impressions (highest leverage), (2) cornerstone pages older than 90 days, (3) high-authority pages that lack FAQ schema
+- After updating, explicitly refresh `dateModified` in schema markup and add a visible "Last updated: [Month YYYY]" timestamp — AI systems weigh these as freshness signals independently of the content changes themselves
+
+#### Structure Matters More Than Length for AI Citation
+- A **500-word page with proper heading hierarchy, a direct opening answer, and FAQPage schema will be cited more often than a 3,000-word page without those elements** — AI engines extract sections, not documents; optimize each section to be independently extractable
+- Apply the H2 → H3 → H4 hierarchy strictly: each H2 answers one major question, each H3 answers a sub-question, and each H4 provides a supporting detail or example; AI engines follow this hierarchy to locate extractable chunks
+- **Headings should summarize the takeaway**, not describe the topic — "Domain Authority Is the Strongest AI Citation Predictor" outperforms "Domain Authority" as a heading because the former is a standalone extractable claim
+
+#### Speakable Schema Now Explicitly Recommended
+- **Speakable schema** is now recommended alongside the existing FAQPage + HowTo + Article combination — Speakable marks specific sections as suitable for audio/voice AI reading, and voice search queries via AI assistants (Google Assistant, Alexa, Siri) increasingly pull from Speakable-marked content
+- Speakable sections should be under 200 words, written in plain conversational language without jargon, and answer a single question completely — the same content guidelines that optimize for text-based AI answers also make content more Speakable-eligible
+- Full schema stack for maximum AI citation coverage in August 2026: **Article + FAQPage + HowTo (where applicable) + Speakable + BreadcrumbList**
+
+#### Entity-Based Optimization Confirmed Over Keyword-Based
+- Generative engines parse **meaning and entity relationships, not keywords** — content optimized with clearly defined entities, claims, and entity-to-entity relationships earns more AI citations than keyword-dense content with the same factual coverage
+- Build **entity maps** for cornerstone content: identify the primary entity (e.g., "conversion rate optimization"), its related entities (A/B testing, landing pages, heuristic evaluation), and its named relationships (improves, requires, measures) — structure content to explicitly state these relationships rather than implying them through proximity
+- Use the **first 200 words to establish entity context**: name the topic, its category, its key relationships, and the primary claim the page makes — this front-loads the semantic signal that AI retrieval systems prioritize
+
+### Notable Insight This Week
+
+The emergence of LLMO as a formally named third optimization category is the most strategically significant development of the August 2026 cycle. While AEO and GEO address how content is retrieved and synthesized at query time, LLMO targets a fundamentally different layer: what the model itself "knows" from training. This distinction matters because LLMO-optimized content can earn citations even when it is not retrieved from the live web — if a brand's framing of a topic is embedded in LLM training data through Wikipedia, academic citations, or widely-archived editorial coverage, that framing shapes AI answers whether or not the brand's pages are crawled at query time. The practical implication is a new top-of-funnel investment category: creating reference-quality content worthy of Wikipedia citation, contributing to public datasets and academic research, and ensuring brand definitions and key claims appear in the sources LLMs are known to train on heavily. This is a longer-cycle investment than AEO or GEO but uniquely durable — LLMO-embedded authority cannot be displaced by a competitor's schema update or a Google algorithm tweak. Teams with 6–12 month planning horizons should now be allocating budget to LLMO alongside their AEO/GEO playbooks.
+
+---
+
 ## Update: 2026-07-06
 
 ### Sources Reviewed
