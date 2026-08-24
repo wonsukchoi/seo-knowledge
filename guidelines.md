@@ -4,6 +4,51 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-08-24
+
+### Sources Reviewed
+- [Neil Patel on LinkedIn — SEO and GEO for AI Trust and Visibility](https://www.linkedin.com/posts/neilkpatel_seo-geo-aimarketing-activity-7475246970937405441-mSvD) — Patel's latest framing: GEO is now fundamentally about AI trust signals, not just content structure; brands that AI systems trust get cited, those that don't are invisible
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — GEO adds citation-friendliness and data richness requirements on top of traditional SEO; AI favors clearly defined entities, claims, and relationships over keyword density
+- [CXL — AEO: The Comprehensive Guide 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Confirms that all major AI platforms prioritize the same four signals: topical expertise, recency, extractability, and source quality
+- [TapClicks — 8 AEO Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Introduces ranked listicle as the #1 citation format: 63% of AI citations point to listicle pages, 71–86% of those are numbered Top-N lists
+- [Digivate — Optimizing for Google AI Overviews 2026](https://www.digivate.com/blog/aeo/how-to-rank-in-google-ai-overviews-2026-2/) — AIO now appears on 47–64% of all queries (up from 25–30% at 2024 launch); CTR for top-ranked pages drops 30–50% when AIO is present
+- [Siftly AI — Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — BLUF (Bottom Line Up Front) format: put the direct answer in the first 50 words; AI systems most commonly cite the first 1–2 sentences after a heading
+- [Qwairy — AI Citation Optimization Guide 2026](https://www.qwairy.co/blog/complete-ai-citation-optimization-guide) — Pages with schema markup are 36% more likely to appear in AI responses; structured content achieves 30–40% higher AI visibility overall
+- [Search Everywhere — 2026 Content Strategy for Google AI Overviews](https://www.searcheseverywhere.com/blog/2026-content-strategy-rank-google-ai-overviews-seo-social) — Content clusters (pillar + subtopic pages) are now an explicit GEO signal; Google AI Overviews favor comprehensive topic ecosystems over standalone pages
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### The Great Decoupling: AIO Covers 47–64% of Queries, CTR Drops 30–50%
+- Google AI Overviews now appear on **47–64% of all queries** in mid-2026, up from 25–30% at launch — the majority of searches now return an AI-synthesized answer block above all organic results, making AIO inclusion a primary traffic channel, not an edge case
+- When an AI Overview is present, average CTR for the #1 organic position **drops 30–50%** — this is the "great decoupling": rankings and impressions can improve while clicks simultaneously decline; measuring success only by position or impressions now systematically undercounts traffic loss
+- The strategic response is to pursue **AIO inclusion as a parallel goal** alongside traditional rankings; a page cited inside the AIO box partially recovers the CTR it loses by being below the box — optimize for citation, not just position
+
+#### Ranked Listicles Are the #1 AI Citation Format
+- **63% of all AI citations point to listicle-format pages** — numbered or ranked lists dominate AI-generated responses across Google AI Overviews, ChatGPT, and Perplexity; 71–86% of those cited listicles are ranked (Top-N format) rather than unranked bullet lists
+- This is the single most actionable structural finding of the week: where a topic permits it, **convert existing prose articles into numbered Top-N formats**; a well-structured "7 Best Practices for X" earns measurably more citations than the equivalent information in paragraph form
+- For informational queries, prioritize: numbered how-to guides, ranked comparison lists, "best of" roundups, and definition + example sequences — these are the formats AI engines preferentially excerpt and cite
+
+#### BLUF Format: The First 50 Words Determine Citability
+- AI retrieval systems most often cite the **first 1–2 sentences after any heading** — the "Bottom Line Up Front" (BLUF) principle applies at the section level, not just the article level; every H2 and H3 must open with a complete, self-contained answer
+- Put the **direct answer in the first 50 words** of every page — this is more precise than the 200-word guideline from prior months; a reader (or AI engine) reading only the opening 50 words must receive a usable answer, not a warm-up or framing paragraph
+- A well-structured 500-word page with BLUF openings **earns more AI citations than a disorganized 3,000-word article** — AI citation is determined by extractability and precision, not by word count or content depth alone
+
+#### Content Clusters Are Now a GEO Signal
+- Google AI Overviews and Perplexity both favor **content ecosystems over standalone pages** — a pillar page covering a core topic supported by multiple in-depth subtopic cluster articles signals comprehensive authority in a way that isolated long-form posts cannot replicate
+- Build content clusters around primary GEO target topics: one pillar page (broad overview, 1,500–2,500 words) with 5–8 cluster pages (deep-dives on subtopics, each 800–1,500 words with BLUF openings) — this structure makes it easier for AI engines to synthesize a comprehensive answer by drawing from multiple pages of the same domain
+- Internal linking between cluster pages and the pillar **explicitly signals topical authority** to AI crawlers — use descriptive anchor text that matches the subtopic's primary question rather than generic link labels
+
+#### Precision Over Vagueness: Specific Claims Are 36% More Citable
+- Pages with **schema markup are 36% more likely to appear in AI responses**; structured content overall achieves 30–40% higher AI visibility — FAQPage, HowTo, and Article schema remain the highest-priority implementation targets
+- AI engines consistently prefer **precise, verifiable claims over approximations**: "The average conversion rate is 3.2% (Contentsquare, 2025)" earns more citations than "the rate is about 3%" — every factual assertion should include a specific figure and an inline source citation
+- The four signals all major AI platforms now share: **topical expertise, recency, extractability, and source quality** — optimizing for all four simultaneously (expert authorship + fresh data + BLUF structure + inline citations) compounds the citation lift beyond what any single signal delivers
+
+### Notable Insight This Week
+
+The ranked listicle finding reframes how content should be structured for AI citation in 2026. With 63% of AI citations going to list-format pages, and 71–86% of those being numbered Top-N lists, the implication is direct: the prose-dominant, paragraph-heavy long-form article format that dominated SEO content strategy for the past decade is now structurally disadvantaged in AI-generated responses. This does not mean abandoning depth or detail — it means packaging that depth inside numbered, scannable structures where every item opens with a BLUF sentence, includes a specific data point, and can stand alone if excerpted. Combined with the AIO coverage data (now 47–64% of queries) and the 30–50% CTR drop for top organic positions, the picture that emerges is clear: brands that do not adapt their content format to the citation preferences of AI engines will see their organic traffic continue to decline even as their traditional rankings hold. The format shift required is not a rewrite of the editorial calendar — it is a structural template change applied to high-priority existing pages first, converting the top 20 traffic-driving informational articles to numbered Top-N format with BLUF openings, then maintaining that standard for new production going forward.
+
+---
+
 ## Update: 2026-07-06
 
 ### Sources Reviewed
