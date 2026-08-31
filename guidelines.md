@@ -4,6 +4,57 @@ This file is updated weekly by an automated research agent. The most recent find
 
 ---
 
+## Update: 2026-08-31
+
+### Sources Reviewed
+- [NP Digital / ekamoira.com — Neil Patel: AEO/GEO vs. SEO Webinar 2026](https://advanced.npdigital.com/aeo-geo-vs-seo-on-demand-webinar/) — Patel's latest position: GEO/AEO still run on traditional SEO fundamentals (schema, technical structure, non-commodity content); customers discover brands through ChatGPT, Google AI Overviews, Perplexity, TikTok, and Reddit without clicking through
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — AI engines evaluate page relevance primarily on opening content; multimodal content (video + transcript) is now a mandatory GEO signal as AI engines are natively multimodal in 2026
+- [TapClicks — 8 AEO Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — RAG architecture confirmed as the mechanism behind AI engines; headings hierarchy delivers 2.8× citation lift; brand-mention ecosystems in trusted external sources are critical
+- [HubSpot — AEO Best Practices Marketers Can't Ignore in 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — FAQPage, HowTo, Article, and Speakable schema types confirmed as key AEO signals; first-party data earns brand-specific citations that third-party statistics cannot replicate
+- [Frase — Mastering AI Citations: The Ultimate GEO Playbook](https://www.frase.io/blog/how-to-get-cited-by-ai-search-engines-the-complete-geo-playbook) — Heavily cited content averages 18 words per sentence; AI systems cite the first 1–2 sentences after headings, making BLUF (Bottom Line Up Front) the top structural citation lever
+- [Crawl Vision — AI Citations & SEO: 8 Growth Strategies 2026](https://www.crawlvision.com/blog/ai-citations-in-seo-2026/) — Ranked listicles are the citation-format winner: 63% of AI citations point to listicle pages; 71–86% of those are numbered Top-N formats ("Best X for Y", "Top 10")
+- [CrawlVision / Digital Applied — Google AI Overviews Impact 2026](https://www.digitalapplied.com/blog/content-strategy-ai-overviews-post-io-guide-2026) — AIO now appears for 47–64% of all queries (up from 25–30% at 2024 launch); top positions see 30–50% CTR drop when AIO is present
+- [CXL — AEO Comprehensive Guide 2026](https://cxl.com/blog/answer-engine-optimization-aeo-the-comprehensive-guide/) — Schema markup delivers 36% higher AI citation rate; structured content achieves 30–40% higher AI visibility overall
+- [Position Digital — AEO 6 Best Practices 2026](https://www.position.digital/blog/answer-engine-optimization-best-practices/) — Freshness audit workflow: start with pages already receiving AIO impressions in Search Console; update statistics and references first
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AI Overviews Expansion: 47–64% of Queries Now Intercept Traffic
+- Google AI Overviews now appear on **47–64% of all queries** in August 2026, up from 25–30% at their 2024 launch — top-ranked pages now experience a **30–50% CTR drop** when an AIO is present, making citation-slot acquisition more valuable than first-place ranking for many informational queries
+- The competitive field for any query has collapsed from 10 organic results to **2–7 cited domains per AI response**; every content strategy decision should be evaluated on "does this make us citation-eligible?" rather than "does this improve our ranking?"
+- AI Overviews favor three content formats above all others: **comprehensive numbered how-to guides, definition-first "what is" articles, and structured comparison pieces with explicit pros/cons tables** — these formats account for the majority of AIO citation share and should anchor every content calendar
+
+#### Ranked Listicles Are the #1 Citation Format — New Finding
+- **63% of all AI citations in 2026 point to listicle pages**, and of those, 71–86% are numbered Top-N lists ("Best X for Y", "Top 10", "Top 25") — this is the single most actionable new content-format finding this week; if your pillar pages are not structured as ranked lists where appropriate, this is the highest-priority format conversion
+- Every listicle item should follow the BLUF pattern: **one declarative sentence stating the verdict, then supporting details** — AI engines extract item-level content and cite individual list entries, not the article as a whole
+- Supplement existing listicles with explicit ranking rationale and comparison criteria — AI engines prefer listicles that explain *why* items are ranked, not just what they are
+
+#### BLUF Formatting: Answer in the First 50 Words
+- AI systems (Perplexity, ChatGPT, Google AIO) evaluate citation relevance primarily on **the first 50 words of a page and the first 1–2 sentences after each heading** — the "Bottom Line Up Front" structure is now the dominant citation lever, outperforming schema and heading hierarchy for pure citation-rate lift
+- Every page should open with a **complete, standalone answer** to the primary query in the first paragraph; every H2/H3 section should open with one declarative sentence that summarizes the section's conclusion before providing supporting detail
+- Heavily cited content averages **18 words per sentence** — long, complex sentences reduce AI extractability; restructure any sentence over 25 words into two sentences
+
+#### Multimodal Optimization: 2026's New Required GEO Signal
+- AI engines are now **natively multimodal** — they process video, audio, and image content alongside text; brands without high-quality transcripts for their video content are leaving roughly **50% of GEO potential untapped**
+- Every video asset should have: (1) a **word-for-word transcript** embedded on the page, (2) a **VideoObject schema** block with `transcript`, `description`, and `uploadDate` populated, and (3) clear on-screen text overlays that mirror the spoken content so AI visual processing can extract the same answer as the transcript
+- Podcast content should be transcribed, chunked by topic, and published as standalone pages, not only embedded as audio players — **audio-only content is largely invisible to AI citation systems** in 2026
+
+#### Schema Markup: 36% Citation Lift and the Speakable Gap
+- Pages with **any schema markup are 36% more likely to appear in AI responses** than unschemed equivalents; the combination of FAQPage + HowTo + Article continues to deliver the 2.5–3× multiplier confirmed in prior weeks
+- **Speakable schema** (`SpeakableSpecification`) is the most underutilized AEO markup: it explicitly tells AI engines which passages are the best answers to read aloud or surface as featured responses — under 5% of eligible pages implement it despite its direct impact on voice and AI answer surfacing
+- Audit that `GPTBot`, `ClaudeBot`, `PerplexityBot`, and `anthropic-ai` are **not blocked in robots.txt** — a silent crawl block removes all content from AI citation eligibility with no error signal
+
+#### RAG Architecture Insight: How AI Engines Actually Retrieve Content
+- Understanding that AI engines use **Retrieval Augmented Generation (RAG)** — retrieving the most useful passages from pages and summarizing them — changes the optimization target: the goal is not to rank the page but to have the *right passage* extracted at retrieval time
+- RAG retrieval scores passages by semantic relevance to the query; **passages that directly restate the query as a declarative answer score highest** — this is why heading text that mirrors natural-language queries ("How does X work?" → the H2 heading itself) improves citation rates
+- Structure articles into **3–4 main H2 sections, each with 2–4 H3 subsections**, where each H3 can stand alone as a complete answer — modular section design enables RAG to excerpt a single H3 block without the surrounding context, and partial-page citations are more common than whole-page citations
+
+### Notable Insight This Week
+
+The most consequential new finding in the August 31, 2026 research cycle is the **ranked listicle citation dominance**: 63% of all AI citations now point to listicle-format pages, and within those, over 71% are numbered Top-N lists. This is not a marginal formatting preference — it is a structural citation bias baked into how AI retrieval systems score passage relevance. A numbered list gives AI engines a pre-chunked, ranked set of answers where each item is a self-contained citation candidate; the ranking itself signals that the content is evaluative and authoritative rather than purely descriptive. Combined with the BLUF finding (AI systems read the first 50 words and the first sentence after each heading), the practical implication is clear: the highest-citation-rate content in 2026 is a numbered list where each item opens with a one-sentence verdict. Teams should audit their top 20 informational pages and identify any that cover a "best of", "top tools", or "how to choose" topic in paragraph form — converting those to numbered listicles with BLUF item openers is the single highest-ROI format change available without requiring new research or subject-matter expertise.
+
+---
+
 ## Update: 2026-07-06
 
 ### Sources Reviewed
