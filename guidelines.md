@@ -2,6 +2,24 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-09-07
+
+### Sources Reviewed
+- [Search Console AI Reports Go Global, Mueller On Recovery – SEO Pulse](https://www.searchenginejournal.com/seo-pulse-search-console-ai-reports-go-global-mueller-recovery/588443/) — GSC AI reports (AI Overviews, AI Mode, Discover AI) are now worldwide; Mueller: recovery takes months, markdown layers only attract SEO-tool crawlers, sitemap cache-busting is a bad idea
+- [Product Pages Get 24% Of AI Citations, Reddit & YouTube 4%](https://www.searchenginejournal.com/product-pages-get-24-of-ai-citations-reddit-youtube-4/587560/) — Ten Speed study: at the B2B evaluation stage, product pages earn 24.1% of AI citations vs 4.2% for Reddit/YouTube/forums combined; brand-owned content is 88.3% of all citations
+- [When AI Has Nothing On Your Company, It Describes Someone Else](https://www.searchenginejournal.com/when-ai-has-nothing-on-your-company-it-describes-someone-else/587876/) — AI models substitute competitors or category averages when they lack evidence about you; content audits cannot detect it, only output monitoring can
+
+### Key Takeaways
+1. Check the new Search Console AI reports for every site (worldwide since Aug 31): impressions from AI Overviews, AI Mode, and Discover AI, broken down by page and country. This is the first free first-party data on where your pages appear in AI features. A site with zero AI impressions has a visible gap to work on.
+2. Do not build a markdown layer for AI crawlers. Mueller's logs show the only crawlers requesting markdown are SEO tools, not AI bots. Keep serving HTML; the AI crawlers read it fine.
+3. Keep sitemap URLs stable. No ?v=timestamp cache-busting on sitemap index URLs; it signals a constantly changing canonical and hurts tracking. Rely on accurate lastmod instead.
+4. Rewrite product and service pages so an AI model can read them cold: plain-language answers to "what does this do, who is it for, what does it integrate with". Product pages plus homepages are close to a third of evaluation-stage AI citations, and brand-owned content is 88.3% of all citations. For massagego, the service pages and homepage are the citation surface, not Reddit or YouTube.
+5. Build comparison content ("X vs Y") deliberately. Comparison prompts were 20% of the study's prompt set but produced 27% of citations (1.33x return). Any niche site without comparison pages against its main rivals has a high-ROI content gap.
+6. Test what AI says about your site with questions that do not name you: category questions, "best X for Y" queries, and comparisons naming only competitors. Claims with no traceable origin in your content are substitution, and they map where third-party description is missing. Publishing more pages only partially fixes this; the fix is making your own pages the densest, most specific source on your own facts.
+
+### Notable Insight This Week
+The Ten Speed citation study is the most decision-relevant data this week: at the moment a buyer is actually comparing vendors, AI models cite product pages (24.1%) and brand-owned content (88.3% combined) far more than Reddit and YouTube (4.2%). The community-platform advice that dominates GEO discourse targets the early awareness stage, not the evaluation stage where buying decisions happen. Combined with the worldwide GSC AI reports, the practical stack is: use the new AI report to see where pages actually appear, then invest in cold-readable product pages, comparison content, and accurate directory profiles, because those are the surfaces AI models lean on when a buyer is about to choose. The Forrester piece adds the warning that a clean content audit says nothing about what AI models claim about you; only output monitoring with name-absent queries reveals substitution.
+
 ---
 
 ## Update: 2026-07-06
