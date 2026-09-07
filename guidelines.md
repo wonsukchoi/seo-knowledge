@@ -2,6 +2,36 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-09-07 (Run 2)
+
+### Sources Reviewed
+- [Neil Patel — GEO vs AEO: What's the Difference?](https://neilpatel.com/blog/geo-vs-aeo/) — AEO targets short answerable questions; GEO is for comprehensive topics AI engines synthesize and cite; smart 2026 strategy deploys both based on query intent
+- [Neil Patel — AEO vs GEO vs LLMO](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — Three-way breakdown: AEO for answer boxes/voice, GEO for AI synthesis citations, LLMO for LLM training presence; distinct but overlapping tactics
+- [eMarketer — FAQ on GEO and AEO: Where AI Search and SEO Overlap in 2026](https://www.emarketer.com/content/faq-on-geo-aeo--where-ai-search-seo-overlap-2026) — AI search and SEO share ranking foundations (E-E-A-T, crawlability, quality); neither replaces the other
+- [TapClicks — 8 AEO Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Build a question inventory, lead with direct standalone answers, use FAQPage/HowTo/Article schema, and optimize titles as questions
+- [Frase — Mastering AI Citations: The Ultimate GEO Playbook](https://www.frase.io/blog/how-to-get-cited-by-ai-search-engines-the-complete-geo-playbook) — Article + FAQPage schema together yield ~3.2x more AI citations than unschemed equivalents; first 50 words must contain the direct answer
+- [Digivate — Optimizing Content for Google AI Overviews (2026)](https://digivate.com/blog/aeo/how-to-rank-in-google-ai-overviews-2026-2) — AI Overviews now appear on 47–64% of all queries (up from 25–30% in 2024); top-ranked pages see 30–50% CTR drop when AIO fires
+- [Search Engine Land — Mastering GEO in 2026 (Full Guide)](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — GEO content strategy: opening 200 words must be a complete, extractable answer; citing sources, adding statistics, and including expert quotes boost AI visibility 30–40%
+- [Enrich Labs — GEO Complete 2026 Guide](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — AI engines are natively multimodal in 2026; video/podcast transcripts are required to capture the full GEO opportunity
+- [yyyokel — The 2026 AI Citation Playbook](https://yyyokel.com/ai-citation-capture-geo-playbook-2026/) — Entity density (naming the brand, people, locations, and products precisely in body text) is a rising citation predictor; pages with sparse entity coverage lose citations to competitors with denser profiles
+
+### Key AEO/GEO/AI Search Guidelines
+- **Answer in the first 50–200 words**: AI retrieval systems evaluate relevance primarily on opening content; a complete, standalone answer in the first 50 words maximises citation eligibility for both AIO and Perplexity.
+- **Deploy question-based H2/H3 headings**: Make every major heading a full question so AI engines can extract section-level answers without full-article context; modular sections are cited more than monolithic posts.
+- **Combine FAQPage + HowTo + Article schema**: Pages with all three implemented are cited 2.5–3× more than unschemed equivalents; FAQPage is the single highest-impact schema if only one can be shipped.
+- **Include specific, sourced statistics in body text**: AI engines prefer precise, verifiable claims ("3.2% average, Source 2025") over approximations; named sources with inline links increase citation probability 30–40%.
+- **Increase entity density**: Name the brand, key people, locations, and products explicitly in body text — sparse entity profiles cause AI models to substitute a competitor description.
+- **Publish video/podcast transcripts**: Multimodal AI engines can watch video and read transcripts; skipping transcripts leaves roughly 50% of GEO potential unrealised.
+- **Audit robots.txt for AI crawlers**: Silently blocking GPTBot, ClaudeBot, PerplexityBot, or anthropic-ai removes all content from AI citation eligibility with no error signal.
+- **Refresh cornerstone content on a 90-day cycle**: Content older than 90 days without an update is 3× more likely to lose AI citations; update stats, dates, and FAQ blocks, then update `dateModified`.
+- **Build comparison pages**: Comparison queries ("X vs Y") produce 1.33× more citations per impression than other query types — a high-ROI content gap for any site that lacks them.
+- **Invest in domain authority first**: DA is still the strongest predictor of AI citation eligibility (SHAP 0.63); structural GEO optimisations deliver full value only above the DA threshold where the target content competes.
+
+### Notable Insight This Week
+The most important finding across this week's research is the convergence of two data points: Google AI Overviews now appear on 47–64% of queries (up from 25–30% at launch in 2024), and top-ranked pages lose 30–50% of their CTR when an AIO fires. This means traditional rank-first SEO is no longer sufficient even when it works — a #1 position no longer delivers the expected traffic if an AI Overview intercepts the click. The strategic response is not to abandon traditional SEO but to extend it: optimise for citation inside the AIO rather than the click below it. That requires the structural changes above — answer-first openings, schema combinations, entity density, and sourced statistics — layered onto the existing E-E-A-T and domain-authority foundation that Google's own documentation confirms remains the ranking substrate for its generative features.
+
+---
+
 ## Update: 2026-09-07
 
 ### Sources Reviewed
