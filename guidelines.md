@@ -2,6 +2,34 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-09-14 (Run 2)
+
+### Sources Reviewed
+- [GEO vs AEO: What's the Difference? — Neil Patel](https://neilpatel.com/blog/geo-vs-aeo/) — Patel's definitive 2026 breakdown: AEO targets direct question answers, GEO targets comprehensive AI synthesis; both are now essential in parallel
+- [Answer Engine Optimization Best Practices 2026 — Position Digital](https://www.position.digital/blog/answer-engine-optimization-best-practices/) — AEO structured content: each priority question must open with a self-contained complete answer; question inventory strategy from live SERP data
+- [Mastering Generative Engine Optimization in 2026 — Search Engine Land](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142/) — Full GEO guide: first 200 words must directly answer the primary query; data-backed statistics and expert quotes yield the highest citation lift
+- [How to Optimize Content for Google AI Overviews (2026) — Logic In Bound](https://logicinbound.com/how-to-optimize-content-for-google-ai-overviews-2026/) — AI Overviews now appear on 47–64% of all queries; pillar + cluster architecture and content freshness are decisive ranking signals
+- [AI Citation Optimization — Mastering AI Citations GEO Playbook — Frase](https://www.frase.io/blog/how-to-get-cited-by-ai-search-engines-the-complete-geo-playbook) — Schema-equipped pages are cited 3.2× more; Article, FAQPage, HowTo schemas deliver the strongest lift; 3-month content staleness triggers a measurable citation cliff
+- [The 2026 AI Citation Playbook: Entity Density, Freshness — yyyokel](https://yyyokel.com/ai-citation-capture-geo-playbook-2026/) — 11–12% domain overlap across AI engines; each platform (Google AIO, ChatGPT, Perplexity) requires largely separate optimization approaches
+- [AEO Content Strategy: How to Structure Pages for AI Citation — Acquia](https://www.acquia.com/blog/aeo-content-strategy-how-structure-pages-ai-citation) — H2→H3→H4 heading hierarchy with summary-style headings; direct answer in first 50 words; FAQ sections built from real user query phrasing
+
+### Key AEO/GEO/AI Search Guidelines
+- **Answer in the first 50 words**: Place a complete, standalone answer to the page's primary query within the first paragraph — if a reader sees only that paragraph, the answer must still be fully intelligible and actionable.
+- **Apply the three high-impact schema types together**: Deploy `Article` (or `BlogPosting`), `FAQPage`, and `HowTo` schema on every target page; pages with all three combined are cited 2.5–3.2× more than unschemed equivalents in 2026 benchmarks.
+- **Use summary-style headings in H2→H3→H4 hierarchy**: Write headings that state the takeaway, not the topic — "Schema markup raises AI citation rate 3×" beats "Schema Markup"; AI parsers use heading text as chunk labels when composing answers.
+- **Add AI Overviews to your weekly KPI stack**: Google's dedicated generative AI performance reporting (launched June 2026) is now available in Search Console globally — track AI Overviews impressions, AI Mode impressions, and Discover AI as separate channels, not inferred from organic click trends.
+- **Refresh cornerstone content on a 90-day maximum cycle**: Content older than 90 days without a visible update is cited 3× less frequently; reset the clock by updating statistics, revising the FAQ schema block, adding a "Last updated" timestamp, and committing `dateModified` in your Article schema.
+- **Build pillar-and-cluster architecture for AI Overview capture**: Google's AI Overviews favor topically comprehensive coverage; one pillar page plus 4–6 in-depth subtopic articles internally linked beats a single long-form post for AIO citation probability.
+- **Include named data sources for every factual claim**: Adding statistics with named primary sources (not just "studies show") increases AI citation rate by 30–40%; Perplexity in particular verifies inline citations before generating an answer.
+- **Provide video and podcast transcripts**: AI engines are natively multimodal in 2026; content without a high-quality transcript is invisible to AI parsers scanning those formats, forfeiting an estimated 50% of multimodal citation opportunities.
+- **Separate your Perplexity / ChatGPT / AIO optimization tracks**: Domain overlap across AI search engines is only 11–12%, meaning optimizing for one does not automatically translate to the others; build engine-specific citation audits using direct prompt testing monthly.
+- **Do not build an llms.txt file for Google's AI features**: Google's official guidance explicitly states llms.txt has no effect on Google AI Overviews or AI Mode; redirect that effort to E-E-A-T signals, schema, and topical authority.
+
+### Notable Insight This Week
+The defining story of September 2026 is the "great decoupling": across industries, organic rankings and impression counts are holding steady or rising while click-through rates fall 30–50% because AI Overviews now appear on nearly half of all queries. The conventional SEO scorecard — keyword rank and organic CTR — no longer captures the full picture. Brands that win in this environment are tracking a second set of signals: AI crawler hits in server logs (GPTBot, ClaudeBot, PerplexityBot), direct brand-mention audits inside AI answers, and the new Google Search Console generative AI report. The practical implication is structural: content strategy must simultaneously satisfy the traditional rank algorithm (topical authority, backlinks, page quality) AND the citation-extraction requirements of AI systems (answer-first openings, schema, inline sourcing). These are not competing priorities — the same investments in E-E-A-T and structured content serve both — but they require measurement stacks that explicitly track both organic traffic and AI-sourced citations as separate channels.
+
+---
+
 ## Update: 2026-09-14
 
 ### Sources Reviewed
