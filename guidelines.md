@@ -2,6 +2,25 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-09-14
+
+### Sources Reviewed
+- [Google Admits Search Console Reporting For AI Search Is Inadequate](https://www.searchenginejournal.com/google-admits-search-console-reporting-for-ai-search-is-inadequate/589236/) — Google concedes GSC's AI search reports do not adequately reflect where pages actually surface in AI answers
+- [What Wikipedia Reveals About AI Overviews And Web Traffic](https://www.searchenginejournal.com/what-wikipedia-reveals-about-ai-overviews-and-web-traffic/589042/) — University of Washington study estimates AI Overviews cut search referrals to Wikipedia by about 5%; Google disputes the figure
+- [New AI Search & SEO KPIs: 4 Signals That Guide Real Decisions](https://www.searchenginejournal.com/new-ai-search-seo-kpis-4-signals-that-guide-real-decisions/588605/) — Stas Levitan (LightSite AI): four first-party signals that connect AI bot attention with human traffic
+- [The 2003 Framework That Was Already Doing Query Fan-Out](https://www.searchenginejournal.com/the-2003-framework-that-was-already-doing-query-fan-out/588595/) — Nested phrases and timely publishing target the longer queries AI systems generate
+
+### Key Takeaways
+1. Treat Search Console AI reports as directional, not complete. Google itself says its AI search reporting undercounts where pages appear in AI features. Never conclude a page is invisible to AI because the AI report shows zero impressions; verify with direct probes (ask ChatGPT, Perplexity, and Gemini questions your pages should answer and see who gets cited).
+2. Winning the AI Overviews placement is still the goal even though clicks leak. A ~5% referral drop at Wikipedia's scale means a small aggregate loss per site; the cited page remains where the user continues, so being in the answer with a specific, quotable page beats being absent.
+3. Set up four first-party AI signals per site and review them weekly: AI crawler hits (log counts for GPTBot, ClaudeBot, PerplexityBot), brand mentions in AI answers, AI referral traffic, and conversions from AI surfaces. Crawler hits rising without human traffic is normal; both falling at once means content went stale or links eroded.
+4. Fan content out into the long tail: for every core topic, publish the full family of nested question pages (service page, "vs" comparison, "for [city]" variant, "how much" page) and refresh them whenever facts or prices change, because AI systems formulate longer, more specific queries than classic keyword research captures.
+
+### Notable Insight This Week
+This week both the tooling and the economics of AI search got a reality check. Google finally admitted its Search Console AI reporting undercounts real AI visibility, and the UW study quantified the flip side: even Wikipedia only lost about 5% of search referrals to AI Overviews. Together they point to the same conclusion: stop treating AI-report impressions as the scoreboard, because the data is incomplete, and stop fearing AI Overviews as a click-killer, because the aggregate loss is small. The practical stack for Wonsuk's sites is the Levitan approach: monitor what you can measure first-party (crawler hits, brand mentions in answers, AI referrals, conversions), then put effort where citations actually come from, which past weeks showed is product pages and brand-owned content. The query fan-out piece adds the content tactic that fits this: build nested question families so the long, specific queries AI generates have a page ready for them.
+
+---
+
 ## Update: 2026-09-07
 
 ### Sources Reviewed
