@@ -2,6 +2,62 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-09-21 (AEO/GEO/AI Search Best Practices Research)
+
+### Sources Reviewed
+- [TapClicks — 8 Answer Engine Optimization Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — content freshness advantage quantified; 25.7% freshness edge for AI-surfaced pages; niche authority over broad coverage
+- [HubSpot — Answer Engine Optimization Best Practices Marketers Can't Ignore in 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — lead sections must contain direct standalone answers; AI platforms reuse sentences, not context
+- [Qwairy — AI Citation Optimization Guide 2026: +41% Visibility](https://www.qwairy.co/blog/complete-ai-citation-optimization-guide) — structured content achieves 30-40% higher AI visibility; schema markup raises AI response probability by 36%
+- [Siftly AI — How to Optimize Content to Get Cited by AI Search Engines 2026](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — author credentials on page boosts citation probability by 40%; AI search visitors convert at 14.2% vs traditional organic's 2.8%
+- [Search Engine Land — Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — GEO now extends to multimodal AI; video transcripts and audio content are indexed by AI engines
+- [ALM Corp — AEO 2026: Answer Engine Optimization Practical Playbook](https://almcorp.com/blog/answer-engine-optimization-2026/) — platform-specific AEO tactics for Google AI Overviews, ChatGPT, Perplexity, and Claude
+- [Neil Patel — AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — AEO targets short answerable questions; GEO targets comprehensive topics for AI synthesis; both are required in 2026
+- [ekamoira.com — Neil Patel on AI-SEO Is Changing Everything in 2026](https://www.ekamoira.com/spotlight/ai-search-optimization/tMBdA2gkXgk) — Patel's thesis: "Authority = Citations"; brands winning AI search build trust AI systems recognize across every platform simultaneously
+- [Enrich Labs — Generative Engine Optimization: The Complete 2026 Guide](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — GEO citation-worthy elements: data, expert quotes, authoritative statements; adding these yields the highest visibility boost
+- [Logic Inbound — How To Optimize Content For Google AI Overviews (2026)](https://logicinbound.com/how-to-optimize-content-for-google-ai-overviews-2026/) — AI Overviews now appear in 47-64% of all queries; top-ranked pages see 30-50% CTR drop when AIO is present
+
+### Key AEO/GEO/AI Search Guidelines
+
+#### AEO vs. GEO: Deploy Both Based on Query Intent
+- Use **AEO** (answer engine optimization) for short, factual questions — structure pages as direct Q&A, implement FAQPage schema, and write answers that stand alone in 1-2 sentences without surrounding context
+- Use **GEO** (generative engine optimization) for comprehensive topics — write sections that can each be independently cited, include data with inline source attribution, and ensure the first 200 words deliver a complete standalone answer to the primary query
+- In 2026, a brand is invisible if it is optimized for neither: traditional 10-blue-link rankings no longer guarantee visibility when AI Overviews appear in 47-64% of all queries and reduce top-position CTR by 30-50%
+
+#### Content Structure for AI Citation: The 60-Word Rule and Heading Signals
+- Put the direct answer in the **first 50-60 words** of every page; AI retrieval systems evaluate relevance primarily on opening content, and a page that buries its answer loses citation eligibility even if the rest of the content is authoritative
+- AI systems most frequently cite the **first 1-2 sentences after each heading** — open every H2 and H3 with one clear summary sentence, then support it with data and examples; headings that merely label a topic ("Best Practices") underperform question-format headings ("What Content Format Earns the Most AI Citations?")
+- Build a strict **H2 → H3 → H4 heading hierarchy with no skipped levels**; this sequential structure signals document organization to AI parsers and contributes to the 2.8× citation lift benchmark confirmed across multiple 2026 studies
+
+#### Schema Markup: 36% AI Response Probability Lift
+- Pages with **any schema markup** are 36% more likely to appear in AI responses compared to unschemed equivalents — schema implementation is the single highest-ROI technical change available to most sites in 2026
+- Combine **FAQPage + HowTo + Article schema** for a 2.5-3× citation multiplier; FAQPage alone gives AI engines pre-extracted Q&A pairs and is used directly by Google AI Overviews to populate answer sections
+- Add **`dateModified` in structured data** and a visible "Last updated" timestamp on the page; freshness signals in schema are parsed independently from page-level timestamps and contribute to the recency scoring AI systems apply
+
+#### Content Freshness: The 60-Day Citation Window
+- AI-surfaced pages have a 25.7% freshness advantage over traditional search results (average age 1,064 days vs 1,432); **update high-value pages every 60-90 days** to stay within the freshness window that AI systems prefer
+- Pages updated within the last **two months earn 28% more AI citations** than stale pages — set calendar reminders on every cornerstone page and treat the update as a citation maintenance task, not optional quality improvement
+- Freshness refresh sequence: (1) update statistics with inline sources and current dates, (2) revise FAQ schema blocks with current question phrasing, (3) update `dateModified` and visible timestamp, (4) rewrite the opening paragraph to reflect any new developments
+
+#### Author Credentials: +40% Citation Probability
+- Displaying **visible author credentials** on the page (name, title, relevant expertise summary) increases citation probability by approximately 40% — AI systems score E-E-A-T signals and named authorship with verifiable expertise is a strong trust signal
+- Go beyond a byline: include a brief author bio that **links to external authority signals** (LinkedIn profile, published research, speaking credits) so AI crawlers can verify the expertise chain off-site
+- For brand-owned content without a named author, use **organization schema** with a defined `knowsAbout` field listing your core topical authority areas — this gives AI engines a structured authority claim to parse when no individual author is listed
+
+#### Multimodal Optimization: Video Transcripts Are Now Required
+- AI engines in 2026 are **natively multimodal** — they process videos and audio to find answers; YouTube content without a high-quality closed caption transcript or a matching text article is largely invisible to AI citation systems
+- For every video or podcast, publish a **companion text article** on your domain with the full transcript, a structured summary, and schema markup; this converts non-indexable audio/video into citable content and captures the multimodal citation opportunity
+- Google AI Overviews already cites YouTube (19%) as its second-highest external source — brands without structured video content are missing a high-value citation channel that their competitors are increasingly claiming
+
+#### Perplexity and ChatGPT: Platform-Specific Signals
+- **Perplexity** (now above 500 million monthly queries) prioritizes factual accuracy with inline source attribution at citation time — every factual claim in content targeting Perplexity must link to a primary source within the body text, not in a footnote or bibliography
+- **ChatGPT** has diversified away from Wikipedia dominance since late 2025 and now cites broadly across high-DA editorial domains; maintaining editorial presence on multiple authoritative sites matters more than optimizing for any single platform
+- Both engines respond to **"citation-worthiness" signals**: precise verifiable claims ("The average conversion rate is 3.2% — Source, 2025") are cited more than vague approximations; every factual assertion should include a specific figure and an inline source reference
+
+### Notable Insight This Week
+The most important new finding this week is the **5× conversion advantage of AI search visitors**: users who arrive via AI search convert at 14.2% compared to traditional organic search's 2.8%. This reframes the entire narrative around AI Overviews "stealing clicks." Yes, top-ranked pages see a 30-50% CTR reduction when AI Overviews appear — but the visitors who still click through are dramatically more qualified and intent-driven than typical organic visitors. The economic implication is significant: a 40% reduction in AI-era click volume combined with a 5× conversion lift means the per-click value has more than doubled. Brands optimizing for AI citation are not just maintaining visibility — they are improving the quality-weighted value of every session their content earns. The practical direction this points is clear: prioritize being cited in AI answers (to stay visible) and then ensure the pages users land on convert efficiently (to capture the conversion premium). AEO/GEO investment and conversion rate optimization are now directly coupled in a way they were not in the traditional organic era.
+
+---
+
 ## Update: 2026-09-21
 
 ### Sources Reviewed
