@@ -2,6 +2,23 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-09-21
+
+### Sources Reviewed
+- [Checking A Page Is Part Of A Retrieval Pipeline For AI](https://www.searchenginejournal.com/checking-a-page-is-part-of-a-retrieval-pipeline-for-ai/589284/) — free verification test: paste a distinctive snippet into a chatbot and ask for exact matches; a returning URL proves retrieval is working
+- [Cloudflare Will Write Your Robots.txt, And It Has A Point](https://www.searchenginejournal.com/cloudflare-will-write-your-robots-txt-and-it-has-a-point/589262/) — Bot Preference Sync sets AI crawler policy per category (allow GPTBot, block Bytespider) instead of one rule per crawler
+- [Google AI Payment Pilot, Search Profiles At 10,000](https://www.searchenginejournal.com/seo-pulse-google-ai-payment-pilot-search-profiles-at-10000/589849/) — Google is testing payments for content used in AI answers; Cloudflare and Microsoft are testing their own payout models ([comparison](https://www.searchenginejournal.com/googles-ai-payment-pilot-vs-cloudflare-and-microsoft-models/589636/))
+
+### Key Takeaways
+1. Run the retrieval probe on massagego's money pages: copy one distinctive sentence from a service page, paste it into ChatGPT, Perplexity, and Gemini, and ask whether the exact text appears and who the source is. If the URL comes back, retrieval works and GSC's incomplete AI reports are not the scoreboard. If it never comes back, rewrite the page in plainer, more quotable language.
+2. Set an explicit AI crawler policy in Cloudflare Bot Preference Sync instead of leaving the default. Decide per category: allow the major answer engines (GPTBot, PerplexityBot, ClaudeBot) so pages stay citable, and block known scrapers. The default describes nothing; a written policy matches what you actually want.
+3. Treat the Google payment pilot as a reason to keep AI access open, not to lock content down. All three payout models pay based on AI usage of content; pages that block crawlers opt themselves out of future revenue. Keep sitemaps current and content accessible while the models shake out.
+
+### Notable Insight This Week
+Three different payout models for AI content usage are now being tested at the same time: Google's pilot, Cloudflare's per-crawler arrangement, and Microsoft's approach. The question is no longer whether AI usage of content will be paid, only how. For Wonsuk's sites the strategy stays the same: keep pages accessible to AI crawlers, keep first-party evidence of usage, and use the free retrieval probe to verify pages are actually in the pipeline. The Cloudflare piece adds one concrete decision to make now: an explicit per-category bot policy instead of the default allow-all or an accidental block during the massagego recovery period.
+
+---
+
 ## Update: 2026-09-14
 
 ### Sources Reviewed
