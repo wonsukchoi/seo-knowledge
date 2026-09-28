@@ -2,6 +2,39 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-09-28 — AEO / GEO / AI Search Deep Dive
+
+### Sources Reviewed
+- [GEO vs AEO: What's the Difference?](https://neilpatel.com/blog/geo-vs-aeo/) — Neil Patel breaks down when to use AEO (short answerable queries) vs GEO (comprehensive AI-synthesized topics)
+- [AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — 2026 "great decoupling": rankings and impressions rise while clicks shrink as discovery shifts to ChatGPT, Perplexity, and Google AI Overviews
+- [8 AEO Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — TapClicks: question inventory, standalone sentences, schema, and freshness signals
+- [Answer Engine Optimization: Complete AEO Guide](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — Frase: Ahrefs study shows AI-cited URLs average 1,064 days old vs 1,432 for traditional results — freshness advantage is real
+- [Mastering GEO in 2026: Full Guide](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — Search Engine Land: semantic relevance now outweighs keyword placement; GEO targets individual text blocks, not whole pages
+- [Google's Guide to Optimizing for Generative AI Features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — Google Search Central: structured data, entity authority, and citation-worthy content as core AI optimization signals
+- [How to Optimize for Google AI Overviews (2026)](https://logicinbound.com/how-to-optimize-content-for-google-ai-overviews-2026/) — AI Overviews now appear in 47-64% of all queries; top positions see 30-50% CTR drops
+- [AI Citation Optimization Guide 2026](https://www.qwairy.co/blog/complete-ai-citation-optimization-guide) — Pages with schema markup are 36% more likely to appear in AI responses; proper structure yields 30-40% citation increase
+
+### Key AEO/GEO/AI Search Guidelines
+- **Structure every section to stand alone**: AI engines extract individual text blocks, not whole pages — each H2/H3 section must make sense without surrounding context
+- **Lead with a direct answer in the first 50 words of every section**: LLMs read the first 1-2 sentences to decide if a section answers a query; bury the answer and you lose the citation
+- **Use question-based headings (H2/H3)**: Headings framed as real user questions ("What is X?", "How do I Y?") directly match the queries AI systems formulate
+- **Implement FAQPage, HowTo, Article, and Speakable schema in JSON-LD**: Pages with structured markup are 36% more likely to appear in AI responses; prioritize FAQPage for AEO and Article for GEO
+- **Include specific statistics with named sources**: Vague claims are not cited; a sentence with a named study, percentage, and year is a citation magnet for AI systems
+- **Add a visible "Last updated" date to every page**: AI platforms weight content recency heavily; freshness signals reduce the average page age from 1,432 days (traditional) to ~1,064 days (AI-cited)
+- **Chunk content into 2-4 sentence paragraphs under clear H3 headings**: Dense text walls reduce citation probability; scannable hierarchy increases it
+- **Write in spoken-friendly, conversational sentences for voice/AI answers**: Responses from voice and AI assistants are read aloud — avoid jargon, relative clauses, and passive constructions
+- **Use AEO for short factual queries, GEO for comprehensive synthesis**: AEO wins direct-answer surfaces (featured snippets, voice); GEO wins multi-source AI summaries — deploy both in the same content strategy
+- **Add an FAQ section based on real "People Also Ask" and AI-generated queries**: FAQ blocks that target bottom-of-funnel questions compound citation rate across both AEO and GEO surfaces
+- **Build topical authority with comparison pages ("X vs Y")**: Comparison queries return 1.33x citation rate relative to their share of total queries; every site without competitor comparison pages has a measurable citation gap
+- **Keep AI crawlers open in robots.txt and Cloudflare Bot Preference Sync**: Blocking GPTBot, PerplexityBot, or ClaudeBot opts pages out of citation pipelines and (as payout pilots mature) out of AI-content revenue models
+- **Treat Google AI Overviews as a content architecture problem**: Agencies achieving consistent AI Overview citations restructure pages around extractability (summaries, definition boxes, question headings) rather than chasing technical SEO shortcuts
+- **Monitor AI citations with direct probes, not just GSC**: Paste a distinctive sentence from a money page into ChatGPT or Perplexity and ask for exact matches; a returned URL confirms retrieval; no result means the page needs plainer, more quotable language
+
+### Notable Insight This Week
+The defining shift in late-2026 GEO practice is the move from page-level keyword optimization to section-level semantic relevance. AI systems no longer rank entire web pages — they retrieve individual text blocks and stitch them into synthesized answers. This means every section of every page must be independently optimized: a direct answer in the opening sentence, a named-source statistic in the body, and a standalone heading that mirrors a real user question. Layer FAQPage and HowTo schema on top, add a visible freshness date, and a single well-structured page can win citations across Google AI Overviews (now appearing in 47-64% of all queries), Perplexity, and ChatGPT simultaneously — partially offsetting the 30-50% CTR drop that AI Overviews impose on traditional top-ranked positions.
+
+---
+
 ## Update: 2026-09-28
 
 ### Sources Reviewed
