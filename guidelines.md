@@ -2,6 +2,25 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-09-28
+
+### Sources Reviewed
+- [Google Rolls Out September 2026 Spam Update Globally](https://www.searchenginejournal.com/google-september-2026-spam-update/590828/) — fourth spam update of 2026, global since Sept 24, rollout window up to two weeks; Google has not said what it targets
+- [Google Has Deployed A New AI Spam Detector Called SAFE](https://www.searchenginejournal.com/google-has-deployed-a-new-ai-spam-detector-called-safe/590918/) — second AI-slop system of 2026 after S-CTS: multimodal semantic embeddings catch synthetic content at scale, and it may be part of this spam update
+- [Google AI Overviews Have More Links, But Not All Reach The Web](https://www.searchenginejournal.com/google-ai-overviews-have-more-links-but-not-all-reach-the-web/590762/) — external links inside AI Overview answers jumped from near zero to 26.2% (Peec AI, Aug 25 to Sept 20); GSC counts clicks to external pages, but link-styled text that opens AI Mode counts as nothing
+- [Google Search Console Adds Multimodal Filter For Image-Based Searches](https://www.searchenginejournal.com/google-search-console-multimodal-filter/590781/) — new Performance report filter splits image-based searches (Lens, Circle to Search, image uploads) from text; page-level data only, no query data
+
+### Key Takeaways
+1. Treat Sept 24 through early October as a cleanliness window: no new programmatic pages and no restoring bulk content on any site. The September spam update rolls out globally for up to two weeks and overlaps with a newly deployed AI-slop detector (SAFE). Do not rebuild the pSEO volume removed from massagego on Sept 23; keep that removal dated so any recovery can be tied to the fix.
+2. Never publish unedited AI content at volume. Google now runs at least two systems built to catch synthetic content (S-CTS and SAFE), both aimed at content violating the spirit of its policies even when it dodges the letter. Every Claude Code blog post must be edited before publishing: first-party facts, real photos and prices, one distinct angle per page. One template repeated at volume is exactly the pattern these systems exist to catch.
+3. Read AI search data the way Search Console actually counts it. Clicks on external links inside AI Overviews and AI Mode count as normal Web clicks in the Performance report; the generative AI report is impressions-only and aggregated per property (two of your pages in one AI answer = one impression), so never derive a CTR from it. With external links in AI Overviews now at 26%, being cited is a click opportunity again: keep money pages quotable and specific.
+4. Use the new multimodal filter on any image-heavy site. In Search Console, open Performance, choose Web search, filter to Multimodal, and export the pages. Pages that win image-based searches need descriptive alt text, original photos, and the key details on the page itself (price, location, hours), because image searchers land directly on the page, not the homepage.
+
+### Notable Insight This Week
+Two platform stories define the week. The September spam update went global on Sept 24 with an unusually long two-week rollout, and reporting shows Google now runs a second AI-slop detector, SAFE, alongside S-CTS. Spam detection is being rebuilt specifically around synthetic, mass-produced content, which is the exact pattern behind massagego's suppression this month. The operative decision for the next two weeks is restraint: publish nothing programmatic, restore nothing, and let the Sept 23 cleanup stand while the classifiers run. For content that passes that bar, the AI Overviews data is encouraging: inline external links rose to 26% of AI Overviews and Search Console counts those clicks as real clicks, so specific, quotable pages keep earning traffic from AI surfaces. The multimodal filter is a small free addition for image-heavy pages.
+
+---
+
 ## Update: 2026-09-21
 
 ### Sources Reviewed
