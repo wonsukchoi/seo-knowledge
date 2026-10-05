@@ -2,6 +2,25 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-10-05
+
+### Sources Reviewed
+- [Google Shows How Long Crawling, Indexing & Recovery Can Take](https://www.searchenginejournal.com/google-crawling-indexing-recovery-timing-ranges/591829/) — Gary Illyes shared Google's internal timing ranges: a known URL refreshes in about 30 days, canonical changes settle in 1-3 weeks, and core update recovery typically takes 3-6 months (slowest case: 6-12 months)
+- [Google Tells Sites To Fact-Check AI Content Before Publishing](https://www.searchenginejournal.com/google-fact-check-ai-content-before-publishing/591782/) — Oct 1 guidance update: manually fact-check all AI output before publishing, explicitly including titles, meta descriptions, structured data, and image alt text
+- [Google Adds Fake Author Warning To Helpful Content Guidance](https://www.searchenginejournal.com/google-fake-author-warning-site-owner-guidance/591806/) — fabricated author profiles (AI-generated headshots, made-up names, false credentials) are now called deception in guidance written for site owners, and "a signal of a low-quality page"
+- [Google Gemini Adds UTM Parameters For Referral Attribution](https://www.searchenginejournal.com/google-gemini-adds-utm-parameters-for-referral-attribution/591754/) — Gemini now appends UTM tags to outgoing links (undocumented; Mueller confirmed sightings), turning AI referrals that used to land as Direct into trackable visits
+
+### Key Takeaways
+1. Set recovery expectations with Google's own numbers and stop checking daily. Illyes' ranges: known-URL refresh ~30 days, canonical changes 1-3 weeks, core update recovery typically 3-6 months (worst case 6-12 months). For massagego, keep the Sept 23 cleanup frozen, add no new interventions because one week looks flat, and review progress at monthly checkpoints. Normal content changes are still fast (title and snippet updates land in 1-2 days), so don't confuse slow recovery with a broken workflow.
+2. Add a manual fact-check step to the blog pipeline that covers metadata, not just the body. Google's Oct 1 guidance says to hand-review all AI output before publishing and explicitly extends the review to title tags, meta descriptions, structured data, and image alt text. Every Claude Code post: verify facts, prices, and names against first-party sources, then read the title, description, and alt text with the same eyes before publishing.
+3. Never use invented authors. If a post carries a byline it must be a real person (Wonsuk or a real team member) with a real bio and photo; no byline beats a fabricated one. Do a one-time audit of author pages and bios across the sites: any AI-generated headshot, made-up name, or unsupported credential now reads as deception and a low-quality signal. Fix or delete.
+4. Start tracking Gemini UTMs in your analytics. Gemini silently tags outbound links now, so Gemini visits that previously fell into Direct can finally be attributed. Check Umami for Gemini UTM entries on the sites and treat them as the first honest AI-referral number; no setup needed, just don't sweep those visits into Direct.
+
+### Notable Insight This Week
+Google handed site owners real numbers for the first time: Illyes' timing ranges turn recovery from guesswork into a schedule question. Typical core update recovery is 3-6 months, crawl refresh is about 30 days, canonical changes settle in 1-3 weeks. For massagego, roughly a month into a process whose normal duration is measured in quarters, that means the weekly "is it back yet" cycle is the wrong cadence and every extra intervention just adds new variables. In the same week Google tightened its AI content guidance twice: fact-check everything including metadata, and fabricated authors are deception. Read together, the message is that AI output is fine when a human verifies it and real people stand behind it, which is already the workflow here. The only changes: review metadata as carefully as the body, and never invent an author.
+
+---
+
 ## Update: 2026-09-28
 
 ### Sources Reviewed
