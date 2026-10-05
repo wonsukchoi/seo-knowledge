@@ -2,6 +2,33 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-10-05 (AEO / GEO / AI Search)
+
+### Sources Reviewed
+- [Neil Patel — GEO/AEO ROI data & 2026 prediction](https://x.com/neilpatel/status/2028092896881082554) — AI platforms drive <1% of traffic but 9.7% of B2B revenue and 11.4% of B2C revenue, with GEO/AEO expected to be the most profitable marketing channel at scale in 2026
+- [AEO vs GEO vs LLMO — Neil Patel Blog](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — breaks down the three overlapping disciplines and confirms all three still rest on traditional SEO fundamentals: schema, technical structure, non-commodity content
+- [Answer Engine Optimization Best Practices — HubSpot](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — AI-generated answers include lists 78% of the time; AI-surfaced URLs average 1,064 days old vs. 1,432 days for traditional results (25.7% freshness advantage)
+- [Mastering GEO in 2026 — Search Engine Land](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) — first 200 words must deliver the complete answer; exact-question H2s are the highest-ROI GEO formatting change; content behind accordions and paywalls is invisible to AI crawlers
+- [AI Citation Optimization Complete Guide — Siftly](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — independent semantically-complete sections get cited 65% more often; listicles account for 63% of all LLM citations; schema markup raises AI-citation probability by 36%
+- [Google AI Overviews Optimization 2026 — Digivate](https://digivate.com/blog/aeo/how-to-rank-in-google-ai-overviews-2026-2) — AI Overviews appear in up to 48% of US searches; being one of three cited sources is more achievable than ranking #1; entity-based optimization is now required
+
+### Key AEO/GEO/AI Search Guidelines
+- **Answer first, always:** Open every key section with a 40–60 word direct answer; AI engines extract the first 1–2 sentences after headings (BLUF format).
+- **Format for lists:** Structure comparative and instructional content as ordered or unordered lists — AI-generated answers include lists 78% of the time and listicles account for 63% of all LLM citations.
+- **Use exact-question H2/H3 headers:** AI systems pattern-match headers to user queries; reformatting headers as full questions is the single highest-ROI GEO change per Search Engine Land 2026 guide.
+- **Deploy FAQPage + HowTo + Article schema:** Pages with schema markup are 36% more likely to appear in AI responses; HowTo schema delivers 3× citation rate for tutorial content.
+- **Keep all content in raw HTML:** Anything inside accordion dropdowns, login walls, or paywalls is invisible to AI crawlers — move priority information to visible HTML.
+- **Refresh quarterly:** AI engines weight recency; targeted pages should receive updated data, statistics, and examples every 3 months.
+- **Include original data or expert quotes:** Named expert quotes with title and company act as strong authority signals; original research and proprietary statistics are citation magnets for AI.
+- **Optimize for entities, not just keywords:** Map people, places, brands, and concepts explicitly; Google AI Overviews now runs entity-based retrieval, not just keyword matching.
+- **Aim for multi-source citation:** Google AI Overviews cite 3+ sources per answer; publishing a unique data point or proprietary angle is more achievable than ranking first.
+- **Track AI referral revenue, not just traffic:** AI platforms drive <1% of visits but 9–11% of B2B/B2C revenue — measure revenue-per-session from AI referrals in analytics.
+
+### Notable Insight This Week
+Neil Patel's 2025 ROI data reframes the entire AI search conversation: AI platforms send almost no traffic, yet B2B companies attribute 9.7% of revenue to them and B2C companies attribute 11.4% — multiples higher than traditional search sessions. This means the optimization goal for AI search is not impression volume or click share; it is citation quality and conversion readiness on the landing page. Every page that could realistically appear in a ChatGPT, Perplexity, or Google AI Overview answer should carry a BLUF answer, entity-mapped content, original data, and FAQPage/Article schema — not because those changes raise rankings in traditional search, but because they make a page legible and citable to the retrieval systems that drive high-intent visitors.
+
+---
+
 ## Update: 2026-10-05
 
 ### Sources Reviewed
