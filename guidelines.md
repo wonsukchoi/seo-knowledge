@@ -2,6 +2,37 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-10-12 (AEO / GEO / AI Search Deep-Dive)
+
+### Sources Reviewed
+- [GEO vs AEO: What's the Difference? — NP Digital](https://neilpatel.com/blog/geo-vs-aeo/) — Neil Patel recommends using AEO for quick-win answer positions and GEO for long-term topical authority that AI systems can summarize and cite; both build on traditional SEO fundamentals
+- [AEO vs GEO vs LLMO — NP Digital](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — these three frameworks extend SEO into AI discovery surfaces rather than replace it; schema, technical structure, and non-commodity content underpin all three
+- [8 AEO Best Practices for 2026 — TapClicks](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — open each section with a 40–60 word self-contained answer; question-form H2/H3 headings that mirror search intent; FAQPage and Article schema; quarterly content refreshes
+- [Answer Engine Optimization Complete Guide — Frase.io](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — entity consistency (same brand name/terminology sitewide), original data, and expert quotes significantly increase AI citation rates
+- [GEO Complete Guide 2026 — Enrichlabs](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — Google's May 2026 Search Central guide explicitly advises against llms.txt files, content chunking, and AI-specific rewrites; treats GEO as SEO for the search experience
+- [Content Strategy for AI Overviews: Post-I/O 2026 — Digital Applied](https://www.digitalapplied.com/blog/content-strategy-ai-overviews-post-io-guide-2026) — Google's official guidance debunks structured-data manipulation and llms.txt as reliable AIO levers; answer-first content with genuine expertise remains the durable strategy
+- [How to Optimize Content to Get Cited by AI Search Engines — Siftly](https://siftly.ai/blog/optimize-content-ai-search-engines-citations-guide-2026) — semantically self-contained sections (complete thought per heading block) cited more often than dense interconnected paragraphs; sub-query coverage is a key gap most pages miss
+- [Content Optimization for AI Search Study — Semrush](https://semrush.com/blog/content-optimization-ai-search-study) — Q&A format and statistic-backed claims correlate with AI citations; heading hierarchy and table use increase machine parseability
+
+### Key AEO/GEO/AI Search Guidelines
+- **Answer-first structure:** Open every major section with a 40–60 word standalone answer block before elaborating; AI systems extract this capsule as the citation snippet.
+- **Question-style headings:** Write H2s and H3s as the exact questions your audience types; question-form queries trigger AI Overviews at significantly higher rates than non-question queries.
+- **Schema for machine parsing, not rich results:** Add FAQPage and Article markup — Google no longer renders HowTo or FAQ rich results in Search (as of 2026), so schema's value is for AI parsing, not visual SERP features.
+- **Cover sub-queries, not just the root query:** Pages that answer the primary question but miss the follow-up sub-questions earn far fewer AI citations; map the fan-out questions and address each one in its own heading block.
+- **Self-contained sections:** Write each H2/H3 block so it can be read and understood without surrounding context; dense, interconnected prose is harder for retrieval systems to excerpt cleanly.
+- **Refresh high-value pages at least quarterly:** Add visible "Last updated" dates and temporal context ("As of October 2026…") to signal freshness to both crawlers and AI models.
+- **Include original data and expert quotes:** First-party research, specific statistics with named sources, and attributed expert quotes increase citation likelihood over generic claims.
+- **Consistent entity naming:** Use the exact same brand name, product names, and key terminology across all pages; inconsistency forces AI models to guess what you are, reducing citation accuracy.
+- **Allow major AI crawlers:** Keep GPTBot, PerplexityBot, and ClaudeBot unblocked in robots.txt; blocking them opts pages out of AI citation and any future content-usage payment models.
+- **Track AI mentions directly:** Run brand and key-claim searches in ChatGPT, Perplexity, and Gemini monthly; use the retrieval probe (paste a distinctive sentence, ask the model to identify the source) to confirm your pages are in the pipeline.
+- **Skip llms.txt for now:** Google's May 2026 Search Central guidance explicitly advises against llms.txt files as a reliable optimization lever — hold off until the spec matures and Google provides clearer signals.
+- **Topical depth over breadth:** Build a cluster of interlinked pages that collectively cover a topic comprehensively; Neil Patel's framework treats this topical authority as the foundation that both GEO and AEO build on.
+
+### Notable Insight This Week
+Google published its first official guide on optimizing for generative AI features in May 2026, and its message is deliberately conservative: optimizing for AI search is optimizing for the search experience — still SEO, not a separate discipline. The guide debunks several vendor-promoted tactics including llms.txt files, content chunking, and structured-data manipulation as reliable levers for AI Overviews, positioning clear helpful content and genuine expertise as the durable strategy. This is significant because the vendor SEO landscape in 2026 is saturated with GEO-specific tooling and advice that often contradicts Google's own documentation. The safest path is to implement what both camps agree on — answer-first structure, question-style headings, schema for machine parsing, sub-query coverage, and content freshness — while treating vendor-specific claims (e.g., exact percentages for citation lifts) as directional rather than authoritative until replicated by independent research.
+
+---
+
 ## Update: 2026-10-12
 
 ### Sources Reviewed
