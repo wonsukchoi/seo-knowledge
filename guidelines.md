@@ -2,6 +2,25 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-10-12
+
+### Sources Reviewed
+- [Google Ends Spam Update, Shares Crawl Timing Ranges – SEO Pulse](https://www.searchenginejournal.com/seo-pulse-google-spam-update-crawl-timing-ranges/592469/) — the September 2026 spam update finished Oct 8 after nearly two weeks; SEOmonitor found the late-September rank-tracker swings were partly incomplete data returned to automated tools, not real ranking changes; Search Console now combines multiple countries in one Performance filter; a session recap puts a site move at 1-3 months typical, 6 months to a year-plus at the slowest
+- [AI Overviews Have Spread To Most Big-Brand Searches](https://www.searchenginejournal.com/ai-overviews-big-brand-searches/592280/) — Ahrefs weekly panel: AI Overviews on brand-name searches went from 5 of 100 big brands on Jul 1 to 63 of 100 on Sept 30; DemandSphere's panel peaked at about 90% on Sept 27; the vendor counts differ but all agree brand queries are now an AI surface
+- [Google Explains How To Use HTML Sitemaps For SEO](https://www.searchenginejournal.com/google-explains-how-to-use-html-sitemaps-for-seo/592508/) — Mueller: HTML sitemaps do not replace XML sitemaps, but they still help users navigate and give crawlers links to find; keep them to top-level categories, not every page
+- [Claude's New Rules Target Fake Sources Built To Sway AI Answers](https://www.searchenginejournal.com/claude-rules-fake-sources-ai-answers/592456/) — Anthropic's updated usage policy (effective Nov 12) explicitly bans seeding search or AI answer sources with content that misrepresents its origin, authorship, or independence, e.g. networks of sites posing as unaffiliated sources; automated publishing left the high-risk list, which is not an exemption
+
+### Key Takeaways
+1. Treat Sept 24 to Oct 8 as the fixed spam update comparison window, and read it in Search Console, not in rank trackers. Check impressions and clicks before, during, and after the window. Ignore late-September tracker dips: SEOmonitor found trackers showed ranking swings that real users never saw, caused by incomplete data returned to automated tools. For massagego, keep the Sept 23 pSEO removal frozen as the only open change and judge it at monthly checkpoints instead of through tracker noise.
+2. Audit the brand SERP on every site. Search each brand name alone (for massagego also "massagego hcmc") and read what the AI Overview says, because a model now answers for your brand name on most big-brand queries. Whatever facts you want echoed (name spelling, city, services, hours, price ranges) must be plain text on the About page and FAQ, backed by accurate Organization or LocalBusiness schema (sameAs, address, phone). Brand searches are where a lead verifies you before booking.
+3. Add a footer-linked HTML sitemap page to the sites that lack one. List top-level category links only (services, guides, about, contact), following Google's own ecommerce example of categories over individual pages. One page per site adds an internal link to every section and one more crawl path, and helps real visitors navigate. One clean Claude Code task per site.
+4. Keep the automation stack on the compliant side of the new AI rules, and note Nov 12. Anthropic now explicitly bans fake source networks and misrepresented authorship across its products, the same pattern Google already punishes with its spam and fake author policies. Never build "independent" sites that corroborate the same claims, and never publish unreviewed output at volume. Automated publishing leaving the high-risk list is not a green light; keep the working pattern of Claude drafting plus human review before anything goes live.
+
+### Notable Insight This Week
+September closed with two clean facts. The spam update that opened the month finished on Oct 8, and the honest reading of its aftermath is quiet: the industry-wide rank-tracker turbulence from Sept 26 was partly bad data handed to automated tools, not real ranking change, so the only scoreboard worth trusting for the window is GSC impressions and clicks. Separately, brand-name searches crossed over: Ahrefs' panel went from 5 to 63 of 100 big brands showing AI Overviews in three months, so your own brand name is now a surface where a model speaks for you. Both point the same way for Wonsuk's sites: give models accurate, machine-readable brand facts to echo, keep human review in front of every publish, and let the pSEO cleanup keep aging on Google's own multi-month recovery clock instead of re-litigating it weekly.
+
+---
+
 ## Update: 2026-10-05
 
 ### Sources Reviewed
