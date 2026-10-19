@@ -2,6 +2,40 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-10-19 (AEO/GEO Research)
+
+### Sources Reviewed
+- [8 Answer Engine Optimization Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — practical AEO checklist: answer-first structure, schema, entity consistency, and citation tracking
+- [Answer Engine Optimization Best Practices Marketers Can't Ignore](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — HubSpot's 2026 guide; covers voice-ready writing, Q&A structure, and freshness cadence
+- [GEO Best Practices for 2026](https://www.firebrand.marketing/2025/12/geo-best-practices-2026/) — structured answer blocks, sourced claims, brand mentions on third-party sites
+- [How to Get Cited in AI Search Results: 9 Strategies (2026)](https://xponent21.com/insights/optimize-content-rank-in-ai-search-results/) — BLUF format, self-contained paragraphs, sub-query coverage
+- [Content Optimization for AI Search Study](https://semrush.com/blog/content-optimization-ai-search-study) — Semrush analysis of thousands of citations: Q&A format (+25.45%), section structure (+22.91%), structured data (+21.60%), non-promotional tone (−26.19%)
+- [Generative Engine Optimization Complete Guide 2026](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — GEO vs AEO definitions, freshness decay timeline, entity-level authority
+- [How to Optimize for Google AI Overviews in 2026](https://blog.georankers.ai/how-to-optimize-content-for-ai-overviews-aio-in-2026/) — hub-and-spoke topical clusters, E-E-A-T signals, measurement via A/B testing
+- [Neil Patel: AEO vs GEO vs LLMO](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — framework overview; all three are extensions of SEO, not replacements; strategy depends on content type and goal
+- [Neil Patel: GEO vs AEO](https://neilpatel.com/blog/geo-vs-aeo/) — AEO for short answerable questions; GEO for comprehensive topic coverage; a 2026 strategy needs both
+
+### Key AEO/GEO/AI Search Guidelines
+- **Answer first (BLUF):** Open every section with a direct, self-contained answer of 40–60 words before adding supporting detail — AI systems typically extract the first 1–2 sentences after each heading.
+- **Q&A and section structure drive citations:** Semrush's citation study found Q&A format correlates with +25.45% citation rate, section structure +22.91%, and structured data +21.60% — make these defaults on every substantive page.
+- **Avoid promotional tone:** Non-promotional writing correlated with −26.19% citation penalty in the same Semrush study; strip superlatives and brand-first language from paragraphs intended to be cited.
+- **Use FAQPage and Article schema:** Add FAQPage markup to pages with Q&A sections and Article markup to editorial content; note that Google no longer renders HowTo/FAQ rich results in standard Search, so treat schema as a machine-readability signal, not a visual-result shortcut.
+- **Write self-contained paragraphs:** Keep paragraphs to 1–5 sentences each; each paragraph should make sense if lifted out of context, since AI systems often excerpt individual blocks.
+- **Headings should state the takeaway:** Replace vague labels ("Overview", "Details") with descriptive H2/H3s that summarize the section's answer — these act as semantic anchors for AI retrieval.
+- **Build topical authority clusters:** A standalone article on an unfamiliar domain earns fewer AI citations than the same article on a hub-and-spoke site with full topical coverage; prioritize cluster completion before new keyword targets.
+- **Refresh high-value content quarterly minimum:** GEO guides report content decay in AI search within 1–2 months; show a visible "Last updated" date and add a new statistic or example each refresh cycle.
+- **Attach sources, dates, and figures to claims:** Specific, verifiable claims (named study, year, number) are more likely to be cited than unsourced assertions; link to primary sources where possible.
+- **Cover fan-out sub-queries:** A page that answers the main query but misses common follow-up questions earns zero citations on those sub-queries regardless of its main-query ranking — use "People Also Ask" and AlsoAsked to identify gaps.
+- **Earn off-site brand mentions:** AI systems aggregate signals from review sites, Reddit, and trade publications; earn mentions in the listicles and review threads those platforms already cite, and never create fake "independent" sources.
+- **Track AI citations alongside rankings:** Log whether AI answers cite your domain on key queries (ask ChatGPT, Perplexity, and Gemini the five most important questions monthly); judge visibility at domain level, not page level.
+- **Choose AEO vs GEO by content type:** AEO (short, direct answers) suits FAQ pages, definition posts, and feature comparisons; GEO (comprehensive coverage) suits pillar pages, guides, and topic hubs — apply both in a single content strategy rather than choosing one.
+- **Named authors and original data boost E-E-A-T for AI Overviews:** Bylines with credentials, first-hand examples, and original research correlate with more AI citations; generic "staff" bylines and repackaged statistics do not.
+
+### Notable Insight This Week
+The Semrush citation study is the most concrete data point available this week: Q&A format and clear section structure together add roughly 48 percentage points to citation likelihood, while a promotional tone removes 26 points. That asymmetry matters practically — the fastest way to increase AI citations is not to add more schema but to reformat existing content into genuine Q&A structure and strip brand-first language. Neil Patel's 2026 positioning reinforces this: AEO and GEO are not new frameworks to layer on top of SEO but rather lenses that sharpen which SEO work to prioritise first. For any site already doing solid technical SEO, the marginal return now comes from answer-first formatting, topical cluster completion, and earning third-party brand mentions — not from chasing new schema types or AI-specific meta tags that do not yet exist.
+
+---
+
 ## Update: 2026-10-19
 
 ### Sources Reviewed
