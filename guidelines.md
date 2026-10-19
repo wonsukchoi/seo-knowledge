@@ -2,6 +2,26 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-10-19
+
+### Sources Reviewed
+- [OpenAI’s API Only Partly Matched ChatGPT’s Citations, Paper Finds](https://www.searchenginejournal.com/openais-api-only-partly-matched-chatgpts-citations-paper-finds/593304/) — a paper tested whether Google results and OpenAI's API can stand in for ChatGPT's citations; both matched the cited sites far more often than the exact pages
+- [ChatGPT Traffic Drop Appears To Be A Tracking Problem](https://www.searchenginejournal.com/chatgpt-traffic-drop-appears-to-be-a-tracking-problem/593157/) — the sharp fall in ChatGPT-attributed traffic across several analytics datasets this month traces to ChatGPT links opening without tracking tags, not a real drop in visits
+- [Rank Tracker Data, ChatGPT Tags & AI Search Links – SEO Pulse](https://www.searchenginejournal.com/seo-pulse-rank-tracker-data-chatgpt-tags-ai-search-links/593171/) — same week, a rank tracker logged Google pages missing their usual sites, more ChatGPT links missing tags, and both Google and Bing changing their AI search link formats
+- [It’s Possible Your Migration Issues May Be Due To Site Quality](https://www.searchenginejournal.com/its-possible-your-migration-issues-may-be-due-to-site-quality/592899/) — Marie Haynes: when a new domain will not index and there is no technical fix left, the cause is usually originality and site quality, not the move itself
+- [Google’s Indexing API Docs No Longer Explain How To Get Approval](https://www.searchenginejournal.com/google-indexing-api-docs-approval-form-removed/593292/) — the approval form and application steps are gone from the docs; only default quotas remain, with no stated path to request more
+
+### Key Takeaways
+1. Read every AI referral number as a floor, not a measurement, and stop judging AI traffic week to week. ChatGPT links have been opening without tracking tags, so a large share of those visits lands as Direct or nowhere. Same week, a rank tracker saw more tags vanish and both Google and Bing changed their AI link formats. Before reacting to any "ChatGPT traffic fell" report, check whether the link format changed; only a month-over-month move in total sessions plus bookings is worth acting on. In the traffic-drop report, label AI-referral rows as undercounted instead of flagging them as decline.
+2. Judge AI visibility at the domain level, never the page level. The paper found Google results and the OpenAI API both picked the same cited sites much more often than the same exact page ChatGPT cited. Two consequences. If he ever measures citations through an API, expect site-level accuracy and page-level noise, so never rewrite a page because an API says it was not cited. And what wins in AI answers is the domain's entity plus topical authority, meaning the About and FAQ facts, the schema, and consistent service descriptions across the whole site matter more than tuning one URL. One check per quarter: ask ChatGPT the five money queries, note which domains appear, and build content only where the domain is absent entirely.
+3. For a site that will not index after a launch or a move, run the originality audit before the technical one. Haynes' theory: once no technical fix remains, the blocker is that the new pages are not distinct enough from what already ranks, so the move inherits the old quality ceiling instead of resetting it. Rule: confirm real uniqueness on at least the top 10 pages (own photos, own prices, own location detail, first-hand answers) before blaming DNS, canonicals, or crawl budget. For massagego this is not a new defect, since its pages are still indexed with positions held, but it fixes the frame: the Sept 23 cleanup is the open variable, not another technical change.
+4. Never build a workflow that depends on the Google Indexing API. Google pulled the approval form and the request-more-quota steps from its docs, leaving only default quotas, so there is no documented way to expand access. Keep submissions on XML sitemaps plus IndexNow for Bing and Yandex, which is what the current workflow already does. If one URL truly must be recrawled fast, request indexing by hand in Search Console for that single URL.
+
+### Notable Insight This Week
+Three of this week's five items are one story from different angles: AI search measurement is broken at the link and citation layer. ChatGPT drops its tracking tags, Google and Bing changed their AI link formats, and even OpenAI's own API only reproduces ChatGPT's cited sites rather than its cited pages. So the numbers available right now are systematically low and noisy at exactly the moment everyone is publishing "ChatGPT traffic is collapsing" charts. The stance that survives that: keep GSC clicks and impressions plus total sessions and bookings as the scoreboard, treat domain-level presence in AI answers as the real target, and refuse to rewrite a page because a tracker said it was not cited. The other two items are a matched pair on judgment. Indexing API access quietly closed, so stop treating it as a lever, and when indexing stalls with no technical fault the honest answer is usually that the content is not original enough, which is the same lesson the pSEO cleanup already taught.
+
+---
+
 ## Update: 2026-10-12
 
 ### Sources Reviewed
