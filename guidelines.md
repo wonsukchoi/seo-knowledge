@@ -5,6 +5,34 @@ This file is updated weekly by an automated research agent. The most recent find
 ## Update: 2026-10-26
 
 ### Sources Reviewed
+- [Neil Patel — AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — Patel's latest framing treats AEO, GEO, and LLMO as overlapping disciplines with a shared SEO foundation; his NP Digital survey shows AI platforms collectively at 51% vs Google at 49% for search preference
+- [TapClicks — 8 AEO Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — Answer-first structure, question-driven heading research, and sequential heading hierarchy as the AEO framework
+- [HubSpot — AEO Best Practices Marketers Can't Ignore](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — YouTube mentions now correlate most strongly with AI visibility; Reddit/Quora brand presence delivers ~4× citation probability
+- [Digivate — Optimizing Content for Google AI Overviews 2026](https://digivate.com/blog/aeo/how-to-rank-in-google-ai-overviews-2026-2) — E-E-A-T and topical authority clusters are primary AI Overview selection criteria; schema alone is insufficient
+- [Semrush — Content Optimization for AI Search Study](https://semrush.com/blog/content-optimization-ai-search-study) — Large-scale citation study: Q&A format +25.45% and section structure +22.91% correlation with AI citation rates
+- [Xponent21 — How to Get Cited in AI Search Results](https://xponent21.com/insights/optimize-content-rank-in-ai-search-results/) — Google confirms structured data is NOT required for AI Overviews inclusion; content quality and authority are primary selection criteria
+- [Frase — Complete AEO Guide 2026](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — AI-cited URLs average 25.7% fresher than traditional results; 80% of AI-cited URLs are absent from Google's top 100 results
+
+### Key AEO/GEO/AI Search Guidelines
+- Structure every section with a 40–60 word direct answer immediately under a question-style heading before adding supporting detail — AI systems most commonly cite the first 1–2 sentences after each heading.
+- YouTube brand presence is now the single strongest off-site AI visibility signal; build authentic video mentions before investing further in Reddit or Quora community presence.
+- Treat schema markup as a clarity aid rather than a ranking shortcut: Google officially states structured data is not required for AI Overviews inclusion — content quality and E-E-A-T are the true selection criteria.
+- Design every section to be self-contained: each H2/H3 block must make full sense when extracted without surrounding context, since AI systems cite individual sections, not whole pages.
+- Replace vague claims with precise sourced statistics: Semrush's large-scale study found Q&A format (+25.45%) and clear section structure (+22.91%) are the top two structural correlates of AI citation rate.
+- Track AI citation rate alongside organic traffic: AI platforms are at 51% search preference vs Google at 49%, but AI drives only ~1% of web traffic while accounting for 9.7% of B2B and 11.4% of B2C revenue — citation matters more than click rate for revenue.
+- Treat AEO, GEO, and LLMO as a unified discipline with a shared SEO foundation, not three separate workflows; the same E-E-A-T, topical authority, and structured content practices advance all three simultaneously.
+- Keep AI crawlers (GPTBot, ClaudeBot, PerplexityBot, anthropic-ai) explicitly whitelisted in robots.txt — a silent block removes all content from AI citation eligibility with no error signal.
+- Use question-driven keyword research (People Also Ask, AnswerThePublic) to map headings to actual buyer queries at each funnel stage: awareness (educational), consideration (comparisons/proof), decision (pricing/implementation).
+- Refresh AI-targeted pages at least every 90 days; AI-cited URLs average 25.7% fresher than traditional search results, and the citation penalty for stale content precedes any visible traffic decline.
+
+### Notable Insight This Week
+Neil Patel's latest NP Digital survey data reveals a quiet milestone: AI platforms (ChatGPT, Claude, Perplexity, and others combined) have crossed 51% of search preference versus Google at 49%. But the revenue attribution data cuts deeper than the preference number. AI search drives less than 1% of website traffic while accounting for 9.7% of B2B revenue and 11.4% of B2C revenue — a conversion quality ratio roughly 10× better than the traffic ratio alone would suggest. This flips the standard analytics framing: teams measuring AI search performance primarily through session counts are systematically undervaluing citations that never produce a click but directly influence purchase decisions. The right scoreboard is citation rate plus revenue attribution plus branded search volume growth, not sessions. Paired with Semrush's quantified finding that Q&A format and section structure are the top structural correlates of AI citation (+25% and +23% respectively), the highest-ROI content move is a structural rewrite of existing high-traffic pages — adding question-style headings with direct 40–60 word answers under each — rather than publishing net-new content from scratch.
+
+---
+
+## Update: 2026-10-26
+
+### Sources Reviewed
 - [Google Explains 503s, Robots.txt Limits & Bracket URLs – SEO Pulse](https://www.searchenginejournal.com/seo-pulse-google-explains-503s-robots-txt-limits-bracket-urls/594085/) — maintenance windows need a real 503 served from something that stays alive, robots.txt gates crawling and not AI training, and raw versus percent encoded brackets are two different URLs
 - [GEO Is A Distraction: Here's Where The Real Opportunity Is](https://www.searchenginejournal.com/geo-is-a-distraction-heres-where-the-real-opportunity-is/593870/) — across 100 sites and 145 million sessions, ChatGPT sent 0.62% of what Google organic sent and all LLMs together 0.73%, while Google drove 96.5% of tracked conversions
 - [Google CEO Says Agents Will Hit Sites Two Ways, Pages And APIs](https://www.searchenginejournal.com/pichai-ai-agents-browsing-protocols/593986/) — Pichai expects browsing agents and agent protocols to develop in parallel, with UCP as the protocol Google backs and Google-Agent as a user triggered fetcher that generally ignores robots.txt
