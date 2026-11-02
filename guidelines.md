@@ -2,6 +2,34 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-11-02 — AEO / GEO / AI Citation Optimization
+
+### Sources Reviewed
+- [AEO vs GEO vs LLMO: Are They All SEO?](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — Neil Patel frames AEO, GEO, and LLMO as extensions of SEO across AI-powered discovery surfaces, not replacements for it; GEO builds on a strong SEO foundation
+- [8 Answer Engine Optimization Best Practices for 2026](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — vendor AEO guide covering answer-first structure, entity consistency, schema types, and off-site presence; statistics from one GEO study: adding statistics raised AI visibility ~33%, adding quotations ~41%
+- [GEO Best Practices for 2026](https://www.firebrand.marketing/2025/12/geo-best-practices-2026/) — Firebrand guide: AI models weight off-site mentions more than links; PR and analyst coverage serve as external validation signals for AI citation
+- [How to Get Featured in Google AI Overviews (2026 Playbook)](https://www.averi.ai/blog/google-ai-overviews-optimization-how-to-get-featured-in-2026) — Google cites pages ranked 4th to 10th or lower when content directly answers the query; Princeton-led study found expert quotations boost AI answer visibility by up to 40%
+- [AI Citation Optimization Guide 2026](https://www.qwairy.co/blog/complete-ai-citation-optimization-guide) — references March 2026 University of Tokyo GEO-SFE paper finding structural optimization alone (no content quality changes) improves citation rates by 17.3%
+
+### Key AEO/GEO/AI Search Guidelines
+- **Answer first, every section:** Open each section with a 40–60 word direct answer before supporting detail; AI systems chunk content by section and extract the first coherent answer block they find.
+- **Question-style headings:** Phrase H2 and H3 headings as the question the section answers; headers phrased as questions are more consistently matched to user queries in AI citation studies.
+- **Standalone section chunks:** Each section should cover exactly one concept so that an AI extracting it does not need surrounding context to make sense of the answer.
+- **FAQPage and HowTo schema:** Deploy FAQPage schema on all Q&A content and HowTo schema on process pages; Google dropped the FAQ rich snippet but AI systems still use the structured data to identify extractable Q&A pairs.
+- **Entity consistency across the web:** Use one canonical business name, one canonical domain, and identical short descriptions in schema, About pages, directory listings, LinkedIn, and press mentions — AI models build entity records from aggregated mentions, not just the page itself.
+- **Add authoritative quotations:** Citing credible external sources and including expert quotations in body copy boosted AI answer visibility by ~41% in the GEO citation study; use inline attribution ("according to [Source]…").
+- **Original data and explicit definitions:** Publish original survey data and define key terms explicitly near the top of pages — models cite definitions and data points because they are extractable, citable units of content.
+- **Structural reformatting over content rewrites:** The University of Tokyo GEO-SFE paper (March 2026) found structural changes alone — no content quality edits — improved citation rates by 17.3%; reformat existing strong content before producing new pages.
+- **Topic cluster depth:** Build 8–12 supporting pages per core topic in a hub-and-spoke model; topic authority across a cluster increases the probability any one page gets pulled into an AI answer on that topic.
+- **Off-site mentions as AI authority signals:** AI platforms build citation shortlists from roundups, reviews, YouTube, Reddit, and Quora that they already cite; appear on those sources rather than only building owned content.
+- **Visible freshness signals:** Add explicit temporal phrasing ("As of November 2026…"), visible publication dates, and named author bylines — freshness signals increase trust scores for AI extraction and reduce the risk of stale information being cited.
+- **AEO vs GEO scope:** Use AEO tactics (short direct answers, FAQ schema) for narrow question queries targeting featured snippets and People Also Ask; use GEO tactics (comprehensive clusters, citations, original data) for broad topics where AI tools summarize rather than extract.
+
+### Notable Insight This Week
+The highest-leverage AI citation action in 2026 is structural reformatting of content you already have — the University of Tokyo GEO-SFE paper measured a 17.3% lift in citation rates from layout changes alone, with no edits to the underlying substance. Combined with the ~41% visibility boost from adding authoritative quotations and ~33% from adding original statistics, a single pass over existing high-quality pages (answer-first openings, question headings, inline citations, FAQPage schema) is likely to outperform writing new content from scratch. Neil Patel's framing at brightonSEO 2026 confirms the same principle from the other direction: GEO and AEO still run on traditional SEO fundamentals — technically accessible pages, clear structure, non-commodity content — so the correct order is fix structure, add authority signals, then expand coverage, not the reverse.
+
+---
+
 ## Update: 2026-11-02
 
 ### Sources Reviewed
