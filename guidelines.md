@@ -2,6 +2,35 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-11-09 (AEO / GEO / AI Search Guidelines)
+
+### Sources Reviewed
+- [Neil Patel — AEO vs GEO vs LLMO](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — positions AEO (short answerable questions), GEO (comprehensive topics), and LLMO (model-level brand optimization) as complementary layers, all still rooted in SEO fundamentals
+- [HubSpot — AEO Best Practices 2026](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — cited pages opened with a direct answer 20% of the time vs. 5% for top-10 pages never pulled into AI answers
+- [Frase.io — AEO Complete Guide 2026](https://www.frase.io/blog/what-is-answer-engine-optimization-the-complete-guide-to-getting-cited-by-ai) — structured content walkthrough including answer-first sections, question headings, and schema markup
+- [EnrichLabs — GEO Complete Guide 2026](https://www.enrichlabs.ai/blog/generative-engine-optimization-geo-complete-guide-2026) — entity clarity, extractable atomic answers, source authority, and structured data as the key GEO levers
+- [Averi.ai — Google AI Overviews Optimization 2026](https://www.averi.ai/blog/google-ai-overviews-optimization-how-to-get-featured-in-2026) — topic cluster architecture (8–12 linked pieces), E-E-A-T signals, and answer-first content strategy
+- [Semrush — Content Optimization for AI Search Study](https://semrush.com/blog/content-optimization-ai-search-study) — correlated structured data, author signals, and freshness with AI citation rates
+- [Xponent21 — How to Get Cited in AI Search Results](https://xponent21.com/insights/optimize-content-rank-in-ai-search-results/) — off-site credibility via brand mentions in roundups; brands with 50+ current reviews see materially higher citation rates
+
+### Key AEO/GEO/AI Search Guidelines
+- **Answer first:** Open every section with a direct, self-contained answer in 40–60 words — cited pages do this 4× more often than uncited top-10 pages.
+- **Question-style headings:** Use H2/H3s phrased as real queries (e.g. "What is GEO?") and source them from Search Console query data and People Also Ask.
+- **Structured data for parser clarity:** Implement FAQPage, HowTo, and Article schema; note that FAQ rich results were removed for all sites on May 7, 2026, but FAQPage markup still aids AI parsing.
+- **Statistics every 150–200 words:** The Princeton GEO study (KDD 2024) found adding statistics improved AI visibility by up to 41%; include data points with named sources.
+- **Topic cluster architecture:** Build 8–12 topically linked pages around each pillar topic to signal depth; AI Overviews increasingly cite hubs, not standalone pages.
+- **Author and E-E-A-T signals:** Add structured author bios, organization schema, and credentialed bylines — author credentials correlate with citation probability.
+- **Freshness cadence:** Refresh product and pricing pages monthly to stay within ChatGPT's ~30-day recency window; evergreen guides every 3–6 months.
+- **Off-site brand mentions:** Earned mentions in listicles and "best of" roundups are the dominant AI citation signal — the same outreach queue already running for organic links does double duty.
+- **Self-contained content chunks:** Each section must stand alone so AI can extract it individually; use bullet lists and numbered steps rather than dense prose.
+- **Monitor AI visibility in Search Console:** Google's AI search performance data is now surfaced in Search Console after two years as a "black box" — track it as a leading indicator alongside organic clicks.
+- **Treat AEO and GEO as complementary, not competing:** Use AEO tactics (concise Q&A, schema) for quick wins on short queries; apply GEO tactics (topical depth, entity clarity, PR mentions) for long-term authority across AI platforms.
+
+### Notable Insight This Week
+Google's May 2026 Search Central guide officially folded generative AI search optimization into SEO itself — not a separate discipline. This confirms what the data has been showing: the same signals that lift organic rankings (topical depth, earned mentions, structured content, authoritative authorship) are the signals AI platforms weight when deciding what to cite. The clearest near-term action is structural: every money page needs a direct answer in its first 40–60 words, question-phrased headings, and at least one cited statistic per screen. Brands with 50+ current reviews and active roundup placements consistently outperform those chasing schema alone. AI platforms still account for roughly 6% of global search volume per Neil Patel's latest data, but that share is growing — and the sites already optimized for organic will be the first to capture it.
+
+---
+
 ## Update: 2026-11-09
 
 ### Sources Reviewed
