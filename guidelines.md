@@ -2,6 +2,65 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-11-16 (AEO/GEO/AI Search Research)
+
+### Sources Reviewed
+- [Neil Patel — Answer Engine Optimization Guide](https://neilpatel.com/blog/answer-engine-optimization/) — Updated May 2026; defines AEO vs GEO, stresses structured data, topical authority, and consistent cross-platform info; notes ~60% of searches now end without a click
+- [GeoToolbox AEO Best Practices Checklist](https://geotoolbox.ai/blog/aeo-best-practices.md) — Ranks crawlability as the foundational layer; cites academic research that adding citations and statistics raises AI source visibility by up to 40%
+- [Stackmatix AEO Best Practices 2026](https://www.stackmatix.com/blog/aeo-best-practices-2026) — Lead-with-the-answer structure; 85% of brand mentions for purchase-intent prompts come from third-party sites, making off-site presence the primary citation lever
+- [Rightblogger GEO Guide 2026](https://rightblogger.com/blog/generative-engine-optimization) — Comprehensive GEO framework; GEO sits on top of traditional SEO, not a replacement; earn citations with original expertise, accessible pages, and clear answers
+- [Semrush — Generative Engine Optimization: A Practical Guide](https://semrush.com/blog/generative-engine-optimization) — References Microsoft's official generative search guidelines: make catalogs machine-readable, structure content around real questions, establish authority through credible sources
+- [SEO Day — AI Overviews 2026 Optimization Playbook](https://www.seo-day.de/news/article/how-to-optimize-for-ai-overviews-aios-a-complete-2026?lang=en) — Google confirmed AI Overviews as a core search layer in January 2026; now incorporates images and video (multimodal AEO)
+- [Averi.ai — Google AI Overviews Optimization 2026](https://www.averi.ai/blog/google-ai-overviews-optimization-how-to-get-featured-in-2026) — Topic cluster strategy built around pillar pages is cited as most effective for AIO citation
+- [AirOps — Improve Article Structure to Increase LLM Citations](https://airops.com/blog/improve-article-structure-increase-llm-citations) — Sequential heading structure raises citation odds 2.8x per AirOps 2026 internal report; each content block should be a standalone quotable unit
+- [Animalz — 20 Techniques That Get You Cited in Answer Engines](https://animalz.co/blog/ai-aeo-answer-engine-citation) — Vague headings reduce citation likelihood; self-contained 40-60 word "quote-ready" blocks improve LLM extraction
+- [Upgrowth — Citation Algorithm: ChatGPT, Perplexity, Gemini, AI Overviews 2026](https://upgrowth.in/citation-algorithm-chatgpt-perplexity-gemini-ai-overviews-2026/) — Platform-specific citation signals; freshness signal: 65% of AI bot traffic targets content published or updated within the past year
+- [DEV.to / Aageno AI — AEO 6 Best Practices for 2026](https://dev.to/dageno_963435178f0fc9478d/answer-engine-optimization-aeo-6-best-practices-for-2026-2170) — FAQ pages with clean Q&A formatting and third-party brand mentions outperform direct citations from your own domain
+
+### Key AEO/GEO/AI Search Guidelines
+
+**Content Formatting for AI Citations**
+- Open every content section with a direct answer in the first 40-60 words — cited pages do this 23% of the time vs. 14% for uncited pages (Robertson, 193,507 AI answers analyzed)
+- Write each content block as a standalone, quotable unit of 40-60 words so AI engines can extract it without surrounding context
+- Use question-style H2/H3 headings that mirror conversational queries (e.g., "What is the best treatment for X?") to signal section purpose to AI parsers
+- Add an explicit FAQ section to every key page using Q&A formatting — FAQ schema markup remains effective in 2026
+- Include citations, statistics, and original research in your content; academic-style sourcing raises AI visibility by up to 40% (Princeton-linked finding)
+- Use comparison tables and bullet-point summaries as structured extraction targets; vague or umbrella headings actively reduce citation likelihood
+
+**Schema Markup**
+- Apply FAQPage schema to pages with explicit Q&A sections — confirmed effective for AEO across multiple 2026 sources
+- Apply Article schema to editorial and research content to signal expertise and freshness
+- Note: Google reportedly deprecated HowTo structured data in January 2026 — verify against Google Search Central before using it; transition those pages to FAQPage or Article schema
+- Add BreadcrumbList, Person/Organization author markup, and sitelinks schema for trust and entity signals
+
+**Topical Authority and Internal Linking**
+- Build topic clusters with a comprehensive pillar page and 5-10 supporting pages to signal topical coverage depth to AI crawlers
+- Internal links from supporting pages to the pillar consolidate authority signals AI engines use to identify the definitive source
+- Maintain consistent entity information (name, description, service area, founder) across About page, LinkedIn, Google Business Profile, and directory listings — AI models cite what they can verify across multiple sources
+
+**Google AI Overviews (AIO) Optimization**
+- Google confirmed AI Overviews as a permanent core search layer in January 2026, now multimodal (text + images + video) — optimize images with descriptive alt text and captions as they can now be surfaced in AIO
+- Build topic cluster authority before expecting AIO inclusion — single pages rarely earn citations without supporting cluster context
+- Audit existing top-10-ranking pages for "extractability": does the page answer the implied query in its first paragraph? If not, rewrite the opening before any other work
+- Cross-platform presence on LinkedIn, industry publications, and roundup lists increases AIO citation likelihood beyond your own domain
+
+**Perplexity and ChatGPT Optimization**
+- 85% of brand mentions for high-purchase-intent AI prompts come from third-party sources — prioritize getting onto authoritative "best of" lists and roundup articles that these engines index
+- Keep all pages crawlable by AI retrieval bots (not just training crawlers); blocking a retrieval bot removes you from the answer entirely, not just from rankings
+- Claim and optimize the ChatGPT Business Hub profile (opened in beta Nov 2026) to track AI mentions and clicks as first-party data
+- Update key pages at minimum every 90 days with fresh statistics — 65% of AI retrieval bot traffic targets content updated within the past year
+
+**New Ranking Factors Identified**
+- Off-site brand mentions now outweigh backlinks for AI-driven visibility: branded web mentions correlate 0.664 with AI Overview visibility vs. 0.392 for branded search volume (Ahrefs, 75,000 brands)
+- Zero-click rate has reached approximately 60% of searches — AEO/GEO content must deliver value within the AI answer itself, not just at click-through
+- Freshness is a hard filter for AI retrieval bots: stale content (12+ months without update) is significantly underrepresented in AI citations
+- GEO and SEO track together: sites gaining AI referrals are the same sites gaining organic (+0.557 correlation, SEO Works) — there is no separate AI visibility program, only better SEO
+
+### Notable Insight This Week
+The most significant finding from this week's AEO/GEO research cycle is that AI citation success is not a parallel discipline to SEO but an accelerated version of it — with one critical structural difference. Traditional SEO rewards owning your domain; AI citation rewards being owned by other domains. The Stackmatix data showing 85% of purchase-intent AI citations coming from third-party sources, combined with the Ahrefs correlation data showing earned mentions outperforming branded search volume as an AI visibility predictor, makes the same point from two directions: the content on your site earns the right to be cited, but the citations themselves live on roundups, review sites, and industry publications that the AI engines already trust. For any site trying to build AI visibility in 2026, the most leveraged work is a two-track program: (1) rewrite service and category pages to answer in the first sentence and use quote-ready 40-60 word blocks, and (2) run a systematic outreach campaign targeting the specific roundups and "best of" lists that appear in AI answers for your category, because getting onto those pages is both a backlink and a citation source simultaneously.
+
+---
+
 ## Update: 2026-11-16
 
 ### Sources Reviewed
