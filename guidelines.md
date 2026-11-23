@@ -2,6 +2,41 @@
 
 This file is updated weekly by an automated research agent. The most recent findings appear at the top.
 
+## Update: 2026-11-23
+
+### Sources Reviewed
+- [Answer Engine Optimization: AEO Strategies for 2026 — Neil Patel](https://neilpatel.com/blog/answer-engine-optimization/) — AEO, GEO, and LLMO are distinct layers extending SEO across AI-powered discovery surfaces; Google's May 2026 guidance says AI search optimization is still SEO
+- [AEO vs GEO vs LLMO: Are They All SEO? — Neil Patel](https://neilpatel.com/blog/aeo-vs-geo-vs-llmo/) — the three disciplines are compared with traditional SEO; brand signals and entity authority are increasingly critical for AI visibility
+- [Answer Engine Optimization Best Practices — HubSpot](https://blog.hubspot.com/marketing/answer-engine-optimization-best-practices) — write for the question, organize pages around People Also Ask and conversational intents, match answers to the intent behind each query
+- [Answer Engine Optimization Best Practices — TapClicks](https://www.tapclicks.com/blog/answer-engine-optimization-best-practices) — structured formats (lists, tables, FAQ-style Q&A) with FAQPage and Article schema improve AEO performance
+- [Answer Engine Optimization Complete Guide — LLMrefs](https://llmrefs.com/answer-engine-optimization) — pages older than 3 months may lose citation rate; blocking AI crawlers is the most common technical AEO mistake
+- [Answer Engine Optimization 2026 — Surfer AI](https://surfer.ai/blog/answer-engine-optimization/) — distinguish search crawlers (affect citations) from training crawlers; keep retrieval bots allowed
+- [GEO Best Practices for 2026 — Firebrand](https://www.firebrand.marketing/2025/12/geo-best-practices-2026/) — entity mentions across the web are the authority signal AI models weight most, more than links
+- [How to Get Featured in Google AI Overviews 2026 — Averi](https://www.averi.ai/blog/google-ai-overviews-optimization-how-to-get-featured-in-2026) — 92%+ of AIO citations come from pages already in top 10 organic; build topic clusters of 8-12 supporting pieces
+- [How to Structure Content for LLM Citations — TripleMinds](https://tripleminds.co/blogs/strategies/how-to-structure-content-for-llm-citation/) — GEO-SFE research (March 2026) reports ~17.3% citation gain from structured content alone
+- [How to Structure Content So AI Engines Extract and Cite It — AuthorityTech](https://authoritytech.io/blog/extractable-content-structure-ai-citations-2026) — sequential heading structures yield 2.8x higher citation odds; tables and lists outperform prose-only presentation
+
+### Key AEO/GEO/AI Search Guidelines
+- Lead with a self-contained answer of 40–60 words directly under each question heading, before any supporting detail, so AI engines can extract it cleanly.
+- Organize pages around the specific questions your audience asks (use People Also Ask, autocomplete, and conversational phrasings) and match each answer to the intent behind it.
+- Keep pages fresh: pages older than roughly 3 months may lose citation rate; set a quarterly review cadence and update statistics and dates on a rolling basis.
+- Add a verifiable data point with a named source roughly every 150–200 words; specific, sourced claims are significantly more quotable than vague assertions.
+- Use structured formats — FAQ-style Q&A, numbered lists, comparison tables — and implement FAQPage, Article, and HowTo schema so structure is machine-readable as well as human-readable.
+- Keep dateModified accurate and include an explicit "as of 2026" in body text so AI models can assess freshness without guessing.
+- Write self-contained sections of 200–500 words, since AI engines chunk pages at that granularity and pull passages rather than whole pages.
+- Use a clear heading hierarchy — one H1, H2s for major sections, H3s beneath — and confirm that the sequential structure matches the GEO research finding of 2.8x higher citation odds for well-ordered headings.
+- Build topical authority with pillar pages supported by 8–12 related content pieces, linked with descriptive internal anchor text.
+- Audit robots.txt and CDN/WAF settings to ensure retrieval bots (Googlebot, Bingbot, PerplexityBot) are allowed; blocking them removes the site from AI answers, not just rankings.
+- Treat AEO, GEO, LLMO, and traditional SEO as aligned, not competing: Google's May 2026 Search Central guidance states that "optimizing for generative AI search is optimizing for the search experience, and thus still SEO."
+- Measure recommendation rate and AI citations (use ChatGPT Business Hub for first-party data, track prompt-based mentions weekly) alongside organic traffic, not instead of it.
+- Target entity clarity off-site: AI models weight brand mentions across the web more than links; correct bios, About pages, LinkedIn, and directory listings are the fastest AI visibility lever.
+- Note that platforms retrieve differently — ChatGPT uses Bing, Perplexity crawls independently, Google AI Overviews draws from Google's index — so test visibility on each surface separately.
+
+### Notable Insight This Week
+Google's May 2026 Search Central guidance quietly closed a year-long debate: "From Google's perspective, optimizing for generative AI search is optimizing for the search experience, and thus still SEO." This reframes AEO and GEO not as new disciplines replacing SEO but as extensions of the same quality signals applied to new retrieval surfaces. The practical consequence is that the content structures practitioners have been recommending throughout 2026 — a direct 40–60 word answer under every question heading, self-contained 200–500 word sections, verifiable sourced claims, and accurate schema — are not AI-specific tricks; they are the same clarity and credibility principles that have always driven top-10 organic rankings, and those top-10 rankings are still where over 92% of AI Overview citations originate. The one genuinely new element is measurement: AI/LLM platforms now account for roughly 6% of global search volume (Neil Patel), ChatGPT Business Hub is now live and provides first-party citation and click data, and research at BrightonSEO 2026 on 9 million AI answers across 9 platforms confirms that branded web mentions — not backlinks, not branded search volume — are the strongest predictor of AI citation. The implication is that the outreach queue and the entity-record clean-up are not auxiliary tasks; they are the AI visibility programme.
+
+---
+
 ## Update: 2026-11-16
 
 ### Sources Reviewed
